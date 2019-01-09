@@ -12,82 +12,80 @@ import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
-    render() {
-
-        return (
-            <Layout>
-                <Helmet
-                    title="Gatsby Starter - Forty"
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
-                </Helmet>
-
-                <Banner />
-
-                <div id="main">
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
-
-            </Layout>
-        )
-    }
+  render() {
+    return (
+      <Layout>
+        <Helmet
+          title="RayLog"
+          meta={[
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
+          ]}
+        />
+        <Banner />
+        <div id="main">
+          <section id="one" className="tiles">
+            <article style={{ backgroundImage: `url(${pic01})` }}>
+              <header className="major">
+                <h3>TECH LOG</h3>
+                <p>기술 공유</p>
+              </header>
+              <Link to="/techlog" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic02})` }}>
+              <header className="major">
+                <h3>RAY LOG</h3>
+                <p>일상 공유</p>
+              </header>
+              <Link to="/raylog" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic03})` }}>
+              <header className="major">
+                <h3>PORTFOLIO</h3>
+                <p>포트폴리오 - 지난 프로젝트</p>
+              </header>
+              <Link to="/portfolio" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic04})` }}>
+              <header className="major">
+                <h3>RESUME</h3>
+                <p>이력서</p>
+              </header>
+              <Link to="/resume" className="link primary" />
+            </article>
+          </section>
+          <section id="two">
+            <div className="inner">
+              <header className="major">
+                <h2>Rayleigh Ko</h2>
+              </header>
+              <p>
+                "당연히 있어야 할 자리에, 누구나 이해하기 쉽도록. 저는 이런
+                당연하고 쉬운 코드를 만들고 싶습니다"
+                <br />
+                <br />이 구절은 제가 개발을 함에 있어 신념과도 같이 생각하는
+                문장입니다. 생성이 있으면 삭제가 있어야 하는 것처럼 당연하면서,
+                이해하기 쉽게 코드를 작성한다는 것은 기초적이지만 결코 쉽지 않은
+                것이라고 생각하기 때문입니다.
+                <br />
+                <br />
+                그렇기 때문에 저는 기본에 충실한 사람이 되고 싶습니다. 기본에
+                충실하기 위해 저는 아래와 같은 하나의 저장소를 만들어 이를
+                실천하고 있습니다.
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link to="/training" className="button next">
+                    GET MY TRAINING
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </Layout>
+    )
+  }
 }
 
 export default HomeIndex

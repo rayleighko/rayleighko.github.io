@@ -1,8 +1,8 @@
 {
-  "name": "rayleigh-blog",
+  "name": "RayLog",
   "description": "technical blog",
   "version": "1.0.0",
-  "author": "rayleigh ko",
+  "author": "Rayleigh Ko",
   "dependencies": {
     "eslint-config-standard": "^12.0.0",
     "gatsby": "^2.0.76",
