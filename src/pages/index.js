@@ -16,7 +16,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="RayLog"
+          title="RAY LOG"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -34,10 +34,10 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>RAY LOG</h3>
+                <h3>DAILY LOG</h3>
                 <p>일상 공유</p>
               </header>
-              <Link to="/raylog" className="link primary" />
+              <Link to="/dailylog" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
@@ -57,7 +57,7 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <header className="major">
-                <h2>Rayleigh Ko</h2>
+                <h2>Ray Ko</h2>
               </header>
               <p>
                 "당연히 있어야 할 자리에, 누구나 이해하기 쉽도록. 저는 이런
