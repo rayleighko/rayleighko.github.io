@@ -34,14 +34,21 @@ const Menu = props => (
       </ul>
       <ul className="actions vertical">
         <li>
-          <a href="#" className="button special fit">
-            Get Started
+          <a
+            href="https://github.com/rayleighko"
+            className="button special fit"
+          >
+            MY GITHUB
           </a>
         </li>
         <li>
-          <a href="#" className="button fit">
-            Log In
-          </a>
+          <Link
+            className="button fit"
+            onClick={props.onToggleMenu}
+            to="/#contact"
+          >
+            CONTACT ME
+          </Link>
         </li>
       </ul>
     </div>

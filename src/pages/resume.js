@@ -1,121 +1,127 @@
+/* eslint-disable max-len, react/jsx-one-expression-per-line */
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
+import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import styled from '@emotion/styled'
 import Layout from '../components/layout'
-import BannerResume from '../components/BannerResume'
+import siteShape from '../shapes/site'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+const ghLink = <a href="https://github.com/rayleighko">my GitHub</a>
 
-const Resume = props => (
+const ResumeHeader = styled.header(({ theme }) => ({
+  ...theme.centerPadding,
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  '> h5': {
+    margin: 0,
+  },
+}))
+
+const H2 = styled.h2(({ theme }) => ({
+  ...theme.centerPadding,
+  marginBottom: theme.spacing,
+}))
+const H3 = styled.h3(({ theme }) => ({
+  ...theme.centerPadding,
+  marginBottom: theme.spacing,
+}))
+const H4 = styled.h4(({ theme }) => ({
+  ...theme.centerPadding,
+  marginBottom: theme.spacing,
+}))
+const P = styled.p(({ theme }) => ({
+  ...theme.centerPadding,
+}))
+const Ul = styled.ul(({ theme }) => ({
+  ...theme.centerPadding,
+  marginBottom: theme.spacing,
+  marginLeft: `${theme.spacingPx * 4}px`,
+}))
+
+const Resume = ({
+  data: {
+    site: { siteMetadata: site },
+  },
+}) => (
   <Layout>
-    <Helmet>
-      <title>Ray - Resume</title>
-      <meta name="description" content="Resume Page" />
-    </Helmet>
-
-    <BannerResume />
-
-    <div id="main">
-      <section id="one">
-        <div className="inner">
-          <header className="major">
-            <h2>Sed amet aliquam</h2>
-          </header>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-            urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Nullam et orci eu lorem consequat tincidunt vivamus et
-            sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula
-            tate urna.
-          </p>
-        </div>
-      </section>
-      <section id="two" className="spotlights">
-        <section>
-          <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
-          </Link>
-          <div className="content">
-            <div className="inner">
-              <header className="major">
-                <h3>Orci maecenas</h3>
-              </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
-              </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section>
-          <Link to="/generic" className="image">
-            <img src={pic09} alt="" />
-          </Link>
-          <div className="content">
-            <div className="inner">
-              <header className="major">
-                <h3>Rhoncus magna</h3>
-              </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
-              </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section>
-          <Link to="/generic" className="image">
-            <img src={pic10} alt="" />
-          </Link>
-          <div className="content">
-            <div className="inner">
-              <header className="major">
-                <h3>Sed nunc ligula</h3>
-              </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
-              </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </section>
-    </div>
+    <main>
+      <Helmet>
+        <title>Resume &middot; {site.title}</title>
+      </Helmet>
+      <H2>Resume</H2>
+      <P> Take a look at {ghLink} to see my personal projects.</P>
+      <H4>Languages</H4>
+      <Ul>
+        <li>
+          Proficient in: JavaScript (Universal Node / Browser, TypeScript,
+          React), HTML5, CSS3 (SCSS)
+        </li>
+        <li>
+          Familiar with: C# and .NET Framework, Java, Scala, Ruby, Swift, Rust,
+          SQL
+        </li>
+      </Ul>
+      <H4>Software</H4>
+      <Ul>
+        <li>Database:</li>
+        <li>Server: </li>
+        <li>Tools: </li>
+        <li>Platforms: macOS, Linux / Unix, Microsoft Windows</li>
+      </Ul>
+      <H4>Experience</H4>
+      <ResumeHeader>
+        <h5>Company Title &middot; Job Title &middot; City, Contry</h5>
+        <h5>Start Date - End Date</h5>
+      </ResumeHeader>
+      <Ul>
+        <li>What doing here?</li>
+      </Ul>
+      <ResumeHeader>
+        <h5>Company Title &middot; Job Title &middot; City, Contry</h5>
+        <h5>Start Date - End Date</h5>
+      </ResumeHeader>
+      <Ul>
+        <li>What doing here?</li>
+      </Ul>
+      <H4>Education</H4>
+      <ResumeHeader>
+        <h5>
+          Education Org Title &middot; City, Contry &middot; Average Grade
+        </h5>
+        <h5>Start Date - End Date</h5>
+      </ResumeHeader>
+      <Ul>
+        <li>What doing here?</li>
+      </Ul>{' '}
+      <ResumeHeader>
+        <h5>
+          Education Org Title &middot; City, Contry &middot; Average Grade
+        </h5>
+        <h5>Start Date - End Date</h5>
+      </ResumeHeader>
+      <Ul>
+        <li>What doing here?</li>
+      </Ul>
+    </main>
   </Layout>
 )
 
+Resume.propTypes = {
+  data: PropTypes.shape({
+    site: siteShape,
+  }).isRequired,
+}
+
 export default Resume
+
+export const resumePageQuery = graphql`
+  query ResumePageSiteMetadata {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`

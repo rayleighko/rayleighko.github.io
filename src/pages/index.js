@@ -8,8 +8,6 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -28,16 +26,19 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
                 <h3>TECH LOG</h3>
-                <p>기술 공유</p>
+                <p>기술 블로그</p>
               </header>
               <Link to="/techlog" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>DAILY LOG</h3>
-                <p>일상 공유</p>
+                <p>일상 공유 - INSTAGRAM</p>
               </header>
-              <Link to="/dailylog" className="link primary" />
+              <a
+                href="https://www.instagram.com/ray____ko/"
+                className="link primary"
+              />
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
@@ -75,9 +76,12 @@ class HomeIndex extends React.Component {
               </p>
               <ul className="actions">
                 <li>
-                  <Link to="/training" className="button next">
+                  <a
+                    href="https://github.com/rayleighko/training"
+                    className="button next"
+                  >
                     GET MY TRAINING
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
