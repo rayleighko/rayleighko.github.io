@@ -79,7 +79,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://knpw.rs',
+        siteUrl: 'https://rayleighko.github.io/',
       },
     },
     {

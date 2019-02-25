@@ -6,8 +6,6 @@ import CenterWrap from '../components/CenterWrap'
 import LogPosts from '../components/LogPosts'
 import postShape from '../shapes/post'
 
-
-
 const TechLog = ({
   data: {
     allMarkdownRemark: { edges: posts },

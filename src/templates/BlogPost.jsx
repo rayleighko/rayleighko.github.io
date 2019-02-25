@@ -14,12 +14,25 @@ import CodeStyle from '../emotion/code'
 import pageContextShape from '../shapes/page-context'
 import postShape from '../shapes/post'
 
+const ArticleWrap = styled.div(({}) => ({
+  width: '100%',
+  height: '100%',
+  padding: '0 2%',
+  background: '#495057',
+  borderRadius: '2px',
+  margin: '2% 0',
+  wordBreak: 'break-all',
+  wordWrap: 'break-word',
+}))
+
 const Main = styled.main(({ theme }) => ({
-  color: theme.textColor,
+  color: 'white',
+  padding: '0 10%',
 }))
 
 const Header = styled.header(({ theme }) => ({
-  ...theme.centerPadding,
+  borderBottom: '1px solid #bac8ff',
+  marginBottom: '1%',
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
@@ -33,7 +46,6 @@ const Header = styled.header(({ theme }) => ({
 
 const HeaderTitle = styled.h1(({ theme }) => ({
   width: '85%',
-  marginBottom: theme.spacing,
   [theme.smallMedia]: {
     width: '100%',
     textAlign: 'center',
@@ -50,16 +62,14 @@ const HeaderDate = styled.time(({ theme }) => ({
   },
 }))
 
-const Footer = styled.footer(({ theme }) => ({
-  ...theme.centerPadding,
-}))
+const Footer = styled.footer(({ theme }) => ({}))
 
 const PostWrap = styled.section(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
   '> *': {
-    width: '100vw',
+    width: '100%',
     wordWrap: 'break-word',
     ':not(.gatsby-highlight)': {
       ...theme.centerPadding,
@@ -71,9 +81,11 @@ const PostWrap = styled.section(({ theme }) => ({
     paddingBottom: theme.spacing,
   },
   '>ul,>ol': {
-    marginLeft: `${theme.spacingPx * 4}px`,
     width: `calc(100% - ${theme.spacingPx * 4}px)`,
   },
+  '>h1': { color: ' #845ef7' },
+  '>h2': { color: ' #9775fa' },
+  '>h3 ': { color: '#b197fc' },
 }))
 
 const LogNavWrap = styled.div(({ theme }) => ({
@@ -111,11 +123,13 @@ const BlogPost = ({ data, pageContext }) => {
             </HeaderDate>
             <TagsList tags={post.frontmatter.tags} />
           </Header>
-          <PostWrap dangerouslySetInnerHTML={{ __html: post.html }} />
+          <ArticleWrap>
+            <PostWrap dangerouslySetInnerHTML={{ __html: post.html }} />
+          </ArticleWrap>
           <Footer>
             {isProduction && (
               <ReactDisqusComments
-                shortname="kenpowers"
+                shortname="rayleighko"
                 identifier={post.frontmatter.path}
                 title={post.frontmatter.title}
                 url={fullUrl}

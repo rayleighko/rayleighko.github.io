@@ -12,8 +12,8 @@ export default () => (
         textAlign: 'left',
         whiteSpace: 'pre',
         wordSpacing: 'normal',
-        wordBreak: 'normal',
-        wordWrap: 'normal',
+        wordBreak: 'break-all',
+        wordWrap: 'break-word',
         lineHeight: 1.5,
         tabSize: 4,
         hyphens: 'none',
@@ -23,11 +23,12 @@ export default () => (
         color: '#f8f8f2',
         background: '#272822',
         margin: '.5em 0',
-        overflow: 'auto',
       },
 
       ':not(pre) > code[class*="language-"]': {
         whiteSpace: 'normal',
+        wordBreak: 'break-all',
+        wordWrap: 'break-word',
       },
 
       '.token.comment, .token.prolog, .token.doctype, .token.cdata': {
