@@ -10,6 +10,7 @@ const Wrap = styled.div(({ prev }) => ({
   flexDirection: 'column',
   justifyContent: 'flex-start',
   textTransform: 'uppercase',
+  border: '1px',
 }))
 
 const Span = styled.span(({ theme }) => ({

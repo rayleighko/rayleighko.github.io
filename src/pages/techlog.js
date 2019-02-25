@@ -6,13 +6,15 @@ import CenterWrap from '../components/CenterWrap'
 import LogPosts from '../components/LogPosts'
 import postShape from '../shapes/post'
 
+
+
 const TechLog = ({
   data: {
     allMarkdownRemark: { edges: posts },
   },
 }) => (
   <Layout>
-    <CenterWrap>
+    <CenterWrap className="blog">
       <h2>Blog</h2>
       <LogPosts posts={posts.map(post => post.node)} />
     </CenterWrap>

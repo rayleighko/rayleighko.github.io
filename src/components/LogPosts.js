@@ -26,7 +26,8 @@ const H3 = styled.h4(({ theme }) => ({
 }))
 
 const Article = styled.article(({ theme }) => ({
-  marginBottom: theme.spacing,
+  marginBottom: '2%',
+  borderBottom: '1px solid #bac8ff',
 }))
 
 const H4 = styled.h4({
@@ -38,6 +39,7 @@ const Link = styled(GatsbyLink)(({ theme }) => ({
   color: theme.textColor,
   transition: 'color 250ms linear',
   ':hover': {
+    textDecoration: 'underline',
     color: theme.accentColor,
   },
 }))
