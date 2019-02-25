@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Feb 2019 12:43:24 GMT</lastBuildDate><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 2]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Feb 2019 14:40:34 GMT</lastBuildDate><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 2]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
 <ul>
 <li><a href="https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_web_01.pdf">https://media.amazonwebservices.com/architecturecenter/AWS<em>ac</em>ra<em>web</em>01.pdf</a></li>
 </ul>
@@ -8,7 +8,34 @@
 <p>설계는 이미 끝나있으니 구현을 해야 할텐데, 구현에 앞서 우선적으로 각 서비스가 어떤 것인지를 알아보도록 하자.</p>
 <h2>Amazon Route53</h2>
 <p>우선 <a href="https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/Welcome.html">Amazon Route 53란 무엇입니까?</a>를 참고하도록 하자. 해당 참조에 의하면 도메인 등록, DNS 라우팅, 상태 확인의 3가지 주요 기능을 조합하여 실행할 수 있는 서비스라는 점이다. 각각 살펴보도록 하자.</p>
-<p><img src="assets/dns-routing.png" alt="dns-routing"></p>
+<p><a
+    class="gatsby-resp-image-link"
+    href="/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 582px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 76.46048109965635%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACtUlEQVQoz01S2U7bQBTNz/Uj+AKkSqjvfaiqPlV9opuKKhaJh6JKhS5SBQIhWoizQFnq2I4dL2OPl8RrPN7t2HHtGChHM1eW55655849rXKB+QMUReF7cZ5kk6gwUIgcx7Jsd4rSJCvywlWVwDQaVqt8gIpZxShIzvZxmdWh6VMMpAYjAmdGNICSYU3co+dPu2vvmuSKPNfTktQsRQQcx6uaNrXRt+3u9fEfHjsZYhiJtekOxp73Br9OLFX5/uLZ742PNbkoWk25MI49D3meH0bh1EF7m2csDpuMKizKVB9l4KMBSXI8P8tmtWwnK9NinsRRUV1Sqy7jMN3dOJUoVYpKBhoiB0YML4mKh6LqLc6BSij6bc+yNZW1saoqURQ1v6Iw2ds8pXFZt5HAK0CQBV4WBFkEquuEyzsHLw87VVpVrHXR75EEAQAIwuCe/GOr3emzl1C+GPE9hu8zVeS6DCeOJ1uHJ1/b5/N8IZthRjzHaYqexGlDbmQLlFp1mRXzu0HU0Q98CAAUuDipk1sTS1TGojV21WkcZ+m8zBeyzwClAb8kOGM0FElCYEeyYUQhCsWb9RHVbS5syfrQdLQ8LYbSlKYB4KDr+F/WMarXV6TOBOIq25Potg4uTXjtW7Dz6VHnYLUR05rYgu3oeV6PZJbmRV46tnO83xUoinM0O7A8S9AgGSAlT4yxCvCLI+LyCHn1A7XMKbSm4zRK5Sh3gjBLE8syDWNi2nZ+13AjstoIeazAA0lK0kXP2SwRxwPfcwTLE6AMqjMg8rwAIXSRFwZRcIvQr+H97Lxt//1cj6p2WOWbyFUNmjXBm7XX2x9eVS5gxRtRpTSThePh/VJ02nCU9ztPdg9X/3u7Nui80PJy+fHKytISQeIYdoYTuGkZszxtVprFhjkZ0tTV1dVgMKh0IYT+AafFKBmlLOFpAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    ></span>
+    <img
+        class="gatsby-resp-image-image"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
+        alt="dns-routing"
+        title=""
+        src="/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png"
+        srcset="/static/e2f6fe34c52e613cd80585054ae48a2f/30e25/dns-routing.png 163w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/fedab/dns-routing.png 325w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png 582w"
+        sizes="(max-width: 582px) 100vw, 582px"
+      />
+  </span>
+  </a></p>
 <ul>
 <li>
 <p>도메인 등록은 우리가 흔히 알고 있는 것처럼 .com이나 .kr 등의 도메인을 자신만의 이름로 사용할 수 있게 해주는 서비스이다. Ex. <a href="https://www.naver.com">https://www.naver.com</a></p>
@@ -28,33 +55,48 @@
 <h2>Amazon CloudFront(CF)</h2>
 <p>CloudFront는 사용해보지 않았기 때문에 무척 궁금했다. 그래서 <a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">Amazon CloudFront란?</a>을 참고하기로 했다. 문서에 따르면 "Amazon CloudFront는 .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 웹 콘텐츠를 사용자에게 더 빨리 배포하도록 지원하는 웹 서비스입니다."라는 설명을 볼 수 있다.</p>
 <p>잉? 이런 건 EC2를 통해서 하는 게 아니었나? 가만, 다시 살펴보니 <strong>정적 및 동적 웹 콘텐츠</strong>라는 단어가 신경쓰인다. 그렇구나. 이건 내 웹 사이트의 contents에 해당하는 이야기구나! 그렇다면 소스 코드는 왜 있는 걸까? 조금 더 문서를 읽어보자.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CloudFront는 엣지 위치라고 하는 데이터 센터의 전 세계 네트워크를 통해 콘텐츠를 제공합니다. CloudFront를 통해 서비스하는 콘텐츠를 사용자가 요청하면 지연 시간이 가장 낮은 엣지 로케이션으로 라우팅되므로 콘텐츠 전송 성능이 뛰어납니다.
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CloudFront는 엣지 위치라고 하는 데이터 센터의 전 세계 네트워크를 통해 콘텐츠를 제공합니다.
+CloudFront를 통해 서비스하는 콘텐츠를 사용자가 요청하면 지연 시간이 가장 낮은 엣지 로케이션으로 라우팅되므로 콘텐츠 전송 성능이 뛰어납니다.
 
 - 콘텐츠가 이미 지연 시간이 가장 낮은 엣지에 있는 경우 CloudFront가 콘텐츠를 즉시 제공합니다.
-- 콘텐츠가 엣지 로케이션에 없는 경우 CloudFront는 콘텐츠의 최종 버전에 대한 소스로 지정된 오리진(예: Amazon S3 버킷, MediaPackage 채널, HTTP 서버(예: 웹 서버) 등)에서 콘텐츠를 검색합니다.</code></pre></div>
+- 콘텐츠가 엣지 로케이션에 없는 경우 CloudFront는 콘텐츠의 최종 버전에 대한 소스로 지정된 오리진(예: Amazon S3 버킷, MediaPackage 채널,
+  HTTP 서버(예: 웹 서버) 등)에서 콘텐츠를 검색합니다.</code></pre></div>
 <p>이 글을 통해 "엣지 로케이션이 contents에 대한 Cache 역할을 하는구나!"라고 이해할 수 있었지만, 그럼에도 왜 EC2에서 할 수 있는 작업을 굳이 CloudFront에서 하는지 몰랐다. 하지만 이런 의문은 다음 문장을 통해 해결할 수 있었다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">예를 들어, CloudFront가 아닌 일반적인 웹 서버에서 이미지를 제공한다고 가정합니다. 예를 들어 http://example.com/sunsetphoto.png URL을 사용하여 sunsetphoto.png라는 이미지를 서비스할 수 있습니다.
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">예를 들어, CloudFront가 아닌 일반적인 웹 서버에서 이미지를 제공한다고 가정합니다.
+예를 들어 http://example.com/sunsetphoto.png URL을 사용하여 sunsetphoto.png라는 이미지를 서비스할 수 있습니다.
 
-사용자는 이 URL로 쉽게 이동해 해당 이미지를 볼 수 있습니다. 하지만 이미지가 발견될 때까지 인터넷으로 이루어진 상호 연결된 네트워크의 복잡한 모음을 통해 네트워크에서 다른 네트워크로 요청이 라우팅되었다는 사실은 아마도 모르고 있을 것입니다.</code></pre></div>
+사용자는 이 URL로 쉽게 이동해 해당 이미지를 볼 수 있습니다. 하지만 이미지가 발견될 때까지 인터넷으로 이루어진 상호 연결된 네트워크의 복잡한 모음을
+통해 네트워크에서 다른 네트워크로 요청이 라우팅되었다는 사실은 아마도 모르고 있을 것입니다.</code></pre></div>
 <p>이는 리다이렉션을 통해 사용자가 콘텐츠에 접근하게 될 경우 발생하는 비용을 줄이고자 하는 목적으로 사용될 수 있음을 암시하고 있다. 앞서 이해한 Cache의 개념을 조금 확장해 사용자의 입장에서 낮은 지연 시간으로 contents를 얻고, 비용을 절약하게 된다는 것을 이해했다!!</p>
 <p>이는 언뜻 보기에는 별 것 아닐 수도 있지만, 나에게 있어서는 놀라운 기술일 수밖에 없다. 앞서 언급한 '비용'에는 사용자 경험, 물리 장비, 인력 등 다양한 의미가 포함되어 있고, 이를 단번에 최적화한 기술이기 때문이다. 놀라움도 잠시 다음 문장을 통해서 이해를 다질 수 있었다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CloudFront는 AWS 백본 네트워크를 통해 콘텐츠를 가장 효과적으로 서비스할 수 있는 엣지로 각 사용자 요청을 라우팅하여 콘텐츠 배포 속도를 높입니다. 일반적으로 CloudFront 엣지가 최종 사용자에게 가장 빨리 제공합니다. AWS 네트워크를 사용하면 사용자의 요청이 반드시 통과해야 하는 네트워크의 수가 줄어들어 성능이 향상됩니다. 파일의 첫 바이트를 로드하는 데 걸리는 지연 시간이 줄어들고 데이터 전송 속도가 빨라집니다.
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">CloudFront는 AWS 백본 네트워크를 통해 콘텐츠를 가장 효과적으로 서비스할 수 있는 엣지로 각 사용자 요청을 라우팅하여 콘텐츠 배포 속도를 높입니다.
+일반적으로 CloudFront 엣지가 최종 사용자에게 가장 빨리 제공합니다.
+AWS 네트워크를 사용하면 사용자의 요청이 반드시 통과해야 하는 네트워크의 수가 줄어들어 성능이 향상됩니다.
+파일의 첫 바이트를 로드하는 데 걸리는 지연 시간이 줄어들고 데이터 전송 속도가 빨라집니다.
 
 또한 파일(객체라고도 함)의 사본이 전 세계 여러 엣지 로케이션에 유지(또는 캐시)되므로 안정성과 가용성이 향상됩니다.</code></pre></div>
 <p>정말 너무 환상적인 서비스군! 저렴한 비용으로 각 도시에 나의 콘를 Caching할 수 있다니.. 그럼 놀라움은 잠시 뒤로 하고 다음 서비스를 알아보자.</p>
 <h2>Amazon S3</h2>
 <p>흔히 우리가 Storage 기능을 한다고 알고있는 S3다. 자세한 설명을 하지 않아도 이미 이해하고 있었지만, 내가 하고 있는 이해는 경험에 의한 것이기 때문에 오늘을 기회로 <a href="https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/Welcome.html">Amazon S3란 무엇입니까?</a>를 읽어보도록 하자.</p>
 <p>아무래도 Storage 기능만을 제공하기 때문에 매우 짧다. 그래서 다음의 한 박스로 이를 이해할 수 있겠다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon Simple Storage Service는 인터넷용 스토리지 서비스입니다. 이 서비스는 개발자가 더 쉽게 웹 규모 컴퓨팅 작업을 수행할 수 있도록 설계되었습니다.
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon Simple Storage Service는 인터넷용 스토리지 서비스입니다.
+이 서비스는 개발자가 더 쉽게 웹 규모 컴퓨팅 작업을 수행할 수 있도록 설계되었습니다.
 
-Amazon S3에서 제공하는 단순한 웹 서비스 인터페이스를 사용하여 웹에서 언제 어디서나 원하는 양의 데이터를 저장하고 검색할 수 있습니다. 또한 개발자는 Amazon이 자체 웹 사이트의 글로벌 네트워크 운영에 사용하는 것과 같은 높은 확장성과 신뢰성을 갖춘 빠르고 경제적인 데이터 스토리지 인프라에 액세스할 수 있습니다. 이 서비스의 목적은 규모의 이점을 극대화하고 개발자들에게 이러한 이점을 제공하는 것입니다.
+Amazon S3에서 제공하는 단순한 웹 서비스 인터페이스를 사용하여 웹에서 언제 어디서나 원하는 양의 데이터를 저장하고 검색할 수 있습니다.
 
-이 가이드는 버킷 및 객체와 같은 Amazon S3의 핵심 개념과, Amazon S3 애플리케이션 프로그래밍 인터페이스(API)를 사용하여 이러한 리소스에 대한 작업 방법을 설명합니다.</code></pre></div>
+또한, 개발자는 Amazon이 자체 웹 사이트의 글로벌 네트워크 운영에 사용하는 것과 같은 높은 확장성과 신뢰성을 갖춘 빠르고 경제적인 데이터 스토리지
+인프라에 액세스할 수 있습니다. 이 서비스의 목적은 규모의 이점을 극대화하고 개발자들에게 이러한 이점을 제공하는 것입니다.
+
+이 가이드는 버킷 및 객체와 같은 Amazon S3의 핵심 개념과, Amazon S3 애플리케이션 프로그래밍 인터페이스(API)를 사용하여 이러한 리소스에 대한
+작업 방법을 설명합니다.</code></pre></div>
 <p>S3는 Storage의 기능을 하며 버킷이라고 부르는 단위를 통해 정적 파일을 관리한다는 것을 이해했다. 더불어 콘솔을 통해 제공되는 인터페이스를 활용하거나 API를 통해 코드에서의 활용도 가능할 것이라는 것을 이해할 수 있었다. 구글 드라이브인데 개발에 활용할 수 있겠다!</p>
 <h2>Elastic Load Balancing(ELB)</h2>
 <p>ELB는 로드 밸런싱이라고 부르는 작업을 해주는 서비스로 이해하고 있다. 이것도 지극히 경험적인 이해이므로 <a href="https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/userguide/what-is-load-balancing.html">Elastic Load Balancing란 무엇입니까?</a>를 통해서 정확하게 이해해보자.</p>
 <p>일반적으로 로드 밸런싱이라 하면 트래픽을 분산하기 위해 사용한다고 이해하고 있다. 이에 대한 자세한 내용은 <a href="https://ko.wikipedia.org/wiki/%EB%B6%80%ED%95%98%EB%B6%84%EC%82%B0">부하분산</a>을 통해 알아보도록 하고 이 글에서는 ELB를 알아보도록 하자. 문서에 따른 설명은 다음과 같다. 부가적으로 트래픽을 분산한다는 의미보다는 정해진 수의 CPU나 메모리같은 컴퓨팅 자원에게 작업을 나눠 제공한다고 이해하는 것이 바람직하겠다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Elastic Load Balancing는 Amazon EC2 인스턴스, 컨테이너 및 IP 주소와 같은 여러 대상에 대해 수신 애플리케이션 또는 네트워크 트래픽을 여러 가용 영역에 배포합니다. 애플리케이션에 대한 트래픽이 시간이 지남에 따라 변경되므로 Elastic Load Balancing가 로드 밸런서를 확장하고 대다수의 워크로드에 맞게 자동으로 조정할 수 있습니다.</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Elastic Load Balancing는 Amazon EC2 인스턴스, 컨테이너 및 IP 주소와 같은 여러 대상에 대해 수신 애플리케이션 또는 네트워크 트래픽을 여러
+가용 영역에 배포합니다.
+애플리케이션에 대한 트래픽이 시간이 지남에 따라 변경되므로 Elastic Load Balancing가 로드 밸런서를 확장하고 대다수의 워크로드에 맞게 자동으로
+조정할 수 있습니다.</code></pre></div>
 <p>이를 보고 동적인 부하 분산이 가능하겠다고 생각했다. 가령 어떤 날에는 1의 트래픽이, 어떤 날에는 10의 트래픽이 들어오는 서비스에서 트래픽을 처리하려면 10의 가용량을 항상 가지고 있어야 하기 때문에 1의 트래픽이 들어오는 날에는 9의 자원 낭비가 생길 수 있을 것이다. 그런데 이를 동적으로 관리한다면, 들어오는 트래픽에 따라 가용 공간을 늘려 사용할 수 있을 것이기 때문에, 심지어 위 내용에서 '자동'으로 저장할 수 있기 때문에 자원의 낭비를 최소화할 것이라 생각할 수 있었다.</p>
 <p>이런 생각은 문서에서도 나타나고 있다.</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">로드 밸런서 이점
@@ -63,10 +105,16 @@ Amazon S3에서 제공하는 단순한 웹 서비스 인터페이스를 사용�
 
 애플리케이션에 대한 요청의 전체적인 흐름을 방해하지 않고 필요에 따라 로드 밸런서에서 컴퓨팅 리소스를 추가 및 제거할 수 있습니다.
 
-로드 밸런서가 정상적인 대상에만 요청을 보낼 수 있도록 컴퓨팅 리소스의 상태를 모니터링하는 데 사용되는 상태 확인을 구성할 수 있습니다. 또한 컴퓨팅 리소스가 주요 작업에 집중할 수 있도록 암호화 및 복호화 작업을 로드 밸런서로 오프로드할 수 있습니다.</code></pre></div>
+로드 밸런서가 정상적인 대상에만 요청을 보낼 수 있도록 컴퓨팅 리소스의 상태를 모니터링하는 데 사용되는 상태 확인을 구성할 수 있습니다.
+또한 컴퓨팅 리소스가 주요 작업에 집중할 수 있도록 암호화 및 복호화 작업을 로드 밸런서로 오프로드할 수 있습니다.</code></pre></div>
 <h2>Amazon EC2</h2>
 <p>흔히 알고 있는 EC2의 경우에도 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html">Amazon EC2란 무엇입니까?</a>를 통해 살펴보자.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon Elastic Compute Cloud(Amazon EC2)는 Amazon Web Services(AWS) 클라우드에서 확장식 컴퓨팅을 제공합니다. Amazon EC2를 사용하면 하드웨어에 선투자할 필요가 없어 더 빠르게 애플리케이션을 개발하고 배포할 수 있습니다. Amazon EC2를 통해 원하는 만큼 가상 서버를 구축하고 보안 및 네트워크 구성과 스토리지 관리가 가능합니다. 또한 Amazon EC2는 요구 사항이나 갑작스러운 인기 증대 등 변동 사항에 따라 신속하게 규모를 확장하거나 축소할 수 있어 서버 트래픽 예측 필요성이 줄어듭니다.</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon Elastic Compute Cloud(Amazon EC2)는 Amazon Web Services(AWS) 클라우드에서 확장식 컴퓨팅을 제공합니다. Amazon EC2를
+사용하면 하드웨어에 선투자할 필요가 없어 더 빠르게 애플리케이션을 개발하고 배포할 수 있습니다. Amazon EC2를 통해 원하는 만큼 가상 서버를 구축하고
+보안 및 네트워크 구성과 스토리지 관리가 가능합니다.
+
+또한 Amazon EC2는 요구 사항이나 갑작스러운 인기 증대 등 변동 사항에 따라 신속하게 규모를 확장하거나 축소할 수 있어 서버 트래픽 예측 필요성이
+줄어듭니다.</code></pre></div>
 <p>이번 정리를 통해 얻은 큰 수확 중 하나는 기존에 당연하게 사용하던 기술의 기능을 한 번에 정리하게 됐다는 점이다. EC2만 하더라도 가상 컴퓨팅 파워를 제공하는 것 외에도 다음과 같은 디테일한 기능을 가지고 있다는 것을 처음으로 알게되었기 때문이다.</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon EC2의 기능
 Amazon EC2는 다음의 기능을 제공합니다.
@@ -81,27 +129,68 @@ Amazon EC2는 다음의 기능을 제공합니다.
 - 보안 그룹을 사용해 인스턴스에 연결할 수 있는 프로토콜, 포트, 소스 IP 범위를 지정하는 방화벽 기능
 - 탄력적 IP 주소(EIP): 동적 클라우드 컴퓨팅을 위한 고정 IPv4 주소
 - 태그: 사용자가 생성하여 Amazon EC2 리소스에 할당할 수 있는 메타데이터
-- AWS 클라우드에서는 논리적으로 격리되어 있지만, 원할 때 마다 고객의 네트워크와 간편히 연결할 수 있는 가상 네트워크, Virtual Private Clouds(VPC)</code></pre></div>
+- AWS 클라우드에서는 논리적으로 격리되어 있지만, 원할 때 마다 고객의 네트워크와 간편히 연결할 수 있는 가상 네트워크, Virtual Private Clouds
+  (VPC)</code></pre></div>
 <p>물론 이런 기능들의 디테일을 설정하기 위해서는 보다 많은 스킬업이 필요하겠지만, '가능하다' 정도만 이해하고 넘어가는 것도 나중에 트러블 슈팅, 비용 최적화 등을 위해 큰 도움이 될 것만 같다. 정말 좋다!</p>
 <p>추가적으로 따로 단락을 만들어 언급하려 했던 <a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Amazon EC2 Auto Scaling</a>을 간단히 소개해보자면, 다음과 같다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon EC2 Auto Scaling를 통해 애플리케이션의 로드를 처리할 수 있는 정확한 수의 Amazon EC2 인스턴스를 보유하도록 보장할 수 있습니다. Auto Scaling 그룹이라는 EC2 인스턴스 모음을 생성합니다. 각 Auto Scaling 그룹의 최소 인스턴스 수를 지정할 수 있으며, Amazon EC2 Auto Scaling에서는 그룹의 크기가 이 값 아래로 내려가지 않습니다. 각 Auto Scaling 그룹의 최대 인스턴스 수를 지정할 수 있으며, Amazon EC2 Auto Scaling에서는 그룹의 크기가 이 값을 넘지 않습니다. 원하는 용량을 지정한 경우 그룹을 생성한 다음에는 언제든지 Amazon EC2 Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 수 있습니다. 조정 정책을 지정했다면 Amazon EC2 Auto Scaling에서는 애플리케이션의 늘어나거나 줄어드는 수요에 따라 인스턴스를 시작하거나 종료할 수 있습니다.</code></pre></div>
-<p>Auto Scaling은 규모가 있는 서비스에서 필수적으로 필요할 것이라 생각된다. 왜냐하면 EC2의 인스턴스가 자동으로 스케일을 조정하는 경우는 트래픽이 많지 않으면 필요없을 것이라고 생각하기 때문이다. 하지만 이는 다소 편향된 생각이다. Auto-Scailing을 설정하지 않으면 만약 우리 서비스의 트래픽이 급격하게 증가하는 경우에는 서버가 버티지 못할 것이기 때문이다. 스타트업의 경우라면 만에 하나 있을 '대박'의 기회를 한순간에 놓칠 수도 있을 거라고 생각한다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon EC2 Auto Scaling를 통해 애플리케이션의 로드를 처리할 수 있는 정확한 수의 Amazon EC2 인스턴스를 보유하도록 보장할 수 있습니다.
+
+Auto Scaling 그룹이라는 EC2 인스턴스 모음을 생성합니다. 각 Auto Scaling 그룹의 최소 인스턴스 수를 지정할 수 있으며, Amazon EC2 Auto
+Scaling에서는 그룹의 크기가 이 값 아래로 내려가지 않습니다. 각 Auto Scaling 그룹의 최대 인스턴스 수를 지정할 수 있으며, Amazon EC2
+Auto Scaling에서는 그룹의 크기가 이 값을 넘지 않습니다. 원하는 용량을 지정한 경우 그룹을 생성한 다음에는 언제든지 Amazon EC2
+
+Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 수 있습니다. 조정 정책을 지정했다면 Amazon EC2 Auto Scaling에서는 애플리케이션의
+늘어나거나 줄어드는 수요에 따라 인스턴스를 시작하거나 종료할 수 있습니다.</code></pre></div>
+<p>Auto Scaling은 규모가 있는 서비스에서 필수적으로 필요할 것이라 생각된다. 왜냐하면 EC2의 인스턴스가 자동으로 스케일을 조정하는 경우는 트래픽이 많지 않으면 필요없을 것이라고 생각하기 때문이다.</p>
+<p>하지만 이는 다소 편향된 생각이다. Auto-Scailing을 설정하지 않으면 만약 우리 서비스의 트래픽이 급격하게 증가하는 경우에는 서버가 버티지 못할 것이기 때문이다. 스타트업의 경우라면 만에 하나 있을 '대박'의 기회를 한순간에 놓칠 수도 있을 거라고 생각한다.</p>
 <p>최소한의 인스턴스 수를 유지하면서 트래픽이 급격하게 증가할 경우에는 자동적으로 스케일 업을 진행하게 구현한다면 트래픽의 갑작스러운 변화에도 신속히 대응할 수 있을 것이라고 느꼈다. 문서에서는 다음과 같은 예시를 들어 이해를 돕는다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">예를 들어, 다음 Auto Scaling 그룹의 경우 최소 인스턴스 수 1개, 희망 인스턴스 용량 2개, 최대 인스턴스 수 4개가 됩니다. 사용자가 정의한 조정 정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.</code></pre></div>
-<p><img src="assets/auto-scailing.png" alt="auto-scailing"></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">예를 들어, 다음 Auto Scaling 그룹의 경우 최소 인스턴스 수 1개, 희망 인스턴스 용량 2개, 최대 인스턴스 수 4개가 됩니다. 사용자가 정의한 조정
+정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.</code></pre></div>
+<p><a
+    class="gatsby-resp-image-link"
+    href="/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 310px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 72.25806451612904%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACeUlEQVQoz31Ry27aUBC9f5NVpapdV/2HfkIfiy6qfkA/oJW6atJtd1VVJQISaAATcB48QgQ2YMBP7GtsHoEQWyQkUgLX07FJF120R8fjudI5c2fuEPiDIAgwmhZtSS1NVWS522y2Wi2J2n1F1bqy2ndc+BtkNnb82cT3fM/zr3xPrBYPOK56Wq2UKzyXLmRTqfg2Rp7bLx/l5rOxfzF64HRIpo0ktL+t8q9Z/hWrfYZRFVqfoPQWKu+B7sHwBIw4mLtgJ8E9YtouU3aY/JOpcWbmyaXMw9GbYJMAMvE8cErB9w08BlskqHwIzExgpgP7MNBigcWBHgeaA7sQVrR5ctnlgX+5+kLYJmGxZ+CU4McGfCUhQzPHkPYJ0/fCRIszq8DoIdMTQAtk1toH6WOw+xQST+D0HbhFyL6A7Uew8xgaW+AcAI1D/xdYO+DyYfM0EUYLzQdkrNfUGq/WjzXhWKrkLkxxPlA9V0HOh6otlTqllHya7lbSep2Xq9luZR+pnuU8WyLXixup0xUbzabUVnVjfn2DG2MAq2hzg9G43VU1o2eYtCaIimboPSqrhmaYS8aIYejFYlEUhEajYZq9er12fn6ONsawAtiUFosnnU47WnvD6OmCIJTLJUGoo4Dc399PJpPb29urCJ7nLRYLPM7nc9/30b9cLlcRMEHDOl+XJvh1Op1kMsnzfDab5TiuUCjkcrl8Pr82B//Ag/nu7k5RFMuyer0ediGKoq7rlNK14j8I29Y0zXGcfgT0YBwMBlgFc9u2MXddFwVY2oyA16AFBwxvxh8qRqPRMALacIRYLJZKpTKZDD4nDnJ2djadTlEzjoCPimP/Bqt9zXDfGFTyAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    ></span>
+    <img
+        class="gatsby-resp-image-image"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
+        alt="auto-scailing"
+        title=""
+        src="/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png"
+        srcset="/static/7b4c8ac32129aab596d7f10b471ac0c2/85daf/auto-scailing.png 163w,
+/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png 310w"
+        sizes="(max-width: 310px) 100vw, 310px"
+      />
+  </span>
+  </a></p>
 <h3>Amazon RDS</h3>
 <p>대망의 마지막 서비스이다! 이 설명이 끝나면 이제 구현이 가능하다! <a href="https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Welcome.html">Amazon Relational Database Service(Amazon RDS)란 무엇입니까?</a>를 살펴보면, RDS를 다음과 같이 설명하고 있다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon Relational Database Service(Amazon RDS)는 클라우드에서 관계형 데이터베이스를 더 쉽게 설치, 운영 및 확장할 수 있는 웹 서비스입니다. 이 서비스는 산업 표준 관계형 데이터베이스를 위한 경제적이고 크기 조절이 가능한 용량을 제공하고 공통 데이터베이스 관리 작업을 관리합니다.</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon Relational Database Service(Amazon RDS)는 클라우드에서 관계형 데이터베이스를 더 쉽게 설치, 운영 및 확장할 수 있는 웹
+서비스입니다. 이 서비스는 산업 표준 관계형 데이터베이스를 위한 경제적이고 크기 조절이 가능한 용량을 제공하고 공통 데이터베이스 관리 작업을 관리합니다.</code></pre></div>
 <p>일반적인 RDB(Relatinal Database)를 구현하기 위해선 따로 DB 서버를 두거나 하나의 서버에 해당 SQL의 DBMS를 설치해 콘솔 혹은 별도의 GUI 프로그램을 사용해야 했다. 하지만 RDS는 모든 DBMS의 UI를 하나로 통합해 제공하기 때문에 DBMS의 변경, 이주(Migation), 통합(Integration) 등에서 발생하는 정신적 스트레스, 별도의 학습 코스트를 최소화할 수 있을 것이다. 더불어 RDS는 별도의 Database 관리가 없이도 모니터링, 테이블 변경 등의 처리를 할 수 있어 이를 통해 다양한 비용을 절약할 수 있을 것이다.</p>
 <p>이러한 필자의 생각은 문서 하단의 설명에서도 나온다.</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Amazon RDS의 개요
 
-관리되는 관계형 데이터베이스 서비스가 필요한 이유는 무엇일까요? Amazon RDS가 어렵거나 지루한 관계형 데이터베이스 관리 작업을 대다수 대신하기 때문입니다.
+관리되는 관계형 데이터베이스 서비스가 필요한 이유는 무엇일까요? Amazon RDS가 어렵거나 지루한 관계형 데이터베이스 관리 작업을 대다수 대신하기
+때문입니다.
 
-- 서버를 구입하면 CPU, 메모리, 스토리지 및 IOPS가 모두 한데 묶여 제공됩니다. Amazon RDS를 사용하면 이 모두가 따로 분할되므로 독립적으로 확장할 수 있습니다. CPU가 더 많이 필요하거나 IOPS가 더 적게 필요하거나 스토리지가 더 많이 필요할 경우 쉽게 할당할 수 있습니다.
+- 서버를 구입하면 CPU, 메모리, 스토리지 및 IOPS가 모두 한데 묶여 제공됩니다. Amazon RDS를 사용하면 이 모두가 따로 분할되므로 독립적으로 확장할
+  수 있습니다. CPU가 더 많이 필요하거나 IOPS가 더 적게 필요하거나 스토리지가 더 많이 필요할 경우 쉽게 할당할 수 있습니다.
 - Amazon RDS는 백업, 소프트웨어 패치, 자동 장애 감지 및 복구를 관리합니다.
-- 관리형 서비스 환경을 제공하기 위해 Amazon RDS는 DB 인스턴스에 대해 shell 액세스를 제공하지 않으며, 고급 권한을 필요로 하는 특정 시스템 절차와 테이블에 대한 액세스를 제한합니다.
-- 필요할 때 자동화된 백업을 수행하거나 고유한 백업 스냅샷을 수동으로 만들 수 있습니다. 이러한 백업을 사용하여 데이터베이스를 복원할 수 있습니다. Amazon RDS 복원 프로세스는 안정적이고 효율적입니다.
+- 관리형 서비스 환경을 제공하기 위해 Amazon RDS는 DB 인스턴스에 대해 shell 액세스를 제공하지 않으며, 고급 권한을 필요로 하는 특정 시스템
+  절차와 테이블에 대한 액세스를 제한합니다.
+- 필요할 때 자동화된 백업을 수행하거나 고유한 백업 스냅샷을 수동으로 만들 수 있습니다. 이러한 백업을 사용하여 데이터베이스를 복원할 수 있습니다.
+  Amazon RDS 복원 프로세스는 안정적이고 효율적입니다.
 - 기본 인스턴스 및 문제 발생 시 장애 조치를 수행할 수 있는 동기식 보조 인스턴스에서 가용성을 높일 수 있습니다. MySQL, MariaDB 또는 PostgreSQL 읽기 전용 복제본을 사용해 읽기 조정을 높일 수도 있습니다.
 - 이미 친숙한 MySQL, MariaDB, PostgreSQL, Oracle 및 Microsoft SQL Server 같은 데이터베이스 제품을 사용할 수 있습니다.
 - 데이터베이스 패키지의 보안 외에도 AWS Identity and Access Management(IAM)을 사용해 사용자 및 권한을 정의하는 방법으로 RDS 데이터베이스에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터베이스를 가상 사설 클라우드에 넣어 데이터베이스를 보호할 수도 있습니다.</code></pre></div>
@@ -141,7 +230,34 @@ Amazon EC2는 다음의 기능을 제공합니다.
 &lt;p&gt;설계는 이미 끝나있으니 구현을 해야 할텐데, 구현에 앞서 우선적으로 각 서비스가 어떤 것인지를 알아보도록 하자.&lt;/p&gt;
 &lt;h2&gt;Amazon Route53&lt;/h2&gt;
 &lt;p&gt;우선 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/Welcome.html&quot;&gt;Amazon Route 53란 무엇입니까?&lt;/a&gt;를 참고하도록 하자. 해당 참조에 의하면 도메인 등록, DNS 라우팅, 상태 확인의 3가지 주요 기능을 조합하여 실행할 수 있는 서비스라는 점이다. 각각 살펴보도록 하자.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;assets/dns-routing.png&quot; alt=&quot;dns-routing&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 582px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 76.46048109965635%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACtUlEQVQoz01S2U7bQBTNz/Uj+AKkSqjvfaiqPlV9opuKKhaJh6JKhS5SBQIhWoizQFnq2I4dL2OPl8RrPN7t2HHtGChHM1eW55655849rXKB+QMUReF7cZ5kk6gwUIgcx7Jsd4rSJCvywlWVwDQaVqt8gIpZxShIzvZxmdWh6VMMpAYjAmdGNICSYU3co+dPu2vvmuSKPNfTktQsRQQcx6uaNrXRt+3u9fEfHjsZYhiJtekOxp73Br9OLFX5/uLZ742PNbkoWk25MI49D3meH0bh1EF7m2csDpuMKizKVB9l4KMBSXI8P8tmtWwnK9NinsRRUV1Sqy7jMN3dOJUoVYpKBhoiB0YML4mKh6LqLc6BSij6bc+yNZW1saoqURQ1v6Iw2ds8pXFZt5HAK0CQBV4WBFkEquuEyzsHLw87VVpVrHXR75EEAQAIwuCe/GOr3emzl1C+GPE9hu8zVeS6DCeOJ1uHJ1/b5/N8IZthRjzHaYqexGlDbmQLlFp1mRXzu0HU0Q98CAAUuDipk1sTS1TGojV21WkcZ+m8zBeyzwClAb8kOGM0FElCYEeyYUQhCsWb9RHVbS5syfrQdLQ8LYbSlKYB4KDr+F/WMarXV6TOBOIq25Potg4uTXjtW7Dz6VHnYLUR05rYgu3oeV6PZJbmRV46tnO83xUoinM0O7A8S9AgGSAlT4yxCvCLI+LyCHn1A7XMKbSm4zRK5Sh3gjBLE8syDWNi2nZ+13AjstoIeazAA0lK0kXP2SwRxwPfcwTLE6AMqjMg8rwAIXSRFwZRcIvQr+H97Lxt//1cj6p2WOWbyFUNmjXBm7XX2x9eVS5gxRtRpTSThePh/VJ02nCU9ztPdg9X/3u7Nui80PJy+fHKytISQeIYdoYTuGkZszxtVprFhjkZ0tTV1dVgMKh0IYT+AafFKBmlLOFpAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;dns-routing&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png&quot;
+        srcset=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/30e25/dns-routing.png 163w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/fedab/dns-routing.png 325w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png 582w&quot;
+        sizes=&quot;(max-width: 582px) 100vw, 582px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;도메인 등록은 우리가 흔히 알고 있는 것처럼 .com이나 .kr 등의 도메인을 자신만의 이름로 사용할 수 있게 해주는 서비스이다. Ex. &lt;a href=&quot;https://www.naver.com&quot;&gt;https://www.naver.com&lt;/a&gt;&lt;/p&gt;
@@ -161,33 +277,48 @@ Amazon EC2는 다음의 기능을 제공합니다.
 &lt;h2&gt;Amazon CloudFront(CF)&lt;/h2&gt;
 &lt;p&gt;CloudFront는 사용해보지 않았기 때문에 무척 궁금했다. 그래서 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introduction.html&quot;&gt;Amazon CloudFront란?&lt;/a&gt;을 참고하기로 했다. 문서에 따르면 &quot;Amazon CloudFront는 .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 웹 콘텐츠를 사용자에게 더 빨리 배포하도록 지원하는 웹 서비스입니다.&quot;라는 설명을 볼 수 있다.&lt;/p&gt;
 &lt;p&gt;잉? 이런 건 EC2를 통해서 하는 게 아니었나? 가만, 다시 살펴보니 &lt;strong&gt;정적 및 동적 웹 콘텐츠&lt;/strong&gt;라는 단어가 신경쓰인다. 그렇구나. 이건 내 웹 사이트의 contents에 해당하는 이야기구나! 그렇다면 소스 코드는 왜 있는 걸까? 조금 더 문서를 읽어보자.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CloudFront는 엣지 위치라고 하는 데이터 센터의 전 세계 네트워크를 통해 콘텐츠를 제공합니다. CloudFront를 통해 서비스하는 콘텐츠를 사용자가 요청하면 지연 시간이 가장 낮은 엣지 로케이션으로 라우팅되므로 콘텐츠 전송 성능이 뛰어납니다.
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CloudFront는 엣지 위치라고 하는 데이터 센터의 전 세계 네트워크를 통해 콘텐츠를 제공합니다.
+CloudFront를 통해 서비스하는 콘텐츠를 사용자가 요청하면 지연 시간이 가장 낮은 엣지 로케이션으로 라우팅되므로 콘텐츠 전송 성능이 뛰어납니다.
 
 - 콘텐츠가 이미 지연 시간이 가장 낮은 엣지에 있는 경우 CloudFront가 콘텐츠를 즉시 제공합니다.
-- 콘텐츠가 엣지 로케이션에 없는 경우 CloudFront는 콘텐츠의 최종 버전에 대한 소스로 지정된 오리진(예: Amazon S3 버킷, MediaPackage 채널, HTTP 서버(예: 웹 서버) 등)에서 콘텐츠를 검색합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+- 콘텐츠가 엣지 로케이션에 없는 경우 CloudFront는 콘텐츠의 최종 버전에 대한 소스로 지정된 오리진(예: Amazon S3 버킷, MediaPackage 채널,
+  HTTP 서버(예: 웹 서버) 등)에서 콘텐츠를 검색합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;이 글을 통해 &quot;엣지 로케이션이 contents에 대한 Cache 역할을 하는구나!&quot;라고 이해할 수 있었지만, 그럼에도 왜 EC2에서 할 수 있는 작업을 굳이 CloudFront에서 하는지 몰랐다. 하지만 이런 의문은 다음 문장을 통해 해결할 수 있었다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;예를 들어, CloudFront가 아닌 일반적인 웹 서버에서 이미지를 제공한다고 가정합니다. 예를 들어 http://example.com/sunsetphoto.png URL을 사용하여 sunsetphoto.png라는 이미지를 서비스할 수 있습니다.
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;예를 들어, CloudFront가 아닌 일반적인 웹 서버에서 이미지를 제공한다고 가정합니다.
+예를 들어 http://example.com/sunsetphoto.png URL을 사용하여 sunsetphoto.png라는 이미지를 서비스할 수 있습니다.
 
-사용자는 이 URL로 쉽게 이동해 해당 이미지를 볼 수 있습니다. 하지만 이미지가 발견될 때까지 인터넷으로 이루어진 상호 연결된 네트워크의 복잡한 모음을 통해 네트워크에서 다른 네트워크로 요청이 라우팅되었다는 사실은 아마도 모르고 있을 것입니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+사용자는 이 URL로 쉽게 이동해 해당 이미지를 볼 수 있습니다. 하지만 이미지가 발견될 때까지 인터넷으로 이루어진 상호 연결된 네트워크의 복잡한 모음을
+통해 네트워크에서 다른 네트워크로 요청이 라우팅되었다는 사실은 아마도 모르고 있을 것입니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;이는 리다이렉션을 통해 사용자가 콘텐츠에 접근하게 될 경우 발생하는 비용을 줄이고자 하는 목적으로 사용될 수 있음을 암시하고 있다. 앞서 이해한 Cache의 개념을 조금 확장해 사용자의 입장에서 낮은 지연 시간으로 contents를 얻고, 비용을 절약하게 된다는 것을 이해했다!!&lt;/p&gt;
 &lt;p&gt;이는 언뜻 보기에는 별 것 아닐 수도 있지만, 나에게 있어서는 놀라운 기술일 수밖에 없다. 앞서 언급한 &apos;비용&apos;에는 사용자 경험, 물리 장비, 인력 등 다양한 의미가 포함되어 있고, 이를 단번에 최적화한 기술이기 때문이다. 놀라움도 잠시 다음 문장을 통해서 이해를 다질 수 있었다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CloudFront는 AWS 백본 네트워크를 통해 콘텐츠를 가장 효과적으로 서비스할 수 있는 엣지로 각 사용자 요청을 라우팅하여 콘텐츠 배포 속도를 높입니다. 일반적으로 CloudFront 엣지가 최종 사용자에게 가장 빨리 제공합니다. AWS 네트워크를 사용하면 사용자의 요청이 반드시 통과해야 하는 네트워크의 수가 줄어들어 성능이 향상됩니다. 파일의 첫 바이트를 로드하는 데 걸리는 지연 시간이 줄어들고 데이터 전송 속도가 빨라집니다.
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CloudFront는 AWS 백본 네트워크를 통해 콘텐츠를 가장 효과적으로 서비스할 수 있는 엣지로 각 사용자 요청을 라우팅하여 콘텐츠 배포 속도를 높입니다.
+일반적으로 CloudFront 엣지가 최종 사용자에게 가장 빨리 제공합니다.
+AWS 네트워크를 사용하면 사용자의 요청이 반드시 통과해야 하는 네트워크의 수가 줄어들어 성능이 향상됩니다.
+파일의 첫 바이트를 로드하는 데 걸리는 지연 시간이 줄어들고 데이터 전송 속도가 빨라집니다.
 
 또한 파일(객체라고도 함)의 사본이 전 세계 여러 엣지 로케이션에 유지(또는 캐시)되므로 안정성과 가용성이 향상됩니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;정말 너무 환상적인 서비스군! 저렴한 비용으로 각 도시에 나의 콘를 Caching할 수 있다니.. 그럼 놀라움은 잠시 뒤로 하고 다음 서비스를 알아보자.&lt;/p&gt;
 &lt;h2&gt;Amazon S3&lt;/h2&gt;
 &lt;p&gt;흔히 우리가 Storage 기능을 한다고 알고있는 S3다. 자세한 설명을 하지 않아도 이미 이해하고 있었지만, 내가 하고 있는 이해는 경험에 의한 것이기 때문에 오늘을 기회로 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/Welcome.html&quot;&gt;Amazon S3란 무엇입니까?&lt;/a&gt;를 읽어보도록 하자.&lt;/p&gt;
 &lt;p&gt;아무래도 Storage 기능만을 제공하기 때문에 매우 짧다. 그래서 다음의 한 박스로 이를 이해할 수 있겠다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon Simple Storage Service는 인터넷용 스토리지 서비스입니다. 이 서비스는 개발자가 더 쉽게 웹 규모 컴퓨팅 작업을 수행할 수 있도록 설계되었습니다.
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon Simple Storage Service는 인터넷용 스토리지 서비스입니다.
+이 서비스는 개발자가 더 쉽게 웹 규모 컴퓨팅 작업을 수행할 수 있도록 설계되었습니다.
 
-Amazon S3에서 제공하는 단순한 웹 서비스 인터페이스를 사용하여 웹에서 언제 어디서나 원하는 양의 데이터를 저장하고 검색할 수 있습니다. 또한 개발자는 Amazon이 자체 웹 사이트의 글로벌 네트워크 운영에 사용하는 것과 같은 높은 확장성과 신뢰성을 갖춘 빠르고 경제적인 데이터 스토리지 인프라에 액세스할 수 있습니다. 이 서비스의 목적은 규모의 이점을 극대화하고 개발자들에게 이러한 이점을 제공하는 것입니다.
+Amazon S3에서 제공하는 단순한 웹 서비스 인터페이스를 사용하여 웹에서 언제 어디서나 원하는 양의 데이터를 저장하고 검색할 수 있습니다.
 
-이 가이드는 버킷 및 객체와 같은 Amazon S3의 핵심 개념과, Amazon S3 애플리케이션 프로그래밍 인터페이스(API)를 사용하여 이러한 리소스에 대한 작업 방법을 설명합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+또한, 개발자는 Amazon이 자체 웹 사이트의 글로벌 네트워크 운영에 사용하는 것과 같은 높은 확장성과 신뢰성을 갖춘 빠르고 경제적인 데이터 스토리지
+인프라에 액세스할 수 있습니다. 이 서비스의 목적은 규모의 이점을 극대화하고 개발자들에게 이러한 이점을 제공하는 것입니다.
+
+이 가이드는 버킷 및 객체와 같은 Amazon S3의 핵심 개념과, Amazon S3 애플리케이션 프로그래밍 인터페이스(API)를 사용하여 이러한 리소스에 대한
+작업 방법을 설명합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;S3는 Storage의 기능을 하며 버킷이라고 부르는 단위를 통해 정적 파일을 관리한다는 것을 이해했다. 더불어 콘솔을 통해 제공되는 인터페이스를 활용하거나 API를 통해 코드에서의 활용도 가능할 것이라는 것을 이해할 수 있었다. 구글 드라이브인데 개발에 활용할 수 있겠다!&lt;/p&gt;
 &lt;h2&gt;Elastic Load Balancing(ELB)&lt;/h2&gt;
 &lt;p&gt;ELB는 로드 밸런싱이라고 부르는 작업을 해주는 서비스로 이해하고 있다. 이것도 지극히 경험적인 이해이므로 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/userguide/what-is-load-balancing.html&quot;&gt;Elastic Load Balancing란 무엇입니까?&lt;/a&gt;를 통해서 정확하게 이해해보자.&lt;/p&gt;
 &lt;p&gt;일반적으로 로드 밸런싱이라 하면 트래픽을 분산하기 위해 사용한다고 이해하고 있다. 이에 대한 자세한 내용은 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%B6%80%ED%95%98%EB%B6%84%EC%82%B0&quot;&gt;부하분산&lt;/a&gt;을 통해 알아보도록 하고 이 글에서는 ELB를 알아보도록 하자. 문서에 따른 설명은 다음과 같다. 부가적으로 트래픽을 분산한다는 의미보다는 정해진 수의 CPU나 메모리같은 컴퓨팅 자원에게 작업을 나눠 제공한다고 이해하는 것이 바람직하겠다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Elastic Load Balancing는 Amazon EC2 인스턴스, 컨테이너 및 IP 주소와 같은 여러 대상에 대해 수신 애플리케이션 또는 네트워크 트래픽을 여러 가용 영역에 배포합니다. 애플리케이션에 대한 트래픽이 시간이 지남에 따라 변경되므로 Elastic Load Balancing가 로드 밸런서를 확장하고 대다수의 워크로드에 맞게 자동으로 조정할 수 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Elastic Load Balancing는 Amazon EC2 인스턴스, 컨테이너 및 IP 주소와 같은 여러 대상에 대해 수신 애플리케이션 또는 네트워크 트래픽을 여러
+가용 영역에 배포합니다.
+애플리케이션에 대한 트래픽이 시간이 지남에 따라 변경되므로 Elastic Load Balancing가 로드 밸런서를 확장하고 대다수의 워크로드에 맞게 자동으로
+조정할 수 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;이를 보고 동적인 부하 분산이 가능하겠다고 생각했다. 가령 어떤 날에는 1의 트래픽이, 어떤 날에는 10의 트래픽이 들어오는 서비스에서 트래픽을 처리하려면 10의 가용량을 항상 가지고 있어야 하기 때문에 1의 트래픽이 들어오는 날에는 9의 자원 낭비가 생길 수 있을 것이다. 그런데 이를 동적으로 관리한다면, 들어오는 트래픽에 따라 가용 공간을 늘려 사용할 수 있을 것이기 때문에, 심지어 위 내용에서 &apos;자동&apos;으로 저장할 수 있기 때문에 자원의 낭비를 최소화할 것이라 생각할 수 있었다.&lt;/p&gt;
 &lt;p&gt;이런 생각은 문서에서도 나타나고 있다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;로드 밸런서 이점
@@ -196,10 +327,16 @@ Amazon S3에서 제공하는 단순한 웹 서비스 인터페이스를 사용�
 
 애플리케이션에 대한 요청의 전체적인 흐름을 방해하지 않고 필요에 따라 로드 밸런서에서 컴퓨팅 리소스를 추가 및 제거할 수 있습니다.
 
-로드 밸런서가 정상적인 대상에만 요청을 보낼 수 있도록 컴퓨팅 리소스의 상태를 모니터링하는 데 사용되는 상태 확인을 구성할 수 있습니다. 또한 컴퓨팅 리소스가 주요 작업에 집중할 수 있도록 암호화 및 복호화 작업을 로드 밸런서로 오프로드할 수 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+로드 밸런서가 정상적인 대상에만 요청을 보낼 수 있도록 컴퓨팅 리소스의 상태를 모니터링하는 데 사용되는 상태 확인을 구성할 수 있습니다.
+또한 컴퓨팅 리소스가 주요 작업에 집중할 수 있도록 암호화 및 복호화 작업을 로드 밸런서로 오프로드할 수 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Amazon EC2&lt;/h2&gt;
 &lt;p&gt;흔히 알고 있는 EC2의 경우에도 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html&quot;&gt;Amazon EC2란 무엇입니까?&lt;/a&gt;를 통해 살펴보자.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon Elastic Compute Cloud(Amazon EC2)는 Amazon Web Services(AWS) 클라우드에서 확장식 컴퓨팅을 제공합니다. Amazon EC2를 사용하면 하드웨어에 선투자할 필요가 없어 더 빠르게 애플리케이션을 개발하고 배포할 수 있습니다. Amazon EC2를 통해 원하는 만큼 가상 서버를 구축하고 보안 및 네트워크 구성과 스토리지 관리가 가능합니다. 또한 Amazon EC2는 요구 사항이나 갑작스러운 인기 증대 등 변동 사항에 따라 신속하게 규모를 확장하거나 축소할 수 있어 서버 트래픽 예측 필요성이 줄어듭니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon Elastic Compute Cloud(Amazon EC2)는 Amazon Web Services(AWS) 클라우드에서 확장식 컴퓨팅을 제공합니다. Amazon EC2를
+사용하면 하드웨어에 선투자할 필요가 없어 더 빠르게 애플리케이션을 개발하고 배포할 수 있습니다. Amazon EC2를 통해 원하는 만큼 가상 서버를 구축하고
+보안 및 네트워크 구성과 스토리지 관리가 가능합니다.
+
+또한 Amazon EC2는 요구 사항이나 갑작스러운 인기 증대 등 변동 사항에 따라 신속하게 규모를 확장하거나 축소할 수 있어 서버 트래픽 예측 필요성이
+줄어듭니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;이번 정리를 통해 얻은 큰 수확 중 하나는 기존에 당연하게 사용하던 기술의 기능을 한 번에 정리하게 됐다는 점이다. EC2만 하더라도 가상 컴퓨팅 파워를 제공하는 것 외에도 다음과 같은 디테일한 기능을 가지고 있다는 것을 처음으로 알게되었기 때문이다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon EC2의 기능
 Amazon EC2는 다음의 기능을 제공합니다.
@@ -214,27 +351,68 @@ Amazon EC2는 다음의 기능을 제공합니다.
 - 보안 그룹을 사용해 인스턴스에 연결할 수 있는 프로토콜, 포트, 소스 IP 범위를 지정하는 방화벽 기능
 - 탄력적 IP 주소(EIP): 동적 클라우드 컴퓨팅을 위한 고정 IPv4 주소
 - 태그: 사용자가 생성하여 Amazon EC2 리소스에 할당할 수 있는 메타데이터
-- AWS 클라우드에서는 논리적으로 격리되어 있지만, 원할 때 마다 고객의 네트워크와 간편히 연결할 수 있는 가상 네트워크, Virtual Private Clouds(VPC)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+- AWS 클라우드에서는 논리적으로 격리되어 있지만, 원할 때 마다 고객의 네트워크와 간편히 연결할 수 있는 가상 네트워크, Virtual Private Clouds
+  (VPC)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;물론 이런 기능들의 디테일을 설정하기 위해서는 보다 많은 스킬업이 필요하겠지만, &apos;가능하다&apos; 정도만 이해하고 넘어가는 것도 나중에 트러블 슈팅, 비용 최적화 등을 위해 큰 도움이 될 것만 같다. 정말 좋다!&lt;/p&gt;
 &lt;p&gt;추가적으로 따로 단락을 만들어 언급하려 했던 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html&quot;&gt;Amazon EC2 Auto Scaling&lt;/a&gt;을 간단히 소개해보자면, 다음과 같다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon EC2 Auto Scaling를 통해 애플리케이션의 로드를 처리할 수 있는 정확한 수의 Amazon EC2 인스턴스를 보유하도록 보장할 수 있습니다. Auto Scaling 그룹이라는 EC2 인스턴스 모음을 생성합니다. 각 Auto Scaling 그룹의 최소 인스턴스 수를 지정할 수 있으며, Amazon EC2 Auto Scaling에서는 그룹의 크기가 이 값 아래로 내려가지 않습니다. 각 Auto Scaling 그룹의 최대 인스턴스 수를 지정할 수 있으며, Amazon EC2 Auto Scaling에서는 그룹의 크기가 이 값을 넘지 않습니다. 원하는 용량을 지정한 경우 그룹을 생성한 다음에는 언제든지 Amazon EC2 Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 수 있습니다. 조정 정책을 지정했다면 Amazon EC2 Auto Scaling에서는 애플리케이션의 늘어나거나 줄어드는 수요에 따라 인스턴스를 시작하거나 종료할 수 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Auto Scaling은 규모가 있는 서비스에서 필수적으로 필요할 것이라 생각된다. 왜냐하면 EC2의 인스턴스가 자동으로 스케일을 조정하는 경우는 트래픽이 많지 않으면 필요없을 것이라고 생각하기 때문이다. 하지만 이는 다소 편향된 생각이다. Auto-Scailing을 설정하지 않으면 만약 우리 서비스의 트래픽이 급격하게 증가하는 경우에는 서버가 버티지 못할 것이기 때문이다. 스타트업의 경우라면 만에 하나 있을 &apos;대박&apos;의 기회를 한순간에 놓칠 수도 있을 거라고 생각한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon EC2 Auto Scaling를 통해 애플리케이션의 로드를 처리할 수 있는 정확한 수의 Amazon EC2 인스턴스를 보유하도록 보장할 수 있습니다.
+
+Auto Scaling 그룹이라는 EC2 인스턴스 모음을 생성합니다. 각 Auto Scaling 그룹의 최소 인스턴스 수를 지정할 수 있으며, Amazon EC2 Auto
+Scaling에서는 그룹의 크기가 이 값 아래로 내려가지 않습니다. 각 Auto Scaling 그룹의 최대 인스턴스 수를 지정할 수 있으며, Amazon EC2
+Auto Scaling에서는 그룹의 크기가 이 값을 넘지 않습니다. 원하는 용량을 지정한 경우 그룹을 생성한 다음에는 언제든지 Amazon EC2
+
+Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 수 있습니다. 조정 정책을 지정했다면 Amazon EC2 Auto Scaling에서는 애플리케이션의
+늘어나거나 줄어드는 수요에 따라 인스턴스를 시작하거나 종료할 수 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Auto Scaling은 규모가 있는 서비스에서 필수적으로 필요할 것이라 생각된다. 왜냐하면 EC2의 인스턴스가 자동으로 스케일을 조정하는 경우는 트래픽이 많지 않으면 필요없을 것이라고 생각하기 때문이다.&lt;/p&gt;
+&lt;p&gt;하지만 이는 다소 편향된 생각이다. Auto-Scailing을 설정하지 않으면 만약 우리 서비스의 트래픽이 급격하게 증가하는 경우에는 서버가 버티지 못할 것이기 때문이다. 스타트업의 경우라면 만에 하나 있을 &apos;대박&apos;의 기회를 한순간에 놓칠 수도 있을 거라고 생각한다.&lt;/p&gt;
 &lt;p&gt;최소한의 인스턴스 수를 유지하면서 트래픽이 급격하게 증가할 경우에는 자동적으로 스케일 업을 진행하게 구현한다면 트래픽의 갑작스러운 변화에도 신속히 대응할 수 있을 것이라고 느꼈다. 문서에서는 다음과 같은 예시를 들어 이해를 돕는다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;예를 들어, 다음 Auto Scaling 그룹의 경우 최소 인스턴스 수 1개, 희망 인스턴스 용량 2개, 최대 인스턴스 수 4개가 됩니다. 사용자가 정의한 조정 정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;assets/auto-scailing.png&quot; alt=&quot;auto-scailing&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;예를 들어, 다음 Auto Scaling 그룹의 경우 최소 인스턴스 수 1개, 희망 인스턴스 용량 2개, 최대 인스턴스 수 4개가 됩니다. 사용자가 정의한 조정
+정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 310px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.25806451612904%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACeUlEQVQoz31Ry27aUBC9f5NVpapdV/2HfkIfiy6qfkA/oJW6atJtd1VVJQISaAATcB48QgQ2YMBP7GtsHoEQWyQkUgLX07FJF120R8fjudI5c2fuEPiDIAgwmhZtSS1NVWS522y2Wi2J2n1F1bqy2ndc+BtkNnb82cT3fM/zr3xPrBYPOK56Wq2UKzyXLmRTqfg2Rp7bLx/l5rOxfzF64HRIpo0ktL+t8q9Z/hWrfYZRFVqfoPQWKu+B7sHwBIw4mLtgJ8E9YtouU3aY/JOpcWbmyaXMw9GbYJMAMvE8cErB9w08BlskqHwIzExgpgP7MNBigcWBHgeaA7sQVrR5ctnlgX+5+kLYJmGxZ+CU4McGfCUhQzPHkPYJ0/fCRIszq8DoIdMTQAtk1toH6WOw+xQST+D0HbhFyL6A7Uew8xgaW+AcAI1D/xdYO+DyYfM0EUYLzQdkrNfUGq/WjzXhWKrkLkxxPlA9V0HOh6otlTqllHya7lbSep2Xq9luZR+pnuU8WyLXixup0xUbzabUVnVjfn2DG2MAq2hzg9G43VU1o2eYtCaIimboPSqrhmaYS8aIYejFYlEUhEajYZq9er12fn6ONsawAtiUFosnnU47WnvD6OmCIJTLJUGoo4Dc399PJpPb29urCJ7nLRYLPM7nc9/30b9cLlcRMEHDOl+XJvh1Op1kMsnzfDab5TiuUCjkcrl8Pr82B//Ag/nu7k5RFMuyer0ediGKoq7rlNK14j8I29Y0zXGcfgT0YBwMBlgFc9u2MXddFwVY2oyA16AFBwxvxh8qRqPRMALacIRYLJZKpTKZDD4nDnJ2djadTlEzjoCPimP/Bqt9zXDfGFTyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;auto-scailing&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png&quot;
+        srcset=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/85daf/auto-scailing.png 163w,
+/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png 310w&quot;
+        sizes=&quot;(max-width: 310px) 100vw, 310px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Amazon RDS&lt;/h3&gt;
 &lt;p&gt;대망의 마지막 서비스이다! 이 설명이 끝나면 이제 구현이 가능하다! &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Welcome.html&quot;&gt;Amazon Relational Database Service(Amazon RDS)란 무엇입니까?&lt;/a&gt;를 살펴보면, RDS를 다음과 같이 설명하고 있다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon Relational Database Service(Amazon RDS)는 클라우드에서 관계형 데이터베이스를 더 쉽게 설치, 운영 및 확장할 수 있는 웹 서비스입니다. 이 서비스는 산업 표준 관계형 데이터베이스를 위한 경제적이고 크기 조절이 가능한 용량을 제공하고 공통 데이터베이스 관리 작업을 관리합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon Relational Database Service(Amazon RDS)는 클라우드에서 관계형 데이터베이스를 더 쉽게 설치, 운영 및 확장할 수 있는 웹
+서비스입니다. 이 서비스는 산업 표준 관계형 데이터베이스를 위한 경제적이고 크기 조절이 가능한 용량을 제공하고 공통 데이터베이스 관리 작업을 관리합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;일반적인 RDB(Relatinal Database)를 구현하기 위해선 따로 DB 서버를 두거나 하나의 서버에 해당 SQL의 DBMS를 설치해 콘솔 혹은 별도의 GUI 프로그램을 사용해야 했다. 하지만 RDS는 모든 DBMS의 UI를 하나로 통합해 제공하기 때문에 DBMS의 변경, 이주(Migation), 통합(Integration) 등에서 발생하는 정신적 스트레스, 별도의 학습 코스트를 최소화할 수 있을 것이다. 더불어 RDS는 별도의 Database 관리가 없이도 모니터링, 테이블 변경 등의 처리를 할 수 있어 이를 통해 다양한 비용을 절약할 수 있을 것이다.&lt;/p&gt;
 &lt;p&gt;이러한 필자의 생각은 문서 하단의 설명에서도 나온다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Amazon RDS의 개요
 
-관리되는 관계형 데이터베이스 서비스가 필요한 이유는 무엇일까요? Amazon RDS가 어렵거나 지루한 관계형 데이터베이스 관리 작업을 대다수 대신하기 때문입니다.
+관리되는 관계형 데이터베이스 서비스가 필요한 이유는 무엇일까요? Amazon RDS가 어렵거나 지루한 관계형 데이터베이스 관리 작업을 대다수 대신하기
+때문입니다.
 
-- 서버를 구입하면 CPU, 메모리, 스토리지 및 IOPS가 모두 한데 묶여 제공됩니다. Amazon RDS를 사용하면 이 모두가 따로 분할되므로 독립적으로 확장할 수 있습니다. CPU가 더 많이 필요하거나 IOPS가 더 적게 필요하거나 스토리지가 더 많이 필요할 경우 쉽게 할당할 수 있습니다.
+- 서버를 구입하면 CPU, 메모리, 스토리지 및 IOPS가 모두 한데 묶여 제공됩니다. Amazon RDS를 사용하면 이 모두가 따로 분할되므로 독립적으로 확장할
+  수 있습니다. CPU가 더 많이 필요하거나 IOPS가 더 적게 필요하거나 스토리지가 더 많이 필요할 경우 쉽게 할당할 수 있습니다.
 - Amazon RDS는 백업, 소프트웨어 패치, 자동 장애 감지 및 복구를 관리합니다.
-- 관리형 서비스 환경을 제공하기 위해 Amazon RDS는 DB 인스턴스에 대해 shell 액세스를 제공하지 않으며, 고급 권한을 필요로 하는 특정 시스템 절차와 테이블에 대한 액세스를 제한합니다.
-- 필요할 때 자동화된 백업을 수행하거나 고유한 백업 스냅샷을 수동으로 만들 수 있습니다. 이러한 백업을 사용하여 데이터베이스를 복원할 수 있습니다. Amazon RDS 복원 프로세스는 안정적이고 효율적입니다.
+- 관리형 서비스 환경을 제공하기 위해 Amazon RDS는 DB 인스턴스에 대해 shell 액세스를 제공하지 않으며, 고급 권한을 필요로 하는 특정 시스템
+  절차와 테이블에 대한 액세스를 제한합니다.
+- 필요할 때 자동화된 백업을 수행하거나 고유한 백업 스냅샷을 수동으로 만들 수 있습니다. 이러한 백업을 사용하여 데이터베이스를 복원할 수 있습니다.
+  Amazon RDS 복원 프로세스는 안정적이고 효율적입니다.
 - 기본 인스턴스 및 문제 발생 시 장애 조치를 수행할 수 있는 동기식 보조 인스턴스에서 가용성을 높일 수 있습니다. MySQL, MariaDB 또는 PostgreSQL 읽기 전용 복제본을 사용해 읽기 조정을 높일 수도 있습니다.
 - 이미 친숙한 MySQL, MariaDB, PostgreSQL, Oracle 및 Microsoft SQL Server 같은 데이터베이스 제품을 사용할 수 있습니다.
 - 데이터베이스 패키지의 보안 외에도 AWS Identity and Access Management(IAM)을 사용해 사용자 및 권한을 정의하는 방법으로 RDS 데이터베이스에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터베이스를 가상 사설 클라우드에 넣어 데이터베이스를 보호할 수도 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -285,40 +463,37 @@ Amazon Web Services provides the reliable, scalable, secure, and high- performan
 이는 트래픽 패턴이 짙어지면서 피크 시간이 길어지고 값 비싼 하드웨어의 사용률이 낮아집니다.
 
 Amazon Web Services에서는 웹 애플리케이션에 필요한 안정적이고 확장 가능하며 안전한 고성능 인프라를 제공하는 동시에 고객 트래픽이 변동함에 따라 IT 비용을 실시간으로 일치시킬 수있는 유연한 스케일 아웃 및 축소형 인프라를 제공합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2019 02, 필자 소개]]></title><description><![CDATA[<h1>간략 필자 소개 - for Korean</h1>
+<p><a href="/README.md">뒤로가기</a></p>
+<p><a href="http://hits.dwyl.io/rayleighko/training/resume"><img src="http://hits.dwyl.io/rayleighko/training/resume.svg" alt="HitCount"></a></p>
+<p><a href="https://sourcerer.io/rayleighko"><img src="https://avatars2.githubusercontent.com/u/24822072?v=4" height="50px" width="50px" alt=""></a></p>
 <p><a href="https://sourcerer.io/rayleighko">Sourcerer profile</a></p>
 <h4>좌우명: <a href="https://en.wikipedia.org/wiki/Lifelong_learning">평생학습(Lifelong learning)</a>, <a href="https://bit.ly/2E22Als">민이호학 불치하문(敏而好學 不恥下問)</a></h4>
-<p>개발자. 더나은 경험을 추구하며, 기술적으로 성장하는 성취감을 좋아합니다. 모든 일을 체계적으로 진행하는 것을 좋아하며, 다양한 의견을 수용해 최적의 결과를 만들 때 가장 큰 성취감을 느끼곤 합니다.</p>
-<p>현재는 학업에 집중하고자 NineVR이라는 VR 스타트업에서 퇴사하고 펫/토이 프로젝트를 만들며 다음 학기를 준비하고 있습니다(2020. 2 졸업 예정).</p>
+<p>개발이라는 분야만이 아닌 서비스 구현의 전반적인 워크 플로우를 공부하는 프로그래머가 되고자 합니다. 이를 위해 더나은 경험을 추구하며, 기술적으로 성장하는 것을 좋아합니다. 더불어 모든 일은 체계적으로 하거나, 다양한 의견을 수용해 최적의 결과를 만들 때 가장 큰 성취감을 느끼곤 합니다.</p>
+<p>현재는 학업에 집중하고자 NineVR이라는 VR 스타트업에서 퇴사하고, 가벼운 프로젝트를 만들며 다음 학기를 준비하고 있습니다(2020. 2 졸업 예정).</p>
 <blockquote>
 <p>최근 사용한 언어 및 라이브러리: Node, Javascript(React, Redux, etc.), CSS3(SCSS, StyledComponents), HTML5(JSX)</p>
 </blockquote>
-<p>DevOps에 관심이 많지만, 좋은 인프라를 관리하기 위해서는 개발이라는 분야를 등질 수 없기 때문에 DevOps 엔지니어 이전에 훌륭한 개발자가 되고자 합니다. 그에 따른 다양한 언어를 편식없이 학습하고 있습니다.</p>
-<p>그 중 퍼포먼스가 뛰어나고, 객체지향을 학습하기에 좋다고 생각하는 C/C++에 대해 애정을 가지고 있고, 현재 가장 활발한 발전을 이루고 있다고 생각되는 Javascript에 매력을 느껴 최근(2018. 11 ~)에는 Javascript를 이용하여 프로젝트를 진행하고 있습니다.</p>
-<p>이와는 별개로 머신러닝 프로젝트(2018. 06)를 진행하며 공부한 스크립트 언어인 Python에도 애정이 있고, Java는 안정적인 웹 개발을 위해 버릴 수 없는 언어라고 생각하기 때문에 최근(2019. 01 ~)에 다시 공부하고 있습니다.</p>
+<p>제가 추구하는 성향의 개발자는 Development만이 아닌 Operation까지도 생각하는 개발자이기 때문에 그에 따른 다양한 툴과 언어를 편식없이 학습하고 있습니다.</p>
+<p>최근(2018. 12 ~ 2019. 02)에는 가장 활발한 발전을 이루고 있다고 생각되는 Javascript에 매력을 느껴 이를 이용하여 React를 활용한 <a href="https://github.com/teamthesol/boggler">프로젝트1</a>과 Node를 활용한 <a href="https://github.com/teamthesol/node-DeepSpeech">프로젝트 2</a>를 진행했습니다.</p>
+<p>이와는 별개로 <a href="https://github.com/rayleighko/ml_study">머신러닝 스터디(2018. 06)</a>를 진행하며 머신러닝에 대해서도 관심이 있습니다.</p>
 <blockquote>
 <p>선호하는 개발 환경: MacOS(Zsh, Bash), Linux(Ubuntu), Opensource<br>
-선호하는 도구: AWS, React, Node, Django(+ Flask)<br>
-최근 관심있는 도구: Docker, CI(젠킨스, 써클 등), Kubernetes</p>
+선호하는 도구: AWS, React, Node<br>
+최근 관심있는 도구: CI(TravisCI, CircleCI 등), Container(Docker, Kubernetes)</p>
 </blockquote>
-<p>이렇게 다양한 도구를 사용하고, 이것저것 공부하는 이유는 제가 생각하는 개발자라는 직업은 배움을 게을리하지 않고, 무언가를 만들기 위해 다양한 경험을 해야 한다고 생각하기 때문입니다.</p>
-<p>그래서 때로는 잡다하게 공부했다는 생각이 들 때가 있었습니다. 하지만 그 생각도 잠시 배움을 즐기고 있는 저 자신의 모습이 행복하기 때문에 지금까지, 그리고 앞으로도 후회없이 다양한 기술을 학습하고자 합니다.</p>
-<h2>주제 별 활동 정리</h2>
+<p>이렇게 다양한 도구를 사용하고, 이것저것 공부하는 이유는 제가 생각하는 개발자라는 직업은 배움을 게을리하지 않고, 무언가를 만들기 위해 다양한 경험을 해야 한다고 생각하기 때문입니다. 그래서 때로는 잡다하게 공부했다는 생각이 들 때가 있었습니다. 하지만 그 생각도 잠시 배움을 즐기고 있는 저 자신의 모습이 행복하기 때문에 지금까지, 그리고 앞으로도 후회없이 다양한 기술을 학습하고자 합니다.</p>
+<h2>직무 관련 주제 별 활동 정리</h2>
 <h3>참여한 재능기부 및 대외활동</h3>
 <p><strong>2013. 07. 01 ~ 2013. 07. 15</strong>: 말레이시아 IT 봉사단 'Comma' - IT STAFF<br>
-<strong>2016. 05. 23 ~ 2017. 08. 20</strong>: 마음치유학교, Ari(컨텐츠 제작 담당) - 홍보팀장<br>
-<strong>2016. 09. 03 ~ 2016. 12. 03</strong>: 보건복지부 나란히걷기 - 발달장애 아동을 위한 문화 교육 선생님<br>
-<strong>2016. 09. 07 ~ 2016. 12. 14</strong>: 대한민국 교육 봉사단 씨드스쿨 - 홍보팀장<br>
 <strong>2017. 02. 27 ~ 2017. 05. 29</strong>: 스타트업캠퍼스, Signature Course 2nd - Tech Lab(개발자)<br>
 <strong>2017. 05. 23</strong>: 5월, 소프트웨어에 물들다 - 의정부 어린이도서관(STAFF)<br>
 <strong>2017. 12. 27</strong>: DevOps Korea meetup - STAFF<br>
 <strong>2018. 01. 29 ~ 2018. 03. 16</strong>: 평창 Olympic/Pralympic - Passion Craw(IT STAFF)</p>
 <p><strong>2018. 04. 01 ~ 현재</strong>: Djangogirls Seoul - Organizer<br>
 <strong>2018. 08. 12 ~ 현재</strong>: AWS(KRUG) University Student Group - Member</p>
-<p><strong>2018. 03 기준 총 봉사시간: 500시간 이상</strong></p>
 <h3>근무 및 아르바이트 경력</h3>
-<p><strong>2015. 11. 25 ~ 2015. 12. 31</strong>: 나노믹아트 - 단순 생산직 근무자<br>
-<strong>2016. 04. ~ 2016. 08</strong>: 프로젝트 HongU - Web Software Developer<br>
-<strong>2016. 06. ~ 2016. 10. 13</strong>: 패스트캠퍼스 - OpenCV와 함께하는 컴퓨터 비전 캠프 조교<br>
+<p><strong>2017. 04. ~ 2017. 08</strong>: 프로젝트 HongU - Web Software Developer<br>
+<strong>2017. 06. ~ 2017. 10. 13</strong>: 패스트캠퍼스 - OpenCV와 함께하는 컴퓨터 비전 캠프 조교<br>
 <strong>2018. 08. 20 ~ 11. 20</strong>: 나인브이알 - (Contents) Software Engineer&#x3C;UE4을 활용한 클라이언트 게임 개발 및 사내 개발 인프라 관리></p>
 <h3>공모전 및 수상 경력</h3>
 <p><strong>2017. 09. 28 ~ 12. 21</strong>: (비공식) 컨트리뷰톤, uftrace/perf – 오픈소스 Contributor, 우수상(2등)<br>
@@ -330,9 +505,9 @@ Amazon Web Services에서는 웹 애플리케이션에 필요한 안정적이고
 <p><strong>2017. 12. 24</strong>: DAsP(데이터아키텍처 준전문가) - 데이터진흥원<br>
 <strong>2017. 12. 23</strong>: 리눅스마스터 2급 - 한국정보통신진흥협회</p>
 <h2>최근에 진행한 프로젝트 3개(맡은 역할, 인원 수, 기간, 내용 등)</h2>
-<h3>2018. 04. 01 ~ 2018. 11. 21: 강의 공유 플랫폼, Athena(4명) - DevOps(주도), Front-end(일부), Back-end(일부)</h3>
+<h3>2018. 04. 01 ~ 2018. 11. 21: 강의 공유 플랫폼, Athena v1.0.0(4명) - Front-end(일부), Back-end(일부)</h3>
 <blockquote>
-<p>사용한 도구: React(Mobx), Node(Express, SocketIO), AWS(EC2, Route53, RDS), Git(GitKraken, GitHub)</p>
+<p>사용한 도구: React(Mobx), Node(Express, SocketIO), AWS(EC2, Route53, RDS), Git(GitKraken, Gitlab)</p>
 </blockquote>
 <p>이번 프로젝트의 시작은 수강했던 강의의 한 학생의 불편함이었습니다. 그 학생은 장애를 가지고 있어 수업을 듣기 위해서는 누군가의 도움이 필요했고, 그 도움조차 그 학생의 학습을 완벽히 도울 수는 없었습니다.</p>
 <p>그래서 그 학생에게 도움이 되고자 그를 위한 프로젝트를 만들었습니다. - 3주 정도 서비스 후 서비스 유지비를 고려해 무기한 폐지하게 되었습니다.</p>
@@ -341,34 +516,33 @@ Amazon Web Services에서는 웹 애플리케이션에 필요한 안정적이고
 <p>결과적으로는 운영에 실패해 접게 되었지만, 생애 처음으로 구현부터 서비스 운영까지 진행하는 프로젝트를 경험했다는 중요한 경험이었습니다.</p>
 <p><strong>프로젝트 소스코드 주소</strong>: <a href="https://github.com/rayleighChild/athena">https://github.com/rayleighChild/athena</a><br>
 <strong>진행 간 부족한 점 피드백</strong>: <a href="https://github.com/rayleighChild/athena_FAQ">https://github.com/rayleighChild/athena_FAQ</a></p>
-<h3>2018. 12. 01 ~ 현재: 음성인식 기반 메모 플랫폼, Boggler(4명) - Front-end(주도), Design(주도)</h3>
+<h3>2018. 12. 26 ~ 2019. 02. 20: 음성인식 기반 메모 플랫폼, Boggler v1.0.0(3명) - Front-end(주도), Design(주도)</h3>
 <blockquote>
-<p>사용한 도구: React(Redux, ...), Node(Express, Passport, ...), Git(GitKraken, GitHub, Git-Bash, ...), Opernsource Editor(VSCode), Mozilla/DeepSpeech등 여러 오픈소스 프로젝트</p>
+<p>사용한 도구: React(Redux, ...), Node(Express, ...), Git(GitKraken, GitHub, Git-Bash, ...), Editor(VSCode), Mozilla/DeepSpeech 등 여러 오픈소스 프로젝트 참고</p>
 </blockquote>
-<p>보글러의 가장 큰 핵심은 스트리밍 혹은 파일로 입력받은 음성 정보를 분석해 이를 텍스트로 변환시킨다는 점입니다. 가령 미팅에서의 가벼운 대화 혹은 강연자의 음성을 텍스트로 변환해 보다 나은 필사 환경을 제공합니다.</p>
-<p>때때로 우리는 강의를 듣거나 중요한 일을 녹음합니다. 하지만, 이렇게 녹음된 자료는 텍스트로 옮겨 적어야 하는 불편함이 있죠. 더불어 이런 작업은 꼭 필요한 일이 아니라면 쉽게 잊혀지곤 합니다.</p>
-<p>이처럼 보글러는 음성을 텍스트로 변환하기 위한 작업의 피로를 줄이기 위한 도구로 만들어지고 있습니다.</p>
-<p>팀 내에서는 프론트 엔드와 디자인을 담당하고 있습니다. 또한, 전체적인 프로젝트 진행 방향과 구성원의 일정관리, 프로젝트 이슈 관리 등을 주도적으로 진행하며 프로젝트 관리를 병행했습니다.</p>
-<p>위의 두 프로젝트를 진행하며 느낀 핵심 키워드는 “사용하는 기술에는 정당한 이유가 필요하며, 회사에서 사용하는 모든 기술에는 정당한 이유가 있다”라는 깨달음이었습니다.</p>
+<p>보글러의 가장 큰 핵심은 스트리밍 혹은 파일로 입력받은 음성 정보를 분석해 이를 텍스트로 변환시킨다는 점입니다. 가령 미팅에서의 가벼운 대화 혹은 강연자의 음성을 텍스트로 변환해 보다 나은 필사(글을 옮겨 적는) 환경을 제공합니다.</p>
+<p>때때로 우리는 강의를 듣거나 중요한 일을 녹음합니다. 하지만, 이렇게 녹음된 자료는 텍스트로 옮겨 적어야 하는 불편함이 있었습니다. 더불어 이런 작업은 꼭 필요한 일이 아니라면 쉽게 잊혀지곤 합니다. 더불어 유료로 서비스를 이용해야 하기도 하죠!</p>
+<p>이런 문제를 보완하기 위해 보글러는 음성을 텍스트로 변환하기 위한 작업의 피로를 줄이기 위한 도구로 만들어졌습니다.</p>
+<p>저는 팀 내에서 프론트 엔드와 디자인을 담당했고, 전체적인 프로젝트 진행 방향과 구성원의 일정관리와 프로젝트 이슈 관리, 문서화 등을 주도적으로 진행하며 프로젝트 관리를 병행했습니다.</p>
+<p>위의 두 프로젝트(Athena, Boggler)를 진행하며 느낀 핵심 키워드는 “사용하는 기술에는 정당한 이유가 필요하며, 회사에서 사용하는 모든 기술에는 정당한 이유가 있다”라는 깨달음이었습니다.</p>
 <p>이를 통해 프로젝트를 진행하기 전에는 마냥 트랜드를 따라 개발하는 것이 옳은 줄 알았지만, 사실은 기본에 충실해 기능과 구현에 적절한 기술을 사용하는 것이 옳다는 것을 깨닳았고 기본에 충실해야 좋은 서비스를 만들 수 있다는 것을 알게 되었습니다.</p>
-<p><strong>프로젝트 주소</strong>: <a href="https://github.com/rayleighChild/boggler">https://github.com/rayleighChild/boggler</a> - 현재 진행 중.</p>
-<h3>2018. 01. 23 ~ 01. 28: Mozilla/DeepSpeech 기반 Nodejs 함수 NPM Module(2명) - 프로젝트 설계 및 주도</h3>
+<p><strong>프로젝트 주소</strong>: <a href="https://github.com/rayleighChild/boggler">https://github.com/rayleighChild/boggler</a> - 현재 진행 중.</p>
+<h3>2018. 01. 23 ~ 01. 28: Mozilla/DeepSpeech 기반 Nodejs 함수 Node Packcage(2명) - 프로젝트 설계 및 주도</h3>
 <blockquote>
 <p>사용한 도구: Node, Mozilla/DeepSpeech</p>
 </blockquote>
-<p>앞서 설명한 보글러에서 편하게 사용하기 위해 오픈 소스 기반 Speech Recognition(음성 인식) 서비스인 Mozilla/DeepSpeech의 기능을 Node 모듈로 만든 프로젝트입니다.</p>
-<p>해당 프로젝트를 진행하면 전 과정을 주도적으로 설계했습니다. 또한, 기존의 Mozilla/DeepSpeech에서 제공하는 NPM 모듈이 있었지만 터미널 기반으로 사용해야 했기에 이를 코드로 사용하면 좋겠다고 생각해 진행하게 되었습니다.</p>
-<p>더불어 퍼블리싱 경험을 통해 사용자의 피드백을 받을 수 있었으며, 사용자로부터의 요구사항에 맞게 프로젝트의 기능을 수정했던 경험이 기억에 남습니다. 가령 사용자의 요구였던 동기적으로 함수가 호출되어 결과를 반환하는 방식을 체택한 사례(<a href="https://github.com/teamthesol/node-DeepSpeech/issues/2">https://github.com/teamthesol/node-DeepSpeech/issues/2</a>)는 개인 프로젝트로 진행하는 것과는 또다른 경험을 얻을 수 있는 계기가 되었습니다.</p>
-<p><strong>현 기준 총 다운로드 수: 876회</strong></p>
+<p>앞서 설명한 보글러에서 편하게 사용하기 위해 오픈 소스 기반 Speech Recognition(음성 인식) 서비스인 Mozilla/DeepSpeech의 기능을 Node 모듈로 만든 프로젝트입니다. 또한, 기존의 Mozilla/DeepSpeech에서 제공하는 NPM 모듈이 있었지만 터미널 기반으로 사용해야 했기에 이를 코드로 사용하면 좋겠다고 생각해 진행하게 되었습니다.</p>
+<p>해당 프로젝트를 진행하면서 처음으로 package에 대한 전 과정을 설계, 구현했기 때문에 Node Package 퍼블리싱 경험을 통해 사용자의 피드백을 받을 수 있었으며, 사용자로부터의 요구사항에 맞게 프로젝트의 기능을 수정했던 경험이 기억에 남습니다. 가령 사용자의 요구였던 동기적으로 함수가 호출되어 결과를 반환하는 방식을 체택한 사례(<a href="https://github.com/teamthesol/node-DeepSpeech/issues/2">https://github.com/teamthesol/node-DeepSpeech/issues/2</a>)는 개인 프로젝트로 진행하는 것과는 또다른 경험을 얻을 수 있는 계기가 되었습니다.</p>
+<p><strong>현 기준(2019. 02. 17) 총 다운로드 수: 931회</strong></p>
 <p><strong>프로젝트 주소</strong>:　<a href="https://github.com/teamthesol/node-DeepSpeech">https://github.com/teamthesol/node-DeepSpeech</a></p>
 <h2>가장 기억에 남는 문제 해결 사례 소개</h2>
 <h3>1. 기능 구현 - 비동기적으로 구현되어 있는 함수를 동기적으로 구현하기 위해 수정한 사례</h3>
 <h4>문제 정의</h4>
 <p>: 앞서 소개한 STT 기반 프로젝트인 Node-DeepSpeech라는 프로젝트는 처음에 구현될 때(0.2.4 버전)만 해도 비동기적으로 사용자에게 제공되었습니다.</p>
-<p>그래서 사용자의 입장에서는 인식된 음성 데이터의 전달은 원하는 시점에 성공적으로 전달할 수 있었지만, 분석되어 전달받은 문자 데이터의 반환 시기를 알 수 없었습니다(<a href="https://github.com/teamthesol/node-DeepSpeech/issues/2">https://github.com/teamthesol/node-DeepSpeech/issues/2</a>).</p>
+<p>그래서 사용자의 입장에서는 인식된 음성 데이터의 전달은 원하고자 할 때 성공적으로 서버에 전달할 수 있었지만, 분석되어 전달받은 문자 데이터의 반환 시기를 알 수 없었습니다(<a href="https://github.com/teamthesol/node-DeepSpeech/issues/2">https://github.com/teamthesol/node-DeepSpeech/issues/2</a>).</p>
 <h4>문제 해결 과정</h4>
 <p>: 우선적으로 Node라는 언어의 메커니즘 자체가 단일 스레드 기반으로 클러스터링을 통해 마치 멀티 스레드 환경에서처럼 한 번에 여러 작업을 동시에 수행하고 있었기 때문에 일반적인 함수를 사용한다 하더라도 비동기적으로 사용되고 있었습니다.</p>
-<p>이를 해결하기 위해서는 별도의 함수 혹은 키워드가 필요했고, 이를 해결하기 위해 구글에서 동기적으로 함수를 구현하는 방법을 찾아 결국에는 Stackoverflow를 통해 callback function, Promise, async/await의 3가지 방법이 있다는 것을 알게 되었습니다.</p>
+<p>이를 해결하기 위해서는 별도의 함수 혹은 키워드가 필요했고, 이를 해결하기 위해 구글에서 동기적으로 함수를 구현하는 방법을 찾아 결국에는 Stackoverflow를 통해 callback function, Promise, async/await의 3가지 문법을 활용하는 방법이 있다는 것을 알게 되었습니다.</p>
 <p>첫 번째 방법인 callback function의 경우에는 callback hell이라고 부르는 고전적인 문제를 안고 있었기 때문에 체택할 수 없어 나머지 두 방법 중 하나인 Promise로 함수를 구현하는 방식을 체택하게 되었습니다.</p>
 <h4>결론</h4>
 <p>: 이번 사례를 통해 로컬에서만 개발하고 개인의 요구에 맞춰 기능을 구현하던 과거를 반성하게 되었고, 사용자의 요구를 실현한다는 것에 대한 안목이 생겼습니다.</p>
@@ -410,43 +584,40 @@ Amazon Web Services에서는 웹 애플리케이션에 필요한 안정적이고
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">2018년 회고: https://bit.ly/2FmPAaL
 Github: https://github.com/rayleighko
 Mail: gmj1197@gmail.com
-Djangogirls, seoul: https://djangogirls.org/seoul/
+Djangogirls, seoul: https://djangogirls.org/seoul/  
 AUSG: https://www.facebook.com/AUSG-311547172765852/
 Facebook page: https://www.facebook.com/RaykoDev</code></pre></div>]]></description><link>https://rayleighko.github.io/blog/2019-02-11-resume</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-02-11-resume</guid><pubDate>Mon, 11 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;간략 필자 소개 - for Korean&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;/README.md&quot;&gt;뒤로가기&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://hits.dwyl.io/rayleighko/training/resume&quot;&gt;&lt;img src=&quot;http://hits.dwyl.io/rayleighko/training/resume.svg&quot; alt=&quot;HitCount&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sourcerer.io/rayleighko&quot;&gt;&lt;img src=&quot;https://avatars2.githubusercontent.com/u/24822072?v=4&quot; height=&quot;50px&quot; width=&quot;50px&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://sourcerer.io/rayleighko&quot;&gt;Sourcerer profile&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;좌우명: &lt;a href=&quot;https://en.wikipedia.org/wiki/Lifelong_learning&quot;&gt;평생학습(Lifelong learning)&lt;/a&gt;, &lt;a href=&quot;https://bit.ly/2E22Als&quot;&gt;민이호학 불치하문(敏而好學 不恥下問)&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;개발자. 더나은 경험을 추구하며, 기술적으로 성장하는 성취감을 좋아합니다. 모든 일을 체계적으로 진행하는 것을 좋아하며, 다양한 의견을 수용해 최적의 결과를 만들 때 가장 큰 성취감을 느끼곤 합니다.&lt;/p&gt;
-&lt;p&gt;현재는 학업에 집중하고자 NineVR이라는 VR 스타트업에서 퇴사하고 펫/토이 프로젝트를 만들며 다음 학기를 준비하고 있습니다(2020. 2 졸업 예정).&lt;/p&gt;
+&lt;p&gt;개발이라는 분야만이 아닌 서비스 구현의 전반적인 워크 플로우를 공부하는 프로그래머가 되고자 합니다. 이를 위해 더나은 경험을 추구하며, 기술적으로 성장하는 것을 좋아합니다. 더불어 모든 일은 체계적으로 하거나, 다양한 의견을 수용해 최적의 결과를 만들 때 가장 큰 성취감을 느끼곤 합니다.&lt;/p&gt;
+&lt;p&gt;현재는 학업에 집중하고자 NineVR이라는 VR 스타트업에서 퇴사하고, 가벼운 프로젝트를 만들며 다음 학기를 준비하고 있습니다(2020. 2 졸업 예정).&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;최근 사용한 언어 및 라이브러리: Node, Javascript(React, Redux, etc.), CSS3(SCSS, StyledComponents), HTML5(JSX)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;DevOps에 관심이 많지만, 좋은 인프라를 관리하기 위해서는 개발이라는 분야를 등질 수 없기 때문에 DevOps 엔지니어 이전에 훌륭한 개발자가 되고자 합니다. 그에 따른 다양한 언어를 편식없이 학습하고 있습니다.&lt;/p&gt;
-&lt;p&gt;그 중 퍼포먼스가 뛰어나고, 객체지향을 학습하기에 좋다고 생각하는 C/C++에 대해 애정을 가지고 있고, 현재 가장 활발한 발전을 이루고 있다고 생각되는 Javascript에 매력을 느껴 최근(2018. 11 ~)에는 Javascript를 이용하여 프로젝트를 진행하고 있습니다.&lt;/p&gt;
-&lt;p&gt;이와는 별개로 머신러닝 프로젝트(2018. 06)를 진행하며 공부한 스크립트 언어인 Python에도 애정이 있고, Java는 안정적인 웹 개발을 위해 버릴 수 없는 언어라고 생각하기 때문에 최근(2019. 01 ~)에 다시 공부하고 있습니다.&lt;/p&gt;
+&lt;p&gt;제가 추구하는 성향의 개발자는 Development만이 아닌 Operation까지도 생각하는 개발자이기 때문에 그에 따른 다양한 툴과 언어를 편식없이 학습하고 있습니다.&lt;/p&gt;
+&lt;p&gt;최근(2018. 12 ~ 2019. 02)에는 가장 활발한 발전을 이루고 있다고 생각되는 Javascript에 매력을 느껴 이를 이용하여 React를 활용한 &lt;a href=&quot;https://github.com/teamthesol/boggler&quot;&gt;프로젝트1&lt;/a&gt;과 Node를 활용한 &lt;a href=&quot;https://github.com/teamthesol/node-DeepSpeech&quot;&gt;프로젝트 2&lt;/a&gt;를 진행했습니다.&lt;/p&gt;
+&lt;p&gt;이와는 별개로 &lt;a href=&quot;https://github.com/rayleighko/ml_study&quot;&gt;머신러닝 스터디(2018. 06)&lt;/a&gt;를 진행하며 머신러닝에 대해서도 관심이 있습니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;선호하는 개발 환경: MacOS(Zsh, Bash), Linux(Ubuntu), Opensource&lt;br&gt;
-선호하는 도구: AWS, React, Node, Django(+ Flask)&lt;br&gt;
-최근 관심있는 도구: Docker, CI(젠킨스, 써클 등), Kubernetes&lt;/p&gt;
+선호하는 도구: AWS, React, Node&lt;br&gt;
+최근 관심있는 도구: CI(TravisCI, CircleCI 등), Container(Docker, Kubernetes)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;이렇게 다양한 도구를 사용하고, 이것저것 공부하는 이유는 제가 생각하는 개발자라는 직업은 배움을 게을리하지 않고, 무언가를 만들기 위해 다양한 경험을 해야 한다고 생각하기 때문입니다.&lt;/p&gt;
-&lt;p&gt;그래서 때로는 잡다하게 공부했다는 생각이 들 때가 있었습니다. 하지만 그 생각도 잠시 배움을 즐기고 있는 저 자신의 모습이 행복하기 때문에 지금까지, 그리고 앞으로도 후회없이 다양한 기술을 학습하고자 합니다.&lt;/p&gt;
-&lt;h2&gt;주제 별 활동 정리&lt;/h2&gt;
+&lt;p&gt;이렇게 다양한 도구를 사용하고, 이것저것 공부하는 이유는 제가 생각하는 개발자라는 직업은 배움을 게을리하지 않고, 무언가를 만들기 위해 다양한 경험을 해야 한다고 생각하기 때문입니다. 그래서 때로는 잡다하게 공부했다는 생각이 들 때가 있었습니다. 하지만 그 생각도 잠시 배움을 즐기고 있는 저 자신의 모습이 행복하기 때문에 지금까지, 그리고 앞으로도 후회없이 다양한 기술을 학습하고자 합니다.&lt;/p&gt;
+&lt;h2&gt;직무 관련 주제 별 활동 정리&lt;/h2&gt;
 &lt;h3&gt;참여한 재능기부 및 대외활동&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;2013. 07. 01 ~ 2013. 07. 15&lt;/strong&gt;: 말레이시아 IT 봉사단 &apos;Comma&apos; - IT STAFF&lt;br&gt;
-&lt;strong&gt;2016. 05. 23 ~ 2017. 08. 20&lt;/strong&gt;: 마음치유학교, Ari(컨텐츠 제작 담당) - 홍보팀장&lt;br&gt;
-&lt;strong&gt;2016. 09. 03 ~ 2016. 12. 03&lt;/strong&gt;: 보건복지부 나란히걷기 - 발달장애 아동을 위한 문화 교육 선생님&lt;br&gt;
-&lt;strong&gt;2016. 09. 07 ~ 2016. 12. 14&lt;/strong&gt;: 대한민국 교육 봉사단 씨드스쿨 - 홍보팀장&lt;br&gt;
 &lt;strong&gt;2017. 02. 27 ~ 2017. 05. 29&lt;/strong&gt;: 스타트업캠퍼스, Signature Course 2nd - Tech Lab(개발자)&lt;br&gt;
 &lt;strong&gt;2017. 05. 23&lt;/strong&gt;: 5월, 소프트웨어에 물들다 - 의정부 어린이도서관(STAFF)&lt;br&gt;
 &lt;strong&gt;2017. 12. 27&lt;/strong&gt;: DevOps Korea meetup - STAFF&lt;br&gt;
 &lt;strong&gt;2018. 01. 29 ~ 2018. 03. 16&lt;/strong&gt;: 평창 Olympic/Pralympic - Passion Craw(IT STAFF)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2018. 04. 01 ~ 현재&lt;/strong&gt;: Djangogirls Seoul - Organizer&lt;br&gt;
 &lt;strong&gt;2018. 08. 12 ~ 현재&lt;/strong&gt;: AWS(KRUG) University Student Group - Member&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2018. 03 기준 총 봉사시간: 500시간 이상&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;근무 및 아르바이트 경력&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;2015. 11. 25 ~ 2015. 12. 31&lt;/strong&gt;: 나노믹아트 - 단순 생산직 근무자&lt;br&gt;
-&lt;strong&gt;2016. 04. ~ 2016. 08&lt;/strong&gt;: 프로젝트 HongU - Web Software Developer&lt;br&gt;
-&lt;strong&gt;2016. 06. ~ 2016. 10. 13&lt;/strong&gt;: 패스트캠퍼스 - OpenCV와 함께하는 컴퓨터 비전 캠프 조교&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;2017. 04. ~ 2017. 08&lt;/strong&gt;: 프로젝트 HongU - Web Software Developer&lt;br&gt;
+&lt;strong&gt;2017. 06. ~ 2017. 10. 13&lt;/strong&gt;: 패스트캠퍼스 - OpenCV와 함께하는 컴퓨터 비전 캠프 조교&lt;br&gt;
 &lt;strong&gt;2018. 08. 20 ~ 11. 20&lt;/strong&gt;: 나인브이알 - (Contents) Software Engineer&amp;#x3C;UE4을 활용한 클라이언트 게임 개발 및 사내 개발 인프라 관리&gt;&lt;/p&gt;
 &lt;h3&gt;공모전 및 수상 경력&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;2017. 09. 28 ~ 12. 21&lt;/strong&gt;: (비공식) 컨트리뷰톤, uftrace/perf – 오픈소스 Contributor, 우수상(2등)&lt;br&gt;
@@ -458,9 +629,9 @@ Facebook page: https://www.facebook.com/RaykoDev</code></pre></div>]]></descript
 &lt;p&gt;&lt;strong&gt;2017. 12. 24&lt;/strong&gt;: DAsP(데이터아키텍처 준전문가) - 데이터진흥원&lt;br&gt;
 &lt;strong&gt;2017. 12. 23&lt;/strong&gt;: 리눅스마스터 2급 - 한국정보통신진흥협회&lt;/p&gt;
 &lt;h2&gt;최근에 진행한 프로젝트 3개(맡은 역할, 인원 수, 기간, 내용 등)&lt;/h2&gt;
-&lt;h3&gt;2018. 04. 01 ~ 2018. 11. 21: 강의 공유 플랫폼, Athena(4명) - DevOps(주도), Front-end(일부), Back-end(일부)&lt;/h3&gt;
+&lt;h3&gt;2018. 04. 01 ~ 2018. 11. 21: 강의 공유 플랫폼, Athena v1.0.0(4명) - Front-end(일부), Back-end(일부)&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;사용한 도구: React(Mobx), Node(Express, SocketIO), AWS(EC2, Route53, RDS), Git(GitKraken, GitHub)&lt;/p&gt;
+&lt;p&gt;사용한 도구: React(Mobx), Node(Express, SocketIO), AWS(EC2, Route53, RDS), Git(GitKraken, Gitlab)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;이번 프로젝트의 시작은 수강했던 강의의 한 학생의 불편함이었습니다. 그 학생은 장애를 가지고 있어 수업을 듣기 위해서는 누군가의 도움이 필요했고, 그 도움조차 그 학생의 학습을 완벽히 도울 수는 없었습니다.&lt;/p&gt;
 &lt;p&gt;그래서 그 학생에게 도움이 되고자 그를 위한 프로젝트를 만들었습니다. - 3주 정도 서비스 후 서비스 유지비를 고려해 무기한 폐지하게 되었습니다.&lt;/p&gt;
@@ -469,34 +640,33 @@ Facebook page: https://www.facebook.com/RaykoDev</code></pre></div>]]></descript
 &lt;p&gt;결과적으로는 운영에 실패해 접게 되었지만, 생애 처음으로 구현부터 서비스 운영까지 진행하는 프로젝트를 경험했다는 중요한 경험이었습니다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;프로젝트 소스코드 주소&lt;/strong&gt;: &lt;a href=&quot;https://github.com/rayleighChild/athena&quot;&gt;https://github.com/rayleighChild/athena&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;진행 간 부족한 점 피드백&lt;/strong&gt;: &lt;a href=&quot;https://github.com/rayleighChild/athena_FAQ&quot;&gt;https://github.com/rayleighChild/athena_FAQ&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;2018. 12. 01 ~ 현재: 음성인식 기반 메모 플랫폼, Boggler(4명) - Front-end(주도), Design(주도)&lt;/h3&gt;
+&lt;h3&gt;2018. 12. 26 ~ 2019. 02. 20: 음성인식 기반 메모 플랫폼, Boggler v1.0.0(3명) - Front-end(주도), Design(주도)&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;사용한 도구: React(Redux, ...), Node(Express, Passport, ...), Git(GitKraken, GitHub, Git-Bash, ...), Opernsource Editor(VSCode), Mozilla/DeepSpeech등 여러 오픈소스 프로젝트&lt;/p&gt;
+&lt;p&gt;사용한 도구: React(Redux, ...), Node(Express, ...), Git(GitKraken, GitHub, Git-Bash, ...), Editor(VSCode), Mozilla/DeepSpeech 등 여러 오픈소스 프로젝트 참고&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;보글러의 가장 큰 핵심은 스트리밍 혹은 파일로 입력받은 음성 정보를 분석해 이를 텍스트로 변환시킨다는 점입니다. 가령 미팅에서의 가벼운 대화 혹은 강연자의 음성을 텍스트로 변환해 보다 나은 필사 환경을 제공합니다.&lt;/p&gt;
-&lt;p&gt;때때로 우리는 강의를 듣거나 중요한 일을 녹음합니다. 하지만, 이렇게 녹음된 자료는 텍스트로 옮겨 적어야 하는 불편함이 있죠. 더불어 이런 작업은 꼭 필요한 일이 아니라면 쉽게 잊혀지곤 합니다.&lt;/p&gt;
-&lt;p&gt;이처럼 보글러는 음성을 텍스트로 변환하기 위한 작업의 피로를 줄이기 위한 도구로 만들어지고 있습니다.&lt;/p&gt;
-&lt;p&gt;팀 내에서는 프론트 엔드와 디자인을 담당하고 있습니다. 또한, 전체적인 프로젝트 진행 방향과 구성원의 일정관리, 프로젝트 이슈 관리 등을 주도적으로 진행하며 프로젝트 관리를 병행했습니다.&lt;/p&gt;
-&lt;p&gt;위의 두 프로젝트를 진행하며 느낀 핵심 키워드는 “사용하는 기술에는 정당한 이유가 필요하며, 회사에서 사용하는 모든 기술에는 정당한 이유가 있다”라는 깨달음이었습니다.&lt;/p&gt;
+&lt;p&gt;보글러의 가장 큰 핵심은 스트리밍 혹은 파일로 입력받은 음성 정보를 분석해 이를 텍스트로 변환시킨다는 점입니다. 가령 미팅에서의 가벼운 대화 혹은 강연자의 음성을 텍스트로 변환해 보다 나은 필사(글을 옮겨 적는) 환경을 제공합니다.&lt;/p&gt;
+&lt;p&gt;때때로 우리는 강의를 듣거나 중요한 일을 녹음합니다. 하지만, 이렇게 녹음된 자료는 텍스트로 옮겨 적어야 하는 불편함이 있었습니다. 더불어 이런 작업은 꼭 필요한 일이 아니라면 쉽게 잊혀지곤 합니다. 더불어 유료로 서비스를 이용해야 하기도 하죠!&lt;/p&gt;
+&lt;p&gt;이런 문제를 보완하기 위해 보글러는 음성을 텍스트로 변환하기 위한 작업의 피로를 줄이기 위한 도구로 만들어졌습니다.&lt;/p&gt;
+&lt;p&gt;저는 팀 내에서 프론트 엔드와 디자인을 담당했고, 전체적인 프로젝트 진행 방향과 구성원의 일정관리와 프로젝트 이슈 관리, 문서화 등을 주도적으로 진행하며 프로젝트 관리를 병행했습니다.&lt;/p&gt;
+&lt;p&gt;위의 두 프로젝트(Athena, Boggler)를 진행하며 느낀 핵심 키워드는 “사용하는 기술에는 정당한 이유가 필요하며, 회사에서 사용하는 모든 기술에는 정당한 이유가 있다”라는 깨달음이었습니다.&lt;/p&gt;
 &lt;p&gt;이를 통해 프로젝트를 진행하기 전에는 마냥 트랜드를 따라 개발하는 것이 옳은 줄 알았지만, 사실은 기본에 충실해 기능과 구현에 적절한 기술을 사용하는 것이 옳다는 것을 깨닳았고 기본에 충실해야 좋은 서비스를 만들 수 있다는 것을 알게 되었습니다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;프로젝트 주소&lt;/strong&gt;: &lt;a href=&quot;https://github.com/rayleighChild/boggler&quot;&gt;https://github.com/rayleighChild/boggler&lt;/a&gt; - 현재 진행 중.&lt;/p&gt;
-&lt;h3&gt;2018. 01. 23 ~ 01. 28: Mozilla/DeepSpeech 기반 Nodejs 함수 NPM Module(2명) - 프로젝트 설계 및 주도&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;프로젝트 주소&lt;/strong&gt;: &lt;a href=&quot;https://github.com/rayleighChild/boggler&quot;&gt;https://github.com/rayleighChild/boggler&lt;/a&gt; - 현재 진행 중.&lt;/p&gt;
+&lt;h3&gt;2018. 01. 23 ~ 01. 28: Mozilla/DeepSpeech 기반 Nodejs 함수 Node Packcage(2명) - 프로젝트 설계 및 주도&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;사용한 도구: Node, Mozilla/DeepSpeech&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;앞서 설명한 보글러에서 편하게 사용하기 위해 오픈 소스 기반 Speech Recognition(음성 인식) 서비스인 Mozilla/DeepSpeech의 기능을 Node 모듈로 만든 프로젝트입니다.&lt;/p&gt;
-&lt;p&gt;해당 프로젝트를 진행하면 전 과정을 주도적으로 설계했습니다. 또한, 기존의 Mozilla/DeepSpeech에서 제공하는 NPM 모듈이 있었지만 터미널 기반으로 사용해야 했기에 이를 코드로 사용하면 좋겠다고 생각해 진행하게 되었습니다.&lt;/p&gt;
-&lt;p&gt;더불어 퍼블리싱 경험을 통해 사용자의 피드백을 받을 수 있었으며, 사용자로부터의 요구사항에 맞게 프로젝트의 기능을 수정했던 경험이 기억에 남습니다. 가령 사용자의 요구였던 동기적으로 함수가 호출되어 결과를 반환하는 방식을 체택한 사례(&lt;a href=&quot;https://github.com/teamthesol/node-DeepSpeech/issues/2&quot;&gt;https://github.com/teamthesol/node-DeepSpeech/issues/2&lt;/a&gt;)는 개인 프로젝트로 진행하는 것과는 또다른 경험을 얻을 수 있는 계기가 되었습니다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;현 기준 총 다운로드 수: 876회&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;앞서 설명한 보글러에서 편하게 사용하기 위해 오픈 소스 기반 Speech Recognition(음성 인식) 서비스인 Mozilla/DeepSpeech의 기능을 Node 모듈로 만든 프로젝트입니다. 또한, 기존의 Mozilla/DeepSpeech에서 제공하는 NPM 모듈이 있었지만 터미널 기반으로 사용해야 했기에 이를 코드로 사용하면 좋겠다고 생각해 진행하게 되었습니다.&lt;/p&gt;
+&lt;p&gt;해당 프로젝트를 진행하면서 처음으로 package에 대한 전 과정을 설계, 구현했기 때문에 Node Package 퍼블리싱 경험을 통해 사용자의 피드백을 받을 수 있었으며, 사용자로부터의 요구사항에 맞게 프로젝트의 기능을 수정했던 경험이 기억에 남습니다. 가령 사용자의 요구였던 동기적으로 함수가 호출되어 결과를 반환하는 방식을 체택한 사례(&lt;a href=&quot;https://github.com/teamthesol/node-DeepSpeech/issues/2&quot;&gt;https://github.com/teamthesol/node-DeepSpeech/issues/2&lt;/a&gt;)는 개인 프로젝트로 진행하는 것과는 또다른 경험을 얻을 수 있는 계기가 되었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;현 기준(2019. 02. 17) 총 다운로드 수: 931회&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;프로젝트 주소&lt;/strong&gt;:　&lt;a href=&quot;https://github.com/teamthesol/node-DeepSpeech&quot;&gt;https://github.com/teamthesol/node-DeepSpeech&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;가장 기억에 남는 문제 해결 사례 소개&lt;/h2&gt;
 &lt;h3&gt;1. 기능 구현 - 비동기적으로 구현되어 있는 함수를 동기적으로 구현하기 위해 수정한 사례&lt;/h3&gt;
 &lt;h4&gt;문제 정의&lt;/h4&gt;
 &lt;p&gt;: 앞서 소개한 STT 기반 프로젝트인 Node-DeepSpeech라는 프로젝트는 처음에 구현될 때(0.2.4 버전)만 해도 비동기적으로 사용자에게 제공되었습니다.&lt;/p&gt;
-&lt;p&gt;그래서 사용자의 입장에서는 인식된 음성 데이터의 전달은 원하는 시점에 성공적으로 전달할 수 있었지만, 분석되어 전달받은 문자 데이터의 반환 시기를 알 수 없었습니다(&lt;a href=&quot;https://github.com/teamthesol/node-DeepSpeech/issues/2&quot;&gt;https://github.com/teamthesol/node-DeepSpeech/issues/2&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;그래서 사용자의 입장에서는 인식된 음성 데이터의 전달은 원하고자 할 때 성공적으로 서버에 전달할 수 있었지만, 분석되어 전달받은 문자 데이터의 반환 시기를 알 수 없었습니다(&lt;a href=&quot;https://github.com/teamthesol/node-DeepSpeech/issues/2&quot;&gt;https://github.com/teamthesol/node-DeepSpeech/issues/2&lt;/a&gt;).&lt;/p&gt;
 &lt;h4&gt;문제 해결 과정&lt;/h4&gt;
 &lt;p&gt;: 우선적으로 Node라는 언어의 메커니즘 자체가 단일 스레드 기반으로 클러스터링을 통해 마치 멀티 스레드 환경에서처럼 한 번에 여러 작업을 동시에 수행하고 있었기 때문에 일반적인 함수를 사용한다 하더라도 비동기적으로 사용되고 있었습니다.&lt;/p&gt;
-&lt;p&gt;이를 해결하기 위해서는 별도의 함수 혹은 키워드가 필요했고, 이를 해결하기 위해 구글에서 동기적으로 함수를 구현하는 방법을 찾아 결국에는 Stackoverflow를 통해 callback function, Promise, async/await의 3가지 방법이 있다는 것을 알게 되었습니다.&lt;/p&gt;
+&lt;p&gt;이를 해결하기 위해서는 별도의 함수 혹은 키워드가 필요했고, 이를 해결하기 위해 구글에서 동기적으로 함수를 구현하는 방법을 찾아 결국에는 Stackoverflow를 통해 callback function, Promise, async/await의 3가지 문법을 활용하는 방법이 있다는 것을 알게 되었습니다.&lt;/p&gt;
 &lt;p&gt;첫 번째 방법인 callback function의 경우에는 callback hell이라고 부르는 고전적인 문제를 안고 있었기 때문에 체택할 수 없어 나머지 두 방법 중 하나인 Promise로 함수를 구현하는 방식을 체택하게 되었습니다.&lt;/p&gt;
 &lt;h4&gt;결론&lt;/h4&gt;
 &lt;p&gt;: 이번 사례를 통해 로컬에서만 개발하고 개인의 요구에 맞춰 기능을 구현하던 과거를 반성하게 되었고, 사용자의 요구를 실현한다는 것에 대한 안목이 생겼습니다.&lt;/p&gt;
@@ -538,7 +708,7 @@ Facebook page: https://www.facebook.com/RaykoDev</code></pre></div>]]></descript
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;2018년 회고: https://bit.ly/2FmPAaL
 Github: https://github.com/rayleighko
 Mail: gmj1197@gmail.com
-Djangogirls, seoul: https://djangogirls.org/seoul/
+Djangogirls, seoul: https://djangogirls.org/seoul/  
 AUSG: https://www.facebook.com/AUSG-311547172765852/
 Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[지극히 주관적인 고민, 나에게 오픈 소스란 무엇일까?]]></title><description><![CDATA[<h2>시작하기 전에</h2>
 <blockquote>
