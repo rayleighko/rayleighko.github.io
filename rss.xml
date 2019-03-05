@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Wed, 27 Feb 2019 13:18:21 GMT</lastBuildDate><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 3]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Mar 2019 02:45:43 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[<p>---</p>
+<p>layout: post</p>
+<p>title: WePlanet Intern - study - 1</p>
+<p>date: '2019-03-05'</p>
+<p>path: '/blog/2019-03-05-weplanet<em>study</em>2'</p>
+<p>tags: study js weplanet</p>
+<p>---</p>]]></description><link>https://rayleighko.github.ionull</link><guid isPermaLink="false">https://rayleighko.github.ionull</guid><content:encoded>&lt;p&gt;---&lt;/p&gt;
+&lt;p&gt;layout: post&lt;/p&gt;
+&lt;p&gt;title: WePlanet Intern - study - 1&lt;/p&gt;
+&lt;p&gt;date: &apos;2019-03-05&apos;&lt;/p&gt;
+&lt;p&gt;path: &apos;/blog/2019-03-05-weplanet&lt;em&gt;study&lt;/em&gt;2&apos;&lt;/p&gt;
+&lt;p&gt;tags: study js weplanet&lt;/p&gt;
+&lt;p&gt;---&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - study 기록 계획]]></title><description><![CDATA[<h1>WePlanet Intern - study</h1>
+<h3>앞으로의 계획 및 목표</h3>
+<ul>
+<li>익숙하지 않은 Javascript(ES6, ES7, ES8) 문법 이해, React, Node(Express) 문법 및 각종 라이브러리의 메서드(파리미터, 결과 중심) 이해</li>
+<li>매일 어제와 오늘의 스터디 내용 (일일 회의(매일 10시 예정) 시) 공유</li>
+<li>모든 스터디 내용은 마크다운으로 작성, 블로그에 기재</li>
+</ul>
+<h3>스터디 초점 및 유의사항</h3>
+<ul>
+<li>나의 기술에 대한 이해도 향상(문법적으로 어떤 문장을 적음에 있어 '왜 이 문장을 사용해야 했는지'에 대한 명쾌한 해답을 내릴 수 있을 정도) 및 Front-end 개발에 있어 필요한 덕목을 갖추도록 하자.</li>
+<li>리펙터링 생각해보기(코드는 완성된 그 순간 레거시, 그렇기 때문에 나라면 어떻게 구현했을지 혹은 어떻게 하면 질좋은 코드를 만들 수 있을지 생각해보기)</li>
+<li>
+<p>동료의 시간을 낭비시키지 말자.</p>
+<ul>
+<li>검색이 가능한 것에 대해서는 질문을 하지않고 스스로(구글링, 서적 열람 등) 해결하도록 하자.</li>
+<li>만약 질문이 필요하다면 어떻게 해서 그런 질문을 하게 됐는지에 대해서도 말해야 할 것이다.</li>
+<li>질문을 잘하는 개발자 - <a href="https://jbee.io/essay/good_questionor/">https://jbee.io/essay/good_questionor/</a> 참고</li>
+</ul>
+</li>
+<li>참고자료는 링크 및 URI로 해당 문서에 공유하도록 하자.</li>
+</ul>
+<h3>스터디 목차 및 설정 이유(중점적으로 살펴볼 내용 명시)</h3>
+<ol>
+<li>
+<p>JS 문법 학습: 구현만 가능하다고 적재적소에 원하는 코드를 삽입할 수는 없을 것이라는 생각이 있었기 때문에, 이를 해결하기 위해서 JS의 문법을 다시 한 번 학습하고자 하는 필요성을 느꼈다. 하지만 아주 기본적인 단계를 다시 학습하는 건 불필요하다는 생각이 있기 때문에 기본 문법 및 매커니즘 등의 이해는 건너뛴다.</p>
+<ol>
+<li>ES3(ES1999): 기본적인 문법을 제외한 함수 단위의 스코프, 호이스팅, 클로저, 프로토타입 등</li>
+<li>ES5(ES2009): forEach, map, reduce, filter, some, every와 같은 순환 메소드, 객체의 프로퍼티 설정(생성, 수정, 복사하는 표준 메소드&#x3C;Object.Create(), Object.defineProperty(), Object.freeze(), Object.assign()> 등과 getter, setter, Object.key() 메소드), strict 모드(use strict), bind() 메소드 등</li>
+<li>ES6(ES2015): 호이스팅이 사라진 것 같은 효과, 함수 단위 스코프에서 블록 단위 스코프로 변경됨, this를 동적으로 바인딩하지 않는 화살표 함수, 모듈화 지원, 콜백 지옥에서 구원해줄 Promise, Default와 Rest 파라미터, 해체 할당, Spread 연산자, 템플릿 리터럴, 클래스, 기타 여러 사항(브라우저에서 지원하지 않는 문법 등을 처리하는 트랜스파일러(Babel)과 모듈화를 사용하기 위한 모듈 번들러(WebPack)의 등장, Nodejs의 부상 JS 진영의 생태계 진화에 따라 만들어진 문법) 등</li>
+<li>ES7(ES2016): 제곱 연산자(**), Array.includes 배열에 해당 요소가 존재하는지 확인하는 메소드</li>
+<li>ES8(ES2017): async와 await, 객체의 심화된 메소드(Object.entries(), Object.getOwnPropertDescriptors()(Object.getOwnPropertyDescriptor의 복수 형태), 문자열(편의 기능 추가 -> 문자열 앞부분에 공백을 넣어 자리수를 맞추는 String.padStart(), 문자열 뒷부분에 공백을 넣어 자리를 맞추는 String.padEnd()), 매개변수 마지막에 콤마를 붙이는 걸 허용</li>
+<li>ES9(ES2018): 구조 분해 할당(Spread)(… 키워드), Promise finally(then과 catch 외에도 finally가 추가되었다. 성공, 실패 여부와 상관없이 무조건 실행되는 메서드), Async iteration(async 문법을 생성기랑 for of 문에서도 사용 가능해졌다.), 정규표현식의 강화(lookbehind가 생기고 캡쳐링 그룹에 이름을 지정해 줄 수 있다.), </li>
+</ol>
+</li>
+<li>
+<p>리펙터링을 한다는 마음으로 사내 코드 읽기: 사내 코드의 규율 적응 및 모르는 라이브러리의 메서드 및 컴포넌트의 학습이 필요하다고 느꼈기 때문에, 이를 해결하기 위해 사내의 코드를 읽고, 읽은 코드를 바탕으로 학습할 내용을 정리할 것이다. 물론 사내의 코드를 공유하지는 않을 것이다.</p>
+</li>
+</ol>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_study_1</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_study_1</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WePlanet Intern - study&lt;/h1&gt;
+&lt;h3&gt;앞으로의 계획 및 목표&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;익숙하지 않은 Javascript(ES6, ES7, ES8) 문법 이해, React, Node(Express) 문법 및 각종 라이브러리의 메서드(파리미터, 결과 중심) 이해&lt;/li&gt;
+&lt;li&gt;매일 어제와 오늘의 스터디 내용 (일일 회의(매일 10시 예정) 시) 공유&lt;/li&gt;
+&lt;li&gt;모든 스터디 내용은 마크다운으로 작성, 블로그에 기재&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;스터디 초점 및 유의사항&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;나의 기술에 대한 이해도 향상(문법적으로 어떤 문장을 적음에 있어 &apos;왜 이 문장을 사용해야 했는지&apos;에 대한 명쾌한 해답을 내릴 수 있을 정도) 및 Front-end 개발에 있어 필요한 덕목을 갖추도록 하자.&lt;/li&gt;
+&lt;li&gt;리펙터링 생각해보기(코드는 완성된 그 순간 레거시, 그렇기 때문에 나라면 어떻게 구현했을지 혹은 어떻게 하면 질좋은 코드를 만들 수 있을지 생각해보기)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;동료의 시간을 낭비시키지 말자.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;검색이 가능한 것에 대해서는 질문을 하지않고 스스로(구글링, 서적 열람 등) 해결하도록 하자.&lt;/li&gt;
+&lt;li&gt;만약 질문이 필요하다면 어떻게 해서 그런 질문을 하게 됐는지에 대해서도 말해야 할 것이다.&lt;/li&gt;
+&lt;li&gt;질문을 잘하는 개발자 - &lt;a href=&quot;https://jbee.io/essay/good_questionor/&quot;&gt;https://jbee.io/essay/good_questionor/&lt;/a&gt; 참고&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;참고자료는 링크 및 URI로 해당 문서에 공유하도록 하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;스터디 목차 및 설정 이유(중점적으로 살펴볼 내용 명시)&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;JS 문법 학습: 구현만 가능하다고 적재적소에 원하는 코드를 삽입할 수는 없을 것이라는 생각이 있었기 때문에, 이를 해결하기 위해서 JS의 문법을 다시 한 번 학습하고자 하는 필요성을 느꼈다. 하지만 아주 기본적인 단계를 다시 학습하는 건 불필요하다는 생각이 있기 때문에 기본 문법 및 매커니즘 등의 이해는 건너뛴다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ES3(ES1999): 기본적인 문법을 제외한 함수 단위의 스코프, 호이스팅, 클로저, 프로토타입 등&lt;/li&gt;
+&lt;li&gt;ES5(ES2009): forEach, map, reduce, filter, some, every와 같은 순환 메소드, 객체의 프로퍼티 설정(생성, 수정, 복사하는 표준 메소드&amp;#x3C;Object.Create(), Object.defineProperty(), Object.freeze(), Object.assign()&gt; 등과 getter, setter, Object.key() 메소드), strict 모드(use strict), bind() 메소드 등&lt;/li&gt;
+&lt;li&gt;ES6(ES2015): 호이스팅이 사라진 것 같은 효과, 함수 단위 스코프에서 블록 단위 스코프로 변경됨, this를 동적으로 바인딩하지 않는 화살표 함수, 모듈화 지원, 콜백 지옥에서 구원해줄 Promise, Default와 Rest 파라미터, 해체 할당, Spread 연산자, 템플릿 리터럴, 클래스, 기타 여러 사항(브라우저에서 지원하지 않는 문법 등을 처리하는 트랜스파일러(Babel)과 모듈화를 사용하기 위한 모듈 번들러(WebPack)의 등장, Nodejs의 부상 JS 진영의 생태계 진화에 따라 만들어진 문법) 등&lt;/li&gt;
+&lt;li&gt;ES7(ES2016): 제곱 연산자(**), Array.includes 배열에 해당 요소가 존재하는지 확인하는 메소드&lt;/li&gt;
+&lt;li&gt;ES8(ES2017): async와 await, 객체의 심화된 메소드(Object.entries(), Object.getOwnPropertDescriptors()(Object.getOwnPropertyDescriptor의 복수 형태), 문자열(편의 기능 추가 -&gt; 문자열 앞부분에 공백을 넣어 자리수를 맞추는 String.padStart(), 문자열 뒷부분에 공백을 넣어 자리를 맞추는 String.padEnd()), 매개변수 마지막에 콤마를 붙이는 걸 허용&lt;/li&gt;
+&lt;li&gt;ES9(ES2018): 구조 분해 할당(Spread)(… 키워드), Promise finally(then과 catch 외에도 finally가 추가되었다. 성공, 실패 여부와 상관없이 무조건 실행되는 메서드), Async iteration(async 문법을 생성기랑 for of 문에서도 사용 가능해졌다.), 정규표현식의 강화(lookbehind가 생기고 캡쳐링 그룹에 이름을 지정해 줄 수 있다.), &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;리펙터링을 한다는 마음으로 사내 코드 읽기: 사내 코드의 규율 적응 및 모르는 라이브러리의 메서드 및 컴포넌트의 학습이 필요하다고 느꼈기 때문에, 이를 해결하기 위해 사내의 코드를 읽고, 읽은 코드를 바탕으로 학습할 내용을 정리할 것이다. 물론 사내의 코드를 공유하지는 않을 것이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 3]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
 <p>일단 이 글을 읽는 이들은 다음과 같은 조건을 충족했다고 가정한다.</p>
 <ul>
 <li><a href="https://rayleighko.github.io/blog/2019-02-12-aws_ac_web_2">이전 글(이론)</a>을 읽었다.</li>
@@ -18,7 +104,7 @@
 <p>만약 필자와 같은 선택을 할 것이라면 본격적으로 실습을 진행해보자. 내가 이 글을 쓰는 지금(2019. 02. 26)의 AWS 콘솔의 첫 페이지는 다음과 같다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/9608e87e453c04fc6a5d7f2da593ecca/3a344/aws-main.png"
+    href="/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -36,13 +122,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-main"
         title=""
-        src="/static/9608e87e453c04fc6a5d7f2da593ecca/6b671/aws-main.png"
-        srcset="/static/9608e87e453c04fc6a5d7f2da593ecca/f7a0c/aws-main.png 163w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/608ba/aws-main.png 325w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/6b671/aws-main.png 650w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/1ee70/aws-main.png 975w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/f242c/aws-main.png 1300w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/3a344/aws-main.png 1440w"
+        src="/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png"
+        srcset="/static/9608e87e453c04fc6a5d7f2da593ecca/f1223/aws-main.png 163w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/593bc/aws-main.png 325w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png 650w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/a1e87/aws-main.png 975w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/89a59/aws-main.png 1300w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -52,7 +138,7 @@
 <p>Create bucket을 눌러 아래와 같이 'aws-webapp'이라는 버킷을 만들자(버킷은 이름의 중복을 피해야 한다. 가령 다른 사람이 aws-webapp을 사용하고 있다면 그 이름을 사용할 수 없다. 그래서 나는 aws-webapp-mj라는 버킷을 만들었다).</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/55a3692a6246c0c11e677f616a78d37d/3a344/aws-s3-2.png"
+    href="/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -70,13 +156,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/55a3692a6246c0c11e677f616a78d37d/6b671/aws-s3-2.png"
-        srcset="/static/55a3692a6246c0c11e677f616a78d37d/f7a0c/aws-s3-2.png 163w,
-/static/55a3692a6246c0c11e677f616a78d37d/608ba/aws-s3-2.png 325w,
-/static/55a3692a6246c0c11e677f616a78d37d/6b671/aws-s3-2.png 650w,
-/static/55a3692a6246c0c11e677f616a78d37d/1ee70/aws-s3-2.png 975w,
-/static/55a3692a6246c0c11e677f616a78d37d/f242c/aws-s3-2.png 1300w,
-/static/55a3692a6246c0c11e677f616a78d37d/3a344/aws-s3-2.png 1440w"
+        src="/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png"
+        srcset="/static/55a3692a6246c0c11e677f616a78d37d/f1223/aws-s3-2.png 163w,
+/static/55a3692a6246c0c11e677f616a78d37d/593bc/aws-s3-2.png 325w,
+/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png 650w,
+/static/55a3692a6246c0c11e677f616a78d37d/a1e87/aws-s3-2.png 975w,
+/static/55a3692a6246c0c11e677f616a78d37d/89a59/aws-s3-2.png 1300w,
+/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -84,7 +170,7 @@
 <p>Copy할 버킷이 없으므로 다음으로 넘어가자. 다음으로 넘어가게 되면 다양한 속성들을 설정할 수 있는데, 만약 사용할 기능이 있다면 체크해도 좋지만 나는 여기서 따로 사용할 기능이 없기 때문에 Tags에 Name이라는 key를 webapp으로 만들어주고 다음으로 넘어갈 것이다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/c2f24c16a02dbe2053ee7193fe516139/3a344/aws-s3-3.png"
+    href="/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -102,13 +188,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/c2f24c16a02dbe2053ee7193fe516139/6b671/aws-s3-3.png"
-        srcset="/static/c2f24c16a02dbe2053ee7193fe516139/f7a0c/aws-s3-3.png 163w,
-/static/c2f24c16a02dbe2053ee7193fe516139/608ba/aws-s3-3.png 325w,
-/static/c2f24c16a02dbe2053ee7193fe516139/6b671/aws-s3-3.png 650w,
-/static/c2f24c16a02dbe2053ee7193fe516139/1ee70/aws-s3-3.png 975w,
-/static/c2f24c16a02dbe2053ee7193fe516139/f242c/aws-s3-3.png 1300w,
-/static/c2f24c16a02dbe2053ee7193fe516139/3a344/aws-s3-3.png 1440w"
+        src="/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png"
+        srcset="/static/c2f24c16a02dbe2053ee7193fe516139/f1223/aws-s3-3.png 163w,
+/static/c2f24c16a02dbe2053ee7193fe516139/593bc/aws-s3-3.png 325w,
+/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png 650w,
+/static/c2f24c16a02dbe2053ee7193fe516139/a1e87/aws-s3-3.png 975w,
+/static/c2f24c16a02dbe2053ee7193fe516139/89a59/aws-s3-3.png 1300w,
+/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -116,7 +202,7 @@
 <p>다음으로 넘어가게 되면 다시 한 번 체크 박스가 나온다. 여기서도 사용자의 필요에 따라 체크를 하지 않을 수 있지만, 권장 사항이기 때문에 체크하고 넘어가는 것이 바람직할 것 같다. 더불어 Manage system permissions는 S3 로그 전달 그룹(Delivery group)에 이 버킷의 로그가 쓰여지는 것을 허용할 것이냐는 말인데, 지금 당장 로그 정보가 필요없으니 허용하지 않고 넘어갈 것이다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/52e6474dec63308124774db90162e8bf/5638c/aws-s3-4.png"
+    href="/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -134,13 +220,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/52e6474dec63308124774db90162e8bf/6b671/aws-s3-4.png"
-        srcset="/static/52e6474dec63308124774db90162e8bf/f7a0c/aws-s3-4.png 163w,
-/static/52e6474dec63308124774db90162e8bf/608ba/aws-s3-4.png 325w,
-/static/52e6474dec63308124774db90162e8bf/6b671/aws-s3-4.png 650w,
-/static/52e6474dec63308124774db90162e8bf/1ee70/aws-s3-4.png 975w,
-/static/52e6474dec63308124774db90162e8bf/f242c/aws-s3-4.png 1300w,
-/static/52e6474dec63308124774db90162e8bf/5638c/aws-s3-4.png 1424w"
+        src="/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png"
+        srcset="/static/52e6474dec63308124774db90162e8bf/f1223/aws-s3-4.png 163w,
+/static/52e6474dec63308124774db90162e8bf/593bc/aws-s3-4.png 325w,
+/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png 650w,
+/static/52e6474dec63308124774db90162e8bf/a1e87/aws-s3-4.png 975w,
+/static/52e6474dec63308124774db90162e8bf/89a59/aws-s3-4.png 1300w,
+/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png 1424w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -148,7 +234,7 @@
 <p>마지막으로 지금까지의 설정을 확인하고 되묻는데, 여기서 제대로 설정했는지를 확인하고 생성을 마치도록 하자.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/bfd7adee2c7548bb808b1704a41bb866/3a344/aws-s3-5.png"
+    href="/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -166,13 +252,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/bfd7adee2c7548bb808b1704a41bb866/6b671/aws-s3-5.png"
-        srcset="/static/bfd7adee2c7548bb808b1704a41bb866/f7a0c/aws-s3-5.png 163w,
-/static/bfd7adee2c7548bb808b1704a41bb866/608ba/aws-s3-5.png 325w,
-/static/bfd7adee2c7548bb808b1704a41bb866/6b671/aws-s3-5.png 650w,
-/static/bfd7adee2c7548bb808b1704a41bb866/1ee70/aws-s3-5.png 975w,
-/static/bfd7adee2c7548bb808b1704a41bb866/f242c/aws-s3-5.png 1300w,
-/static/bfd7adee2c7548bb808b1704a41bb866/3a344/aws-s3-5.png 1440w"
+        src="/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png"
+        srcset="/static/bfd7adee2c7548bb808b1704a41bb866/f1223/aws-s3-5.png 163w,
+/static/bfd7adee2c7548bb808b1704a41bb866/593bc/aws-s3-5.png 325w,
+/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png 650w,
+/static/bfd7adee2c7548bb808b1704a41bb866/a1e87/aws-s3-5.png 975w,
+/static/bfd7adee2c7548bb808b1704a41bb866/89a59/aws-s3-5.png 1300w,
+/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -182,7 +268,7 @@
 <p>이를 위해 해당 문서의 <strong>Amazon S3에 콘텐츠를 업로드하고 모두에게 읽기 권한을 부여하는 방법</strong>을 따라 S3의 설정을 진행하도록 하자. 우리는 "6. <strong>버킷</strong> 창에서 버킷을 선택하고 <strong>업로드</strong>를 선택합니다."부터 진행하면 될 것이다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/8815065789df870264505531a319bd98/3a344/aws-s3-6.png"
+    href="/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -200,13 +286,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/8815065789df870264505531a319bd98/6b671/aws-s3-6.png"
-        srcset="/static/8815065789df870264505531a319bd98/f7a0c/aws-s3-6.png 163w,
-/static/8815065789df870264505531a319bd98/608ba/aws-s3-6.png 325w,
-/static/8815065789df870264505531a319bd98/6b671/aws-s3-6.png 650w,
-/static/8815065789df870264505531a319bd98/1ee70/aws-s3-6.png 975w,
-/static/8815065789df870264505531a319bd98/f242c/aws-s3-6.png 1300w,
-/static/8815065789df870264505531a319bd98/3a344/aws-s3-6.png 1440w"
+        src="/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png"
+        srcset="/static/8815065789df870264505531a319bd98/f1223/aws-s3-6.png 163w,
+/static/8815065789df870264505531a319bd98/593bc/aws-s3-6.png 325w,
+/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png 650w,
+/static/8815065789df870264505531a319bd98/a1e87/aws-s3-6.png 975w,
+/static/8815065789df870264505531a319bd98/89a59/aws-s3-6.png 1300w,
+/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -214,7 +300,7 @@
 <p>업로드 시 유의해야 할 사항은 읽기와 쓰기 권한의 설정이다. 필자의 이미지는 S3를 필자의 AWS계정에서만 사용 가능하도록 설정할 것이다. 더불어 여기서는 암호화 또는 태깅과 같이 객체에 원하는 속성을 설정할 수 있는데, 이는 사용자가 알맞게 사용하면 된다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/afe834832c776264de2bd9968c862d69/3a344/aws-s3-7.png"
+    href="/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -232,13 +318,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/afe834832c776264de2bd9968c862d69/6b671/aws-s3-7.png"
-        srcset="/static/afe834832c776264de2bd9968c862d69/f7a0c/aws-s3-7.png 163w,
-/static/afe834832c776264de2bd9968c862d69/608ba/aws-s3-7.png 325w,
-/static/afe834832c776264de2bd9968c862d69/6b671/aws-s3-7.png 650w,
-/static/afe834832c776264de2bd9968c862d69/1ee70/aws-s3-7.png 975w,
-/static/afe834832c776264de2bd9968c862d69/f242c/aws-s3-7.png 1300w,
-/static/afe834832c776264de2bd9968c862d69/3a344/aws-s3-7.png 1440w"
+        src="/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png"
+        srcset="/static/afe834832c776264de2bd9968c862d69/f1223/aws-s3-7.png 163w,
+/static/afe834832c776264de2bd9968c862d69/593bc/aws-s3-7.png 325w,
+/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png 650w,
+/static/afe834832c776264de2bd9968c862d69/a1e87/aws-s3-7.png 975w,
+/static/afe834832c776264de2bd9968c862d69/89a59/aws-s3-7.png 1300w,
+/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -246,7 +332,7 @@
 <p>다음으로 넘어가면 다시 여러 속성을 만날 수 있는데, 나는 기본 세팅 그대로 설정해주고 넘어가도록 할 것이다(지금 당장 필요가 없는 설정이기도 하고 귀찮기 때문).</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/3ec0d347303704bf9a94f2ed8e825901/3a344/aws-s3-8.png"
+    href="/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -264,13 +350,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/3ec0d347303704bf9a94f2ed8e825901/6b671/aws-s3-8.png"
-        srcset="/static/3ec0d347303704bf9a94f2ed8e825901/f7a0c/aws-s3-8.png 163w,
-/static/3ec0d347303704bf9a94f2ed8e825901/608ba/aws-s3-8.png 325w,
-/static/3ec0d347303704bf9a94f2ed8e825901/6b671/aws-s3-8.png 650w,
-/static/3ec0d347303704bf9a94f2ed8e825901/1ee70/aws-s3-8.png 975w,
-/static/3ec0d347303704bf9a94f2ed8e825901/f242c/aws-s3-8.png 1300w,
-/static/3ec0d347303704bf9a94f2ed8e825901/3a344/aws-s3-8.png 1440w"
+        src="/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png"
+        srcset="/static/3ec0d347303704bf9a94f2ed8e825901/f1223/aws-s3-8.png 163w,
+/static/3ec0d347303704bf9a94f2ed8e825901/593bc/aws-s3-8.png 325w,
+/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png 650w,
+/static/3ec0d347303704bf9a94f2ed8e825901/a1e87/aws-s3-8.png 975w,
+/static/3ec0d347303704bf9a94f2ed8e825901/89a59/aws-s3-8.png 1300w,
+/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -285,7 +371,7 @@
 <p>나는 S3를 설정한 것 외에는 전부 기본값을 사용해서 다음과 같은 CloudeFront Distributions(배포판)을 만들었다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/e3170a7ac6872a024aec5b7487eceffb/3a344/aws-cloudfront.png"
+    href="/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -303,13 +389,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-cloudfront"
         title=""
-        src="/static/e3170a7ac6872a024aec5b7487eceffb/6b671/aws-cloudfront.png"
-        srcset="/static/e3170a7ac6872a024aec5b7487eceffb/f7a0c/aws-cloudfront.png 163w,
-/static/e3170a7ac6872a024aec5b7487eceffb/608ba/aws-cloudfront.png 325w,
-/static/e3170a7ac6872a024aec5b7487eceffb/6b671/aws-cloudfront.png 650w,
-/static/e3170a7ac6872a024aec5b7487eceffb/1ee70/aws-cloudfront.png 975w,
-/static/e3170a7ac6872a024aec5b7487eceffb/f242c/aws-cloudfront.png 1300w,
-/static/e3170a7ac6872a024aec5b7487eceffb/3a344/aws-cloudfront.png 1440w"
+        src="/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png"
+        srcset="/static/e3170a7ac6872a024aec5b7487eceffb/f1223/aws-cloudfront.png 163w,
+/static/e3170a7ac6872a024aec5b7487eceffb/593bc/aws-cloudfront.png 325w,
+/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png 650w,
+/static/e3170a7ac6872a024aec5b7487eceffb/a1e87/aws-cloudfront.png 975w,
+/static/e3170a7ac6872a024aec5b7487eceffb/89a59/aws-cloudfront.png 1300w,
+/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -339,7 +425,7 @@
 </blockquote>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/4ee2830543a9829f432ba125659b15fe/d2a3f/aws-ec2.png"
+    href="/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -357,13 +443,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-ec2"
         title=""
-        src="/static/4ee2830543a9829f432ba125659b15fe/6b671/aws-ec2.png"
-        srcset="/static/4ee2830543a9829f432ba125659b15fe/f7a0c/aws-ec2.png 163w,
-/static/4ee2830543a9829f432ba125659b15fe/608ba/aws-ec2.png 325w,
-/static/4ee2830543a9829f432ba125659b15fe/6b671/aws-ec2.png 650w,
-/static/4ee2830543a9829f432ba125659b15fe/1ee70/aws-ec2.png 975w,
-/static/4ee2830543a9829f432ba125659b15fe/f242c/aws-ec2.png 1300w,
-/static/4ee2830543a9829f432ba125659b15fe/d2a3f/aws-ec2.png 1421w"
+        src="/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png"
+        srcset="/static/4ee2830543a9829f432ba125659b15fe/f1223/aws-ec2.png 163w,
+/static/4ee2830543a9829f432ba125659b15fe/593bc/aws-ec2.png 325w,
+/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png 650w,
+/static/4ee2830543a9829f432ba125659b15fe/a1e87/aws-ec2.png 975w,
+/static/4ee2830543a9829f432ba125659b15fe/89a59/aws-ec2.png 1300w,
+/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png 1421w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -375,7 +461,7 @@
 </blockquote>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/94d1d6c91600ad921e2c3356d16be476/3a344/aws-auto-scaling.png"
+    href="/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -393,13 +479,13 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-auto-scaling"
         title=""
-        src="/static/94d1d6c91600ad921e2c3356d16be476/6b671/aws-auto-scaling.png"
-        srcset="/static/94d1d6c91600ad921e2c3356d16be476/f7a0c/aws-auto-scaling.png 163w,
-/static/94d1d6c91600ad921e2c3356d16be476/608ba/aws-auto-scaling.png 325w,
-/static/94d1d6c91600ad921e2c3356d16be476/6b671/aws-auto-scaling.png 650w,
-/static/94d1d6c91600ad921e2c3356d16be476/1ee70/aws-auto-scaling.png 975w,
-/static/94d1d6c91600ad921e2c3356d16be476/f242c/aws-auto-scaling.png 1300w,
-/static/94d1d6c91600ad921e2c3356d16be476/3a344/aws-auto-scaling.png 1440w"
+        src="/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png"
+        srcset="/static/94d1d6c91600ad921e2c3356d16be476/f1223/aws-auto-scaling.png 163w,
+/static/94d1d6c91600ad921e2c3356d16be476/593bc/aws-auto-scaling.png 325w,
+/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png 650w,
+/static/94d1d6c91600ad921e2c3356d16be476/a1e87/aws-auto-scaling.png 975w,
+/static/94d1d6c91600ad921e2c3356d16be476/89a59/aws-auto-scaling.png 1300w,
+/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -425,7 +511,7 @@
 &lt;p&gt;만약 필자와 같은 선택을 할 것이라면 본격적으로 실습을 진행해보자. 내가 이 글을 쓰는 지금(2019. 02. 26)의 AWS 콘솔의 첫 페이지는 다음과 같다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/3a344/aws-main.png&quot;
+    href=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -443,13 +529,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-main&quot;
         title=&quot;&quot;
-        src=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/6b671/aws-main.png&quot;
-        srcset=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/f7a0c/aws-main.png 163w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/608ba/aws-main.png 325w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/6b671/aws-main.png 650w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/1ee70/aws-main.png 975w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/f242c/aws-main.png 1300w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/3a344/aws-main.png 1440w&quot;
+        src=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png&quot;
+        srcset=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/f1223/aws-main.png 163w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/593bc/aws-main.png 325w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png 650w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/a1e87/aws-main.png 975w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/89a59/aws-main.png 1300w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -459,7 +545,7 @@
 &lt;p&gt;Create bucket을 눌러 아래와 같이 &apos;aws-webapp&apos;이라는 버킷을 만들자(버킷은 이름의 중복을 피해야 한다. 가령 다른 사람이 aws-webapp을 사용하고 있다면 그 이름을 사용할 수 없다. 그래서 나는 aws-webapp-mj라는 버킷을 만들었다).&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/55a3692a6246c0c11e677f616a78d37d/3a344/aws-s3-2.png&quot;
+    href=&quot;/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -477,13 +563,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/55a3692a6246c0c11e677f616a78d37d/6b671/aws-s3-2.png&quot;
-        srcset=&quot;/static/55a3692a6246c0c11e677f616a78d37d/f7a0c/aws-s3-2.png 163w,
-/static/55a3692a6246c0c11e677f616a78d37d/608ba/aws-s3-2.png 325w,
-/static/55a3692a6246c0c11e677f616a78d37d/6b671/aws-s3-2.png 650w,
-/static/55a3692a6246c0c11e677f616a78d37d/1ee70/aws-s3-2.png 975w,
-/static/55a3692a6246c0c11e677f616a78d37d/f242c/aws-s3-2.png 1300w,
-/static/55a3692a6246c0c11e677f616a78d37d/3a344/aws-s3-2.png 1440w&quot;
+        src=&quot;/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png&quot;
+        srcset=&quot;/static/55a3692a6246c0c11e677f616a78d37d/f1223/aws-s3-2.png 163w,
+/static/55a3692a6246c0c11e677f616a78d37d/593bc/aws-s3-2.png 325w,
+/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png 650w,
+/static/55a3692a6246c0c11e677f616a78d37d/a1e87/aws-s3-2.png 975w,
+/static/55a3692a6246c0c11e677f616a78d37d/89a59/aws-s3-2.png 1300w,
+/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -491,7 +577,7 @@
 &lt;p&gt;Copy할 버킷이 없으므로 다음으로 넘어가자. 다음으로 넘어가게 되면 다양한 속성들을 설정할 수 있는데, 만약 사용할 기능이 있다면 체크해도 좋지만 나는 여기서 따로 사용할 기능이 없기 때문에 Tags에 Name이라는 key를 webapp으로 만들어주고 다음으로 넘어갈 것이다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/3a344/aws-s3-3.png&quot;
+    href=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -509,13 +595,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/6b671/aws-s3-3.png&quot;
-        srcset=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/f7a0c/aws-s3-3.png 163w,
-/static/c2f24c16a02dbe2053ee7193fe516139/608ba/aws-s3-3.png 325w,
-/static/c2f24c16a02dbe2053ee7193fe516139/6b671/aws-s3-3.png 650w,
-/static/c2f24c16a02dbe2053ee7193fe516139/1ee70/aws-s3-3.png 975w,
-/static/c2f24c16a02dbe2053ee7193fe516139/f242c/aws-s3-3.png 1300w,
-/static/c2f24c16a02dbe2053ee7193fe516139/3a344/aws-s3-3.png 1440w&quot;
+        src=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png&quot;
+        srcset=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/f1223/aws-s3-3.png 163w,
+/static/c2f24c16a02dbe2053ee7193fe516139/593bc/aws-s3-3.png 325w,
+/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png 650w,
+/static/c2f24c16a02dbe2053ee7193fe516139/a1e87/aws-s3-3.png 975w,
+/static/c2f24c16a02dbe2053ee7193fe516139/89a59/aws-s3-3.png 1300w,
+/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -523,7 +609,7 @@
 &lt;p&gt;다음으로 넘어가게 되면 다시 한 번 체크 박스가 나온다. 여기서도 사용자의 필요에 따라 체크를 하지 않을 수 있지만, 권장 사항이기 때문에 체크하고 넘어가는 것이 바람직할 것 같다. 더불어 Manage system permissions는 S3 로그 전달 그룹(Delivery group)에 이 버킷의 로그가 쓰여지는 것을 허용할 것이냐는 말인데, 지금 당장 로그 정보가 필요없으니 허용하지 않고 넘어갈 것이다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/52e6474dec63308124774db90162e8bf/5638c/aws-s3-4.png&quot;
+    href=&quot;/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -541,13 +627,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/52e6474dec63308124774db90162e8bf/6b671/aws-s3-4.png&quot;
-        srcset=&quot;/static/52e6474dec63308124774db90162e8bf/f7a0c/aws-s3-4.png 163w,
-/static/52e6474dec63308124774db90162e8bf/608ba/aws-s3-4.png 325w,
-/static/52e6474dec63308124774db90162e8bf/6b671/aws-s3-4.png 650w,
-/static/52e6474dec63308124774db90162e8bf/1ee70/aws-s3-4.png 975w,
-/static/52e6474dec63308124774db90162e8bf/f242c/aws-s3-4.png 1300w,
-/static/52e6474dec63308124774db90162e8bf/5638c/aws-s3-4.png 1424w&quot;
+        src=&quot;/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png&quot;
+        srcset=&quot;/static/52e6474dec63308124774db90162e8bf/f1223/aws-s3-4.png 163w,
+/static/52e6474dec63308124774db90162e8bf/593bc/aws-s3-4.png 325w,
+/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png 650w,
+/static/52e6474dec63308124774db90162e8bf/a1e87/aws-s3-4.png 975w,
+/static/52e6474dec63308124774db90162e8bf/89a59/aws-s3-4.png 1300w,
+/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png 1424w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -555,7 +641,7 @@
 &lt;p&gt;마지막으로 지금까지의 설정을 확인하고 되묻는데, 여기서 제대로 설정했는지를 확인하고 생성을 마치도록 하자.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/3a344/aws-s3-5.png&quot;
+    href=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -573,13 +659,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/6b671/aws-s3-5.png&quot;
-        srcset=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/f7a0c/aws-s3-5.png 163w,
-/static/bfd7adee2c7548bb808b1704a41bb866/608ba/aws-s3-5.png 325w,
-/static/bfd7adee2c7548bb808b1704a41bb866/6b671/aws-s3-5.png 650w,
-/static/bfd7adee2c7548bb808b1704a41bb866/1ee70/aws-s3-5.png 975w,
-/static/bfd7adee2c7548bb808b1704a41bb866/f242c/aws-s3-5.png 1300w,
-/static/bfd7adee2c7548bb808b1704a41bb866/3a344/aws-s3-5.png 1440w&quot;
+        src=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png&quot;
+        srcset=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/f1223/aws-s3-5.png 163w,
+/static/bfd7adee2c7548bb808b1704a41bb866/593bc/aws-s3-5.png 325w,
+/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png 650w,
+/static/bfd7adee2c7548bb808b1704a41bb866/a1e87/aws-s3-5.png 975w,
+/static/bfd7adee2c7548bb808b1704a41bb866/89a59/aws-s3-5.png 1300w,
+/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -589,7 +675,7 @@
 &lt;p&gt;이를 위해 해당 문서의 &lt;strong&gt;Amazon S3에 콘텐츠를 업로드하고 모두에게 읽기 권한을 부여하는 방법&lt;/strong&gt;을 따라 S3의 설정을 진행하도록 하자. 우리는 &quot;6. &lt;strong&gt;버킷&lt;/strong&gt; 창에서 버킷을 선택하고 &lt;strong&gt;업로드&lt;/strong&gt;를 선택합니다.&quot;부터 진행하면 될 것이다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8815065789df870264505531a319bd98/3a344/aws-s3-6.png&quot;
+    href=&quot;/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -607,13 +693,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/8815065789df870264505531a319bd98/6b671/aws-s3-6.png&quot;
-        srcset=&quot;/static/8815065789df870264505531a319bd98/f7a0c/aws-s3-6.png 163w,
-/static/8815065789df870264505531a319bd98/608ba/aws-s3-6.png 325w,
-/static/8815065789df870264505531a319bd98/6b671/aws-s3-6.png 650w,
-/static/8815065789df870264505531a319bd98/1ee70/aws-s3-6.png 975w,
-/static/8815065789df870264505531a319bd98/f242c/aws-s3-6.png 1300w,
-/static/8815065789df870264505531a319bd98/3a344/aws-s3-6.png 1440w&quot;
+        src=&quot;/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png&quot;
+        srcset=&quot;/static/8815065789df870264505531a319bd98/f1223/aws-s3-6.png 163w,
+/static/8815065789df870264505531a319bd98/593bc/aws-s3-6.png 325w,
+/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png 650w,
+/static/8815065789df870264505531a319bd98/a1e87/aws-s3-6.png 975w,
+/static/8815065789df870264505531a319bd98/89a59/aws-s3-6.png 1300w,
+/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -621,7 +707,7 @@
 &lt;p&gt;업로드 시 유의해야 할 사항은 읽기와 쓰기 권한의 설정이다. 필자의 이미지는 S3를 필자의 AWS계정에서만 사용 가능하도록 설정할 것이다. 더불어 여기서는 암호화 또는 태깅과 같이 객체에 원하는 속성을 설정할 수 있는데, 이는 사용자가 알맞게 사용하면 된다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/afe834832c776264de2bd9968c862d69/3a344/aws-s3-7.png&quot;
+    href=&quot;/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -639,13 +725,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/afe834832c776264de2bd9968c862d69/6b671/aws-s3-7.png&quot;
-        srcset=&quot;/static/afe834832c776264de2bd9968c862d69/f7a0c/aws-s3-7.png 163w,
-/static/afe834832c776264de2bd9968c862d69/608ba/aws-s3-7.png 325w,
-/static/afe834832c776264de2bd9968c862d69/6b671/aws-s3-7.png 650w,
-/static/afe834832c776264de2bd9968c862d69/1ee70/aws-s3-7.png 975w,
-/static/afe834832c776264de2bd9968c862d69/f242c/aws-s3-7.png 1300w,
-/static/afe834832c776264de2bd9968c862d69/3a344/aws-s3-7.png 1440w&quot;
+        src=&quot;/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png&quot;
+        srcset=&quot;/static/afe834832c776264de2bd9968c862d69/f1223/aws-s3-7.png 163w,
+/static/afe834832c776264de2bd9968c862d69/593bc/aws-s3-7.png 325w,
+/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png 650w,
+/static/afe834832c776264de2bd9968c862d69/a1e87/aws-s3-7.png 975w,
+/static/afe834832c776264de2bd9968c862d69/89a59/aws-s3-7.png 1300w,
+/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -653,7 +739,7 @@
 &lt;p&gt;다음으로 넘어가면 다시 여러 속성을 만날 수 있는데, 나는 기본 세팅 그대로 설정해주고 넘어가도록 할 것이다(지금 당장 필요가 없는 설정이기도 하고 귀찮기 때문).&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/3a344/aws-s3-8.png&quot;
+    href=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -671,13 +757,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/6b671/aws-s3-8.png&quot;
-        srcset=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/f7a0c/aws-s3-8.png 163w,
-/static/3ec0d347303704bf9a94f2ed8e825901/608ba/aws-s3-8.png 325w,
-/static/3ec0d347303704bf9a94f2ed8e825901/6b671/aws-s3-8.png 650w,
-/static/3ec0d347303704bf9a94f2ed8e825901/1ee70/aws-s3-8.png 975w,
-/static/3ec0d347303704bf9a94f2ed8e825901/f242c/aws-s3-8.png 1300w,
-/static/3ec0d347303704bf9a94f2ed8e825901/3a344/aws-s3-8.png 1440w&quot;
+        src=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png&quot;
+        srcset=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/f1223/aws-s3-8.png 163w,
+/static/3ec0d347303704bf9a94f2ed8e825901/593bc/aws-s3-8.png 325w,
+/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png 650w,
+/static/3ec0d347303704bf9a94f2ed8e825901/a1e87/aws-s3-8.png 975w,
+/static/3ec0d347303704bf9a94f2ed8e825901/89a59/aws-s3-8.png 1300w,
+/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -692,7 +778,7 @@
 &lt;p&gt;나는 S3를 설정한 것 외에는 전부 기본값을 사용해서 다음과 같은 CloudeFront Distributions(배포판)을 만들었다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/3a344/aws-cloudfront.png&quot;
+    href=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -710,13 +796,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-cloudfront&quot;
         title=&quot;&quot;
-        src=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/6b671/aws-cloudfront.png&quot;
-        srcset=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/f7a0c/aws-cloudfront.png 163w,
-/static/e3170a7ac6872a024aec5b7487eceffb/608ba/aws-cloudfront.png 325w,
-/static/e3170a7ac6872a024aec5b7487eceffb/6b671/aws-cloudfront.png 650w,
-/static/e3170a7ac6872a024aec5b7487eceffb/1ee70/aws-cloudfront.png 975w,
-/static/e3170a7ac6872a024aec5b7487eceffb/f242c/aws-cloudfront.png 1300w,
-/static/e3170a7ac6872a024aec5b7487eceffb/3a344/aws-cloudfront.png 1440w&quot;
+        src=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png&quot;
+        srcset=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/f1223/aws-cloudfront.png 163w,
+/static/e3170a7ac6872a024aec5b7487eceffb/593bc/aws-cloudfront.png 325w,
+/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png 650w,
+/static/e3170a7ac6872a024aec5b7487eceffb/a1e87/aws-cloudfront.png 975w,
+/static/e3170a7ac6872a024aec5b7487eceffb/89a59/aws-cloudfront.png 1300w,
+/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -746,7 +832,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4ee2830543a9829f432ba125659b15fe/d2a3f/aws-ec2.png&quot;
+    href=&quot;/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -764,13 +850,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-ec2&quot;
         title=&quot;&quot;
-        src=&quot;/static/4ee2830543a9829f432ba125659b15fe/6b671/aws-ec2.png&quot;
-        srcset=&quot;/static/4ee2830543a9829f432ba125659b15fe/f7a0c/aws-ec2.png 163w,
-/static/4ee2830543a9829f432ba125659b15fe/608ba/aws-ec2.png 325w,
-/static/4ee2830543a9829f432ba125659b15fe/6b671/aws-ec2.png 650w,
-/static/4ee2830543a9829f432ba125659b15fe/1ee70/aws-ec2.png 975w,
-/static/4ee2830543a9829f432ba125659b15fe/f242c/aws-ec2.png 1300w,
-/static/4ee2830543a9829f432ba125659b15fe/d2a3f/aws-ec2.png 1421w&quot;
+        src=&quot;/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png&quot;
+        srcset=&quot;/static/4ee2830543a9829f432ba125659b15fe/f1223/aws-ec2.png 163w,
+/static/4ee2830543a9829f432ba125659b15fe/593bc/aws-ec2.png 325w,
+/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png 650w,
+/static/4ee2830543a9829f432ba125659b15fe/a1e87/aws-ec2.png 975w,
+/static/4ee2830543a9829f432ba125659b15fe/89a59/aws-ec2.png 1300w,
+/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png 1421w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -782,7 +868,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/94d1d6c91600ad921e2c3356d16be476/3a344/aws-auto-scaling.png&quot;
+    href=&quot;/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -800,13 +886,13 @@
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-auto-scaling&quot;
         title=&quot;&quot;
-        src=&quot;/static/94d1d6c91600ad921e2c3356d16be476/6b671/aws-auto-scaling.png&quot;
-        srcset=&quot;/static/94d1d6c91600ad921e2c3356d16be476/f7a0c/aws-auto-scaling.png 163w,
-/static/94d1d6c91600ad921e2c3356d16be476/608ba/aws-auto-scaling.png 325w,
-/static/94d1d6c91600ad921e2c3356d16be476/6b671/aws-auto-scaling.png 650w,
-/static/94d1d6c91600ad921e2c3356d16be476/1ee70/aws-auto-scaling.png 975w,
-/static/94d1d6c91600ad921e2c3356d16be476/f242c/aws-auto-scaling.png 1300w,
-/static/94d1d6c91600ad921e2c3356d16be476/3a344/aws-auto-scaling.png 1440w&quot;
+        src=&quot;/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png&quot;
+        srcset=&quot;/static/94d1d6c91600ad921e2c3356d16be476/f1223/aws-auto-scaling.png 163w,
+/static/94d1d6c91600ad921e2c3356d16be476/593bc/aws-auto-scaling.png 325w,
+/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png 650w,
+/static/94d1d6c91600ad921e2c3356d16be476/a1e87/aws-auto-scaling.png 975w,
+/static/94d1d6c91600ad921e2c3356d16be476/89a59/aws-auto-scaling.png 1300w,
+/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -824,7 +910,7 @@
 <p>우선 <a href="https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/Welcome.html">Amazon Route 53란 무엇입니까?</a>를 참고하도록 하자. 해당 참조에 의하면 도메인 등록, DNS 라우팅, 상태 확인의 3가지 주요 기능을 조합하여 실행할 수 있는 서비스라는 점이다. 각각 살펴보도록 하자.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png"
+    href="/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -842,10 +928,10 @@
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="dns-routing"
         title=""
-        src="/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png"
-        srcset="/static/e2f6fe34c52e613cd80585054ae48a2f/30e25/dns-routing.png 163w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/fedab/dns-routing.png 325w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png 582w"
+        src="/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png"
+        srcset="/static/e2f6fe34c52e613cd80585054ae48a2f/39de5/dns-routing.png 163w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/ec46a/dns-routing.png 325w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png 582w"
         sizes="(max-width: 582px) 100vw, 582px"
       />
   </span>
@@ -962,7 +1048,7 @@ Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 �
 정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.</code></pre></div>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png"
+    href="/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -980,9 +1066,9 @@ Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 �
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="auto-scailing"
         title=""
-        src="/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png"
-        srcset="/static/7b4c8ac32129aab596d7f10b471ac0c2/85daf/auto-scailing.png 163w,
-/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png 310w"
+        src="/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png"
+        srcset="/static/7b4c8ac32129aab596d7f10b471ac0c2/60353/auto-scailing.png 163w,
+/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png 310w"
         sizes="(max-width: 310px) 100vw, 310px"
       />
   </span>
@@ -1046,7 +1132,7 @@ Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 �
 &lt;p&gt;우선 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/Welcome.html&quot;&gt;Amazon Route 53란 무엇입니까?&lt;/a&gt;를 참고하도록 하자. 해당 참조에 의하면 도메인 등록, DNS 라우팅, 상태 확인의 3가지 주요 기능을 조합하여 실행할 수 있는 서비스라는 점이다. 각각 살펴보도록 하자.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png&quot;
+    href=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1064,10 +1150,10 @@ Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 �
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;dns-routing&quot;
         title=&quot;&quot;
-        src=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png&quot;
-        srcset=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/30e25/dns-routing.png 163w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/fedab/dns-routing.png 325w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/4977e/dns-routing.png 582w&quot;
+        src=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png&quot;
+        srcset=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/39de5/dns-routing.png 163w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/ec46a/dns-routing.png 325w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png 582w&quot;
         sizes=&quot;(max-width: 582px) 100vw, 582px&quot;
       /&gt;
   &lt;/span&gt;
@@ -1184,7 +1270,7 @@ Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 �
 정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png&quot;
+    href=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1202,9 +1288,9 @@ Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 �
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;auto-scailing&quot;
         title=&quot;&quot;
-        src=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png&quot;
-        srcset=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/85daf/auto-scailing.png 163w,
-/static/7b4c8ac32129aab596d7f10b471ac0c2/5a54c/auto-scailing.png 310w&quot;
+        src=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png&quot;
+        srcset=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/60353/auto-scailing.png 163w,
+/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png 310w&quot;
         sizes=&quot;(max-width: 310px) 100vw, 310px&quot;
       /&gt;
   &lt;/span&gt;
@@ -1279,7 +1365,7 @@ Amazon Web Services provides the reliable, scalable, secure, and high- performan
 Amazon Web Services에서는 웹 애플리케이션에 필요한 안정적이고 확장 가능하며 안전한 고성능 인프라를 제공하는 동시에 고객 트래픽이 변동함에 따라 IT 비용을 실시간으로 일치시킬 수있는 유연한 스케일 아웃 및 축소형 인프라를 제공합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2019 02, 필자 소개]]></title><description><![CDATA[<h1>간략 필자 소개 - for Korean</h1>
 <p><a href="/README.md">뒤로가기</a></p>
 <p><a href="http://hits.dwyl.io/rayleighko/training/resume"><img src="http://hits.dwyl.io/rayleighko/training/resume.svg" alt="HitCount"></a></p>
-<p><a href="https://sourcerer.io/rayleighko"><img src="https://avatars2.githubusercontent.com/u/24822072?v=4" height="50px" width="50px" alt=""></a></p>
+<p><a href="https://sourcerer.io/rayleighko"><img src="https://avatars2.githubusercontent.com/u/24822072?v=4" height="50px" width="50px" alt></a></p>
 <p><a href="https://sourcerer.io/rayleighko">Sourcerer profile</a></p>
 <h4>좌우명: <a href="https://en.wikipedia.org/wiki/Lifelong_learning">평생학습(Lifelong learning)</a>, <a href="https://bit.ly/2E22Als">민이호학 불치하문(敏而好學 不恥下問)</a></h4>
 <p>개발이라는 분야만이 아닌 서비스 구현의 전반적인 워크 플로우를 공부하는 프로그래머가 되고자 합니다. 이를 위해 더나은 경험을 추구하며, 기술적으로 성장하는 것을 좋아합니다. 더불어 모든 일은 체계적으로 하거나, 다양한 의견을 수용해 최적의 결과를 만들 때 가장 큰 성취감을 느끼곤 합니다.</p>
@@ -1403,7 +1489,7 @@ AUSG: https://www.facebook.com/AUSG-311547172765852/
 Facebook page: https://www.facebook.com/RaykoDev</code></pre></div>]]></description><link>https://rayleighko.github.io/blog/2019-02-11-resume</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-02-11-resume</guid><pubDate>Mon, 11 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;간략 필자 소개 - for Korean&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;/README.md&quot;&gt;뒤로가기&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://hits.dwyl.io/rayleighko/training/resume&quot;&gt;&lt;img src=&quot;http://hits.dwyl.io/rayleighko/training/resume.svg&quot; alt=&quot;HitCount&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sourcerer.io/rayleighko&quot;&gt;&lt;img src=&quot;https://avatars2.githubusercontent.com/u/24822072?v=4&quot; height=&quot;50px&quot; width=&quot;50px&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sourcerer.io/rayleighko&quot;&gt;&lt;img src=&quot;https://avatars2.githubusercontent.com/u/24822072?v=4&quot; height=&quot;50px&quot; width=&quot;50px&quot; alt&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://sourcerer.io/rayleighko&quot;&gt;Sourcerer profile&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;좌우명: &lt;a href=&quot;https://en.wikipedia.org/wiki/Lifelong_learning&quot;&gt;평생학습(Lifelong learning)&lt;/a&gt;, &lt;a href=&quot;https://bit.ly/2E22Als&quot;&gt;민이호학 불치하문(敏而好學 不恥下問)&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;개발이라는 분야만이 아닌 서비스 구현의 전반적인 워크 플로우를 공부하는 프로그래머가 되고자 합니다. 이를 위해 더나은 경험을 추구하며, 기술적으로 성장하는 것을 좋아합니다. 더불어 모든 일은 체계적으로 하거나, 다양한 의견을 수용해 최적의 결과를 만들 때 가장 큰 성취감을 느끼곤 합니다.&lt;/p&gt;
