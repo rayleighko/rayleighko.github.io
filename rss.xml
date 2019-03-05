@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Mar 2019 02:45:43 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[<p>---</p>
-<p>layout: post</p>
-<p>title: WePlanet Intern - study - 1</p>
-<p>date: '2019-03-05'</p>
-<p>path: '/blog/2019-03-05-weplanet<em>study</em>2'</p>
-<p>tags: study js weplanet</p>
-<p>---</p>]]></description><link>https://rayleighko.github.ionull</link><guid isPermaLink="false">https://rayleighko.github.ionull</guid><content:encoded>&lt;p&gt;---&lt;/p&gt;
-&lt;p&gt;layout: post&lt;/p&gt;
-&lt;p&gt;title: WePlanet Intern - study - 1&lt;/p&gt;
-&lt;p&gt;date: &apos;2019-03-05&apos;&lt;/p&gt;
-&lt;p&gt;path: &apos;/blog/2019-03-05-weplanet&lt;em&gt;study&lt;/em&gt;2&apos;&lt;/p&gt;
-&lt;p&gt;tags: study js weplanet&lt;/p&gt;
-&lt;p&gt;---&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - study 기록 계획]]></title><description><![CDATA[<h1>WePlanet Intern - study</h1>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Mar 2019 05:27:21 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - study 기록 계획]]></title><description><![CDATA[<h1>WePlanet Intern - study</h1>
 <h3>앞으로의 계획 및 목표</h3>
 <ul>
 <li>익숙하지 않은 Javascript(ES6, ES7, ES8) 문법 이해, React, Node(Express) 문법 및 각종 라이브러리의 메서드(파리미터, 결과 중심) 이해</li>
@@ -84,7 +72,437 @@
 &lt;li&gt;
 &lt;p&gt;리펙터링을 한다는 마음으로 사내 코드 읽기: 사내 코드의 규율 적응 및 모르는 라이브러리의 메서드 및 컴포넌트의 학습이 필요하다고 느꼈기 때문에, 이를 해결하기 위해 사내의 코드를 읽고, 읽은 코드를 바탕으로 학습할 내용을 정리할 것이다. 물론 사내의 코드를 공유하지는 않을 것이다.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 3]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - study ES3(스코프, 호이스팅)]]></title><description><![CDATA[<h1>WePlanet Intern - study - ES3(스코프, 호이스팅)</h1>
+<h2>이번 스터디 목표</h2>
+<p><strong>JS 문법 학습</strong>: 구현만 가능하다고 적재적소에 원하는 코드를 삽입할 수는 없을 것이라는 생각이 있었기 때문에, 이를 해결하기 위해서 JS의 문법을 다시 한 번 학습하고자 하는 필요성을 느꼈다. 하지만 아주 기본적인 단계를 다시 학습하는 건 불필요하다는 생각이 있기 때문에 기본 문법 및 매커니즘 등의 이해는 건너뛴다.</p>
+<ol>
+<li>
+<p>ES3(ES1999): 기본적인 문법을 제외한 함수 단위의 스코프, 호이스팅, 클로저, 프로토타입 등</p>
+<ul>
+<li><a href="http://www.incodom.kr/ECMAScript_5_%EC%A0%95%EC%9D%98#h_a4098c75da114a2ee7591548f11e4a10">참고자료1 - ES3 vs ES5</a></li>
+<li><a href="http://www.nextree.co.kr/p7363/">참고자료2 - Scope 이해</a></li>
+</ul>
+</li>
+<li>
+<p>ES5(ES2009): forEach, map, reduce, filter, some, every와 같은 순환 메소드, 객체의 프로퍼티 설정(생성, 수정, 복사하는 표준 메소드&#x3C;Object.Create(), Object.defineProperty(), Object.freeze(), Object.assign()> 등과 getter, setter, Object.key() 메소드), strict 모드(use strict), bind() 메소드 등</p>
+<ul>
+<li><a href="http://www.incodom.kr/ECMAScript_5_%EC%A0%95%EC%9D%98#h_a4098c75da114a2ee7591548f11e4a10">참고자료1 - ES3 vs ES5</a></li>
+</ul>
+</li>
+<li>
+<p>ES6(ES2015): 호이스팅이 사라진 것 같은 효과, 함수 단위 스코프에서 블록 단위 스코프로 변경됨, this를 동적으로 바인딩하지 않는 화살표 함수, 모듈화 지원, 콜백 지옥에서 구원해줄 Promise, Default와 Rest 파라미터, 해체 할당, Spread 연산자, 템플릿 리터럴, 클래스, 기타 여러 사항(브라우저에서 지원하지 않는 문법 등을 처리하는 트랜스파일러(Babel)과 모듈화를 사용하기 위한 모듈 번들러(WebPack)의 등장, Nodejs의 부상 JS 진영의 생태계 진화에 따라 만들어진 문법) 등</p>
+</li>
+<li>
+<p>ES7(ES2016): 제곱 연산자(**), Array.includes 배열에 해당 요소가 존재하는지 확인하는 메소드</p>
+</li>
+<li>
+<p>ES8(ES2017): async와 await, 객체의 심화된 메소드(Object.entries(), Object.getOwnPropertDescriptors()(Object.getOwnPropertyDescriptor의 복수 형태), 문자열(편의 기능 추가 -> 문자열 앞부분에 공백을 넣어 자리수를 맞추는 String.padStart(), 문자열 뒷부분에 공백을 넣어 자리를 맞추는 String.padEnd()), 매개변수 마지막에 콤마를 붙이는 걸 허용</p>
+</li>
+<li>
+<p>ES9(ES2018): 구조 분해 할당(Spread)(… 키워드), Promise finally(then과 catch 외에도 finally가 추가되었다. 성공, 실패 여부와 상관없이 무조건 실행되는 메서드), Async iteration(async 문법을 생성기랑 for of 문에서도 사용 가능해졌다.), 정규표현식의 강화(lookbehind가 생기고 캡쳐링 그룹에 이름을 지정해 줄 수 있다.)</p>
+</li>
+</ol>
+<p>나는 자바스크립트로 개발을 해왔지만 아직도 ES3조차 익숙하지 않다. 이 스터디는 본격적으로 JS로 개발한지 6개월이 되지 않았다는 점을 빌미로 그동안 미뤄왔던 주제이지만, 이번 기회에 ES3부터 ES9까지의 문법을 학습 및 정리하고, 이를 치트시트의 형태로 사용하면 좋을 것이라고 생각해 결심을 하게 됐다.</p>
+<p>추가적으로 각 문법의 특성에 맞게 서술하려고 했기 때문에, 현재에는 다른 방식으로 쓰이는 문법 혹은 더이상 쓰이지 않는 문법들에 대한 해설이 불편할 수 있다. 그래서 이는 시대적 흐름에 맞춰 결론에 이르러서는 어떤 문법을 써야 하고, 쓰지 말아야 하는지를 알게 하기 위함이기 때문에 모든 것을 아는 사람이 읽기에는 다소 불편할 수 있음을 미리 경고한다.</p>
+<h2>ES3(ES1999)</h2>
+<p>우선 ES3는 우리가 흔히 알고있는 JS(이하 JS는 ES3의 문법을 나타냄)라고 이해하면 쉽다. 그렇기 때문에 가장 기본적이라고 할 수 있으며, 그만큼 많은 이들이 사용하고 있다. 물론 필자처럼 사용한다고 아는 것은 아니기 때문에 이번 기회에 같이 학습해보도록 하자.</p>
+<h3>함수단위 스코프(Scope)</h3>
+<p>Scope은 '유효범위'(이하 스코프)라고 해석할 수 있다. 유효범위는 JS뿐만 아니라 모든 프로그래밍 언어의 가장 기본적인 개념의 하나로 반드시 이해해야 하는 개념이다. 더불어 JS의 유효범위는 조금 특별하다. 이것은 언어적인 특성과 더불어 JS를 JS답게 사용할 수 있도록 하는 중요한 요소이기 때문에 각자 자신이 자신있는 언어와 비교하며 살펴보도록 하자.</p>
+<p>일반적인 프로그래밍 언어에서의 스코프는 참조의 범위를 나타낸다. 즉, 변수와 매개변수(parameters)의 접근성과 생존기간을 의미한다. 따라서 스코프를 통해 변수와 매개변수의 접근성과 생존기간을 제어할 수도 있다. 그리고, 일반적인 언어에서의 유효범위는 크게 '<strong>전역 유효범위(global scope)</strong>'와 '<strong>지역 유효범위(local scope)</strong>'의 2가지로 나눌 수 있다.</p>
+<p>이 두 가지는 각각 다음과 같은 의미를 지닌다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">전역 유효범위: 스크립트의 스코프 가장 바깥쪽에서 정의하며, 스크립트 내 어느 곳에서든 참조될 수 있다.
+지역 유효범위: 하나의 메서드 안에서 정의하며, 정의된 메서드 안에서만 참조될 수 있다.</code></pre></div>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> global_scope<span class="token operator">=</span><span class="token string">"global"</span>
+<span class="token keyword">function</span> <span class="token constant">A</span><span class="token punctuation">(</span>a_scope_param<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">var</span> local_scope_a <span class="token operator">=</span> <span class="token string">"local_a"</span>
+    
+    <span class="token keyword">function</span> <span class="token constant">B</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">var</span> local_scope_b <span class="token operator">=</span> <span class="token string">"local_b"</span>
+        <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">var</span> local_scope_c <span class="token operator">=</span> <span class="token string">"local_c"</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>local_scope_a<span class="token punctuation">)</span> <span class="token comment">// false</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>local_scope_b<span class="token punctuation">)</span> <span class="token comment">// false</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>local_scope_c<span class="token punctuation">)</span> <span class="token comment">// true -> local_c 출력</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>global_scope<span class="token punctuation">)</span> <span class="token comment">// true -> global 출력</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3>1. JS 스코프만의 특징</h3>
+<p>앞선 개념은 JS를 제외한 대부분의 프로그래밍 언어에서 갖는 스코프의 형태이다. 더불어 JS(ES3)의 스코프는 다음과 같은 추가적인 이해가 필요하다.</p>
+<ul>
+<li>함수 단위의 유효범위</li>
+<li>변수명의 중복 허용</li>
+<li>var 키워드의 생략</li>
+<li>렉시컬 특성</li>
+</ul>
+<p>이제부터 천천히 위의 특성들을 살펴보도록 하자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 함수 단위의 유효범위</span>
+<span class="token keyword">function</span> <span class="token function">scopeTest</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+    <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> c <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">;</span> c<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"c="</span> <span class="token operator">+</span> c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+         <span class="token punctuation">}</span>
+         console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"c="</span> <span class="token operator">+</span> c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"b="</span> <span class="token operator">+</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">scopeTest</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+<span class="token comment">/* 실행결과
+c = 0  
+c = 1  
+c = 2  
+c = 3  
+c = 4  
+c = 5  
+b = 0  
+*/</span></code></pre></div>
+<p>위 코드에서는 JS의 유효범위가 블록 단위가 아닌 함수 단위로 정의된다는 것을 보여주기 위한 코드이다. 다른 프로그래밍 언어들은 유효범위의 단위가 블록 단위이기 대문에 위의 코드와 같은 if문, for문 등 구문들이 사용되었을 때 중괄호 밖의 범위에서는 그 안의 변수를 사용할 수 없다.</p>
+<p>하지만, JS의 유효 범위는 함수 단위이기 때문에 예제코드의 변수 a, b, c 모두 같은 유효범위를 갖는다. 그 결과 실행화면처럼 모든 변수가 정상적으로 출력되는 것을 알 수 있다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 변수 명 중복</span>
+<span class="token keyword">var</span> scope <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>  
+<span class="token keyword">function</span> <span class="token function">scopeExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">var</span> scope <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"scope = "</span> <span class="token operator">+</span>scope<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">scopeExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+<span class="token comment">/* 실행결과
+scope =20  
+*/</span></code></pre></div>
+<p>JS는 다른 프로그래밍 언어와는 달리 변수명이 중복되어도 에러를 발생하지 않는다. 단, 중복된 변수명을 참조할 때는 가장 가까운 범위의 변수를 참조하도록 한다. 그래서 위의 코드처럼 scope를 호출했을 때, 전역 변수가 아닌 가까이에 있는 지역 변수를 참조한 것이다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// var 키워드 생략</span>
+<span class="token keyword">function</span> <span class="token function">scopeExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    scope <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"scope = "</span> <span class="token operator">+</span>scope<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">scopeExam2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"scope = "</span> <span class="token operator">+</span> scope<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">scopeExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token function">scopeExam2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+<span class="token comment">/* 실행결과
+scope=20  
+scope=20  
+*/</span></code></pre></div>
+<p>대부분의 컴파일 언어의 경우에는 변수를 선언할 때 int나 char과 같이 타입을 명시적으로 선언해줘야 한다. 하지만 JS는 컴파일링을 거치지 않는 스크립트 언어이기 때문에  모든 변수가 명시적으로 선언되지 않더라도 인터프리터를 거친 후에 값에 따라 자동적으로 변수의 타입이 정해진다. 그래서 변수의 자료형이 하나(var)로 통일될 수 있는 것이고, 이는 '생략'해도 무관하다는 것과 동일한 의미를 지닌다. </p>
+<p>그래서 위와 같이 'var' 키워드를 생략하더라도 정상적으로 동작할 수 있는 것이다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 렉시컬 특성 Code1</span>
+<span class="token keyword">function</span> <span class="token function">f1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">var</span> a<span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token function">f2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">f2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"호출 실행"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">f1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/* 실행결과
+호출실행
+*/</span></code></pre></div>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 렉시컬 특성 Code2</span>
+<span class="token keyword">function</span> <span class="token function">f1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">var</span> a<span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token function">f2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">f2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">f1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/* 실행결과
+Uncaught Reference Error  
+: a is not defined
+*/</span></code></pre></div>
+<p>렉시컬 특성이란 함수 실행 시 유효범위를 함수 실행 환경이 아닌 함수 정의 환경으로 참조하는 특성을 말한다. Code1의 경우에는 f1에서 f2를 호출하면 정상적으로 실행된다. 이는 f1과 f2 모두 전역에서 생성된 함수이기 때문에 서로를 참조할 수 있는 것이다.</p>
+<p>하지만 Code2처럼 함수 f1안에서 f2를 호출했다고 해서 f2가 f1안에 들어온 것처럼 f1의 내부 변수 a를 참조할 수 없다. 이는 렉시컬 특성으로 인해 f2가 실행될 때가 아닌 정의 될 대의 환경을 보고 a라는 변수를 참조하기 때문에 찾을 수 없는 것이다.</p>
+<p>다음으로는 또다른 ES3의 특성 중 하나인 호이스팅(Hoisting)을 살펴보도록 하자.</p>
+<h3>호이스팅(Hoisting)</h3>
+<p>직역하면 '끌어올리기' 혹은 '들어 올려 나르기'라고 부를 수 있다. JS에서의 호이스팅도 이와 유사한 의미를 가지고 있다. 간단히 JS의 호이스팅은 변수 선언문을 끌어올린다는 뜻으로 이해하면 된다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 호이스팅 Code1</span>
+<span class="token keyword">function</span> <span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"value="</span><span class="token operator">+</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> value <span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"value="</span><span class="token operator">+</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/* 실행결과
+value= undefined  
+value= 10  
+*/</span></code></pre></div>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 호이스팅 Code2</span>
+<span class="token keyword">function</span> <span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">var</span> value<span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"value="</span><span class="token operator">+</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    value <span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"value="</span><span class="token operator">+</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+<span class="token comment">/* 실행결과
+value= undefined  
+value= 10  
+*/</span></code></pre></div>
+<p>위 두 예제를 통해 호이스팅을 간단하게 이해해보도록 하자. Code1을 보면 hoistingExam 안에서 변수 value의 호출이 2번 일어난다. 한 번은 변수 선언문 전에, 또 한 번은 변수 선언 후에 호출되는데, 다른 프로그래밍 언어의 경우에는 선언문 전에 호출됐을 때 에러가 발생하지만, Js의 경우에는 호이스팅을 통해 Code2와 같은 의미로 구동된다. 즉, 변수 선언문이 유효범위 안의 제일 상단부로 끌어올려지게 되고, 선언문이 있던 자리에서 초기화가 이루어지는 결과를 갖는 것이다. 이때 선언에서는 따로 값을 정해주지 않았기 때문에 undefined가 출력된다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> value<span class="token operator">=</span><span class="token number">30</span><span class="token punctuation">;</span>  
+<span class="token keyword">function</span> <span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"value="</span><span class="token operator">+</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token keyword">var</span> value <span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span> 
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"value="</span><span class="token operator">+</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+<span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+<span class="token comment">/* 실행결과
+value= undefined  
+value= 10  
+*/</span></code></pre></div>
+<p>그렇다면 위 코드에서는 어떤 결과가 나타날까? 다른 프로그래밍 언어에 익숙하다면 첫 번째 호출에서는 전역 변수의 값인 '30'이, 두 번째 호출에서는 지역 변수의 값인 '10'이 들어간다고 생각할 수 있다. 하지만 이 경우에는 JS의 호이스팅으로 인해서 선언 부가 함수 hoistingExam의 최 상단에서 끌어올려 짐으로써 전역변수가 아닌 지역변수를 참조하게 되는 것이다.</p>
+<p>다음으로는 함수의 호이스팅을 살펴보도록 하자. 이때는 여러 가지의 함수 정의 방법 중 '오직 함수 선언문 방식만 호이스팅이 가능하다'라는 점을 기억하도록 하자. 다음을 살펴보자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 함수 호이스팅 - 함수 선언문</span>
+<span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token keyword">function</span> <span class="token function">hoistingExam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">var</span> hoisting_val <span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"hoisting_val ="</span><span class="token operator">+</span>hoisting_val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* 실행결과
+hoisting_val =10  
+*/</span></code></pre></div>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 함수 호이스팅 - 함수 표현식</span>
+<span class="token function">hoistingExam2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token keyword">var</span> <span class="token function-variable function">hoistingExam2</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token keyword">var</span> hoisting_val <span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"hoisting_val ="</span><span class="token operator">+</span>hoisting_val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* 실행결과
+hoistingExam2 of object is not a function  
+*/</span></code></pre></div>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 함수 호이스팅 - Function 생성자</span>
+<span class="token function">hoistingExam3</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token keyword">var</span> hoistingExam3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Function</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">,</span><span class="token string">"return console.log('Ya-ho!!');"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token comment">/* 실행결과
+hoistingExam3 of object is not a function  
+*/</span></code></pre></div>
+<p>오직 함수 선언문 방식만 호이스팅이 되고 함수 표현식과 function 생성자 방식은 호이스팅되지 않는다. 그 이유는 함수 표현식과 Function 생성자를 통한 함수 정의 방법은 변수에 함수를 초기화시키기 때문에 선언문이 호이스팅되어 상단으로 올려진다 하더라도 함수가 아닌 변수로써 인지하기 때문이다.</p>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_study_2</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_study_2</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WePlanet Intern - study - ES3(스코프, 호이스팅)&lt;/h1&gt;
+&lt;h2&gt;이번 스터디 목표&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;JS 문법 학습&lt;/strong&gt;: 구현만 가능하다고 적재적소에 원하는 코드를 삽입할 수는 없을 것이라는 생각이 있었기 때문에, 이를 해결하기 위해서 JS의 문법을 다시 한 번 학습하고자 하는 필요성을 느꼈다. 하지만 아주 기본적인 단계를 다시 학습하는 건 불필요하다는 생각이 있기 때문에 기본 문법 및 매커니즘 등의 이해는 건너뛴다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ES3(ES1999): 기본적인 문법을 제외한 함수 단위의 스코프, 호이스팅, 클로저, 프로토타입 등&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.incodom.kr/ECMAScript_5_%EC%A0%95%EC%9D%98#h_a4098c75da114a2ee7591548f11e4a10&quot;&gt;참고자료1 - ES3 vs ES5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.nextree.co.kr/p7363/&quot;&gt;참고자료2 - Scope 이해&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ES5(ES2009): forEach, map, reduce, filter, some, every와 같은 순환 메소드, 객체의 프로퍼티 설정(생성, 수정, 복사하는 표준 메소드&amp;#x3C;Object.Create(), Object.defineProperty(), Object.freeze(), Object.assign()&gt; 등과 getter, setter, Object.key() 메소드), strict 모드(use strict), bind() 메소드 등&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.incodom.kr/ECMAScript_5_%EC%A0%95%EC%9D%98#h_a4098c75da114a2ee7591548f11e4a10&quot;&gt;참고자료1 - ES3 vs ES5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ES6(ES2015): 호이스팅이 사라진 것 같은 효과, 함수 단위 스코프에서 블록 단위 스코프로 변경됨, this를 동적으로 바인딩하지 않는 화살표 함수, 모듈화 지원, 콜백 지옥에서 구원해줄 Promise, Default와 Rest 파라미터, 해체 할당, Spread 연산자, 템플릿 리터럴, 클래스, 기타 여러 사항(브라우저에서 지원하지 않는 문법 등을 처리하는 트랜스파일러(Babel)과 모듈화를 사용하기 위한 모듈 번들러(WebPack)의 등장, Nodejs의 부상 JS 진영의 생태계 진화에 따라 만들어진 문법) 등&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ES7(ES2016): 제곱 연산자(**), Array.includes 배열에 해당 요소가 존재하는지 확인하는 메소드&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ES8(ES2017): async와 await, 객체의 심화된 메소드(Object.entries(), Object.getOwnPropertDescriptors()(Object.getOwnPropertyDescriptor의 복수 형태), 문자열(편의 기능 추가 -&gt; 문자열 앞부분에 공백을 넣어 자리수를 맞추는 String.padStart(), 문자열 뒷부분에 공백을 넣어 자리를 맞추는 String.padEnd()), 매개변수 마지막에 콤마를 붙이는 걸 허용&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ES9(ES2018): 구조 분해 할당(Spread)(… 키워드), Promise finally(then과 catch 외에도 finally가 추가되었다. 성공, 실패 여부와 상관없이 무조건 실행되는 메서드), Async iteration(async 문법을 생성기랑 for of 문에서도 사용 가능해졌다.), 정규표현식의 강화(lookbehind가 생기고 캡쳐링 그룹에 이름을 지정해 줄 수 있다.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;나는 자바스크립트로 개발을 해왔지만 아직도 ES3조차 익숙하지 않다. 이 스터디는 본격적으로 JS로 개발한지 6개월이 되지 않았다는 점을 빌미로 그동안 미뤄왔던 주제이지만, 이번 기회에 ES3부터 ES9까지의 문법을 학습 및 정리하고, 이를 치트시트의 형태로 사용하면 좋을 것이라고 생각해 결심을 하게 됐다.&lt;/p&gt;
+&lt;p&gt;추가적으로 각 문법의 특성에 맞게 서술하려고 했기 때문에, 현재에는 다른 방식으로 쓰이는 문법 혹은 더이상 쓰이지 않는 문법들에 대한 해설이 불편할 수 있다. 그래서 이는 시대적 흐름에 맞춰 결론에 이르러서는 어떤 문법을 써야 하고, 쓰지 말아야 하는지를 알게 하기 위함이기 때문에 모든 것을 아는 사람이 읽기에는 다소 불편할 수 있음을 미리 경고한다.&lt;/p&gt;
+&lt;h2&gt;ES3(ES1999)&lt;/h2&gt;
+&lt;p&gt;우선 ES3는 우리가 흔히 알고있는 JS(이하 JS는 ES3의 문법을 나타냄)라고 이해하면 쉽다. 그렇기 때문에 가장 기본적이라고 할 수 있으며, 그만큼 많은 이들이 사용하고 있다. 물론 필자처럼 사용한다고 아는 것은 아니기 때문에 이번 기회에 같이 학습해보도록 하자.&lt;/p&gt;
+&lt;h3&gt;함수단위 스코프(Scope)&lt;/h3&gt;
+&lt;p&gt;Scope은 &apos;유효범위&apos;(이하 스코프)라고 해석할 수 있다. 유효범위는 JS뿐만 아니라 모든 프로그래밍 언어의 가장 기본적인 개념의 하나로 반드시 이해해야 하는 개념이다. 더불어 JS의 유효범위는 조금 특별하다. 이것은 언어적인 특성과 더불어 JS를 JS답게 사용할 수 있도록 하는 중요한 요소이기 때문에 각자 자신이 자신있는 언어와 비교하며 살펴보도록 하자.&lt;/p&gt;
+&lt;p&gt;일반적인 프로그래밍 언어에서의 스코프는 참조의 범위를 나타낸다. 즉, 변수와 매개변수(parameters)의 접근성과 생존기간을 의미한다. 따라서 스코프를 통해 변수와 매개변수의 접근성과 생존기간을 제어할 수도 있다. 그리고, 일반적인 언어에서의 유효범위는 크게 &apos;&lt;strong&gt;전역 유효범위(global scope)&lt;/strong&gt;&apos;와 &apos;&lt;strong&gt;지역 유효범위(local scope)&lt;/strong&gt;&apos;의 2가지로 나눌 수 있다.&lt;/p&gt;
+&lt;p&gt;이 두 가지는 각각 다음과 같은 의미를 지닌다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;전역 유효범위: 스크립트의 스코프 가장 바깥쪽에서 정의하며, 스크립트 내 어느 곳에서든 참조될 수 있다.
+지역 유효범위: 하나의 메서드 안에서 정의하며, 정의된 메서드 안에서만 참조될 수 있다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; global_scope&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;global&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a_scope_param&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; local_scope_a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;local_a&quot;&lt;/span&gt;
+    
+    &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; local_scope_b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;local_b&quot;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; local_scope_c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;local_c&quot;&lt;/span&gt;
+            console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;local_scope_a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
+            console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;local_scope_b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
+            console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;local_scope_c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true -&gt; local_c 출력&lt;/span&gt;
+            console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;global_scope&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true -&gt; global 출력&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;1. JS 스코프만의 특징&lt;/h3&gt;
+&lt;p&gt;앞선 개념은 JS를 제외한 대부분의 프로그래밍 언어에서 갖는 스코프의 형태이다. 더불어 JS(ES3)의 스코프는 다음과 같은 추가적인 이해가 필요하다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;함수 단위의 유효범위&lt;/li&gt;
+&lt;li&gt;변수명의 중복 허용&lt;/li&gt;
+&lt;li&gt;var 키워드의 생략&lt;/li&gt;
+&lt;li&gt;렉시컬 특성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이제부터 천천히 위의 특성들을 살펴보도록 하자.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 단위의 유효범위&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;scopeTest&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; c &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; c&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;c=&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+         console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;c=&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;b=&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;scopeTest&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+c = 0  
+c = 1  
+c = 2  
+c = 3  
+c = 4  
+c = 5  
+b = 0  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 코드에서는 JS의 유효범위가 블록 단위가 아닌 함수 단위로 정의된다는 것을 보여주기 위한 코드이다. 다른 프로그래밍 언어들은 유효범위의 단위가 블록 단위이기 대문에 위의 코드와 같은 if문, for문 등 구문들이 사용되었을 때 중괄호 밖의 범위에서는 그 안의 변수를 사용할 수 없다.&lt;/p&gt;
+&lt;p&gt;하지만, JS의 유효 범위는 함수 단위이기 때문에 예제코드의 변수 a, b, c 모두 같은 유효범위를 갖는다. 그 결과 실행화면처럼 모든 변수가 정상적으로 출력되는 것을 알 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 변수 명 중복&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; scope &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;scopeExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; scope &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;scope = &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;scope&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;scopeExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+scope =20  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;JS는 다른 프로그래밍 언어와는 달리 변수명이 중복되어도 에러를 발생하지 않는다. 단, 중복된 변수명을 참조할 때는 가장 가까운 범위의 변수를 참조하도록 한다. 그래서 위의 코드처럼 scope를 호출했을 때, 전역 변수가 아닌 가까이에 있는 지역 변수를 참조한 것이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// var 키워드 생략&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;scopeExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    scope &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;scope = &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;scope&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;scopeExam2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;scope = &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; scope&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;scopeExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token function&quot;&gt;scopeExam2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+scope=20  
+scope=20  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;대부분의 컴파일 언어의 경우에는 변수를 선언할 때 int나 char과 같이 타입을 명시적으로 선언해줘야 한다. 하지만 JS는 컴파일링을 거치지 않는 스크립트 언어이기 때문에  모든 변수가 명시적으로 선언되지 않더라도 인터프리터를 거친 후에 값에 따라 자동적으로 변수의 타입이 정해진다. 그래서 변수의 자료형이 하나(var)로 통일될 수 있는 것이고, 이는 &apos;생략&apos;해도 무관하다는 것과 동일한 의미를 지닌다. &lt;/p&gt;
+&lt;p&gt;그래서 위와 같이 &apos;var&apos; 키워드를 생략하더라도 정상적으로 동작할 수 있는 것이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 렉시컬 특성 Code1&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; a&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;호출 실행&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+호출실행
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 렉시컬 특성 Code2&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; a&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+Uncaught Reference Error  
+: a is not defined
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;렉시컬 특성이란 함수 실행 시 유효범위를 함수 실행 환경이 아닌 함수 정의 환경으로 참조하는 특성을 말한다. Code1의 경우에는 f1에서 f2를 호출하면 정상적으로 실행된다. 이는 f1과 f2 모두 전역에서 생성된 함수이기 때문에 서로를 참조할 수 있는 것이다.&lt;/p&gt;
+&lt;p&gt;하지만 Code2처럼 함수 f1안에서 f2를 호출했다고 해서 f2가 f1안에 들어온 것처럼 f1의 내부 변수 a를 참조할 수 없다. 이는 렉시컬 특성으로 인해 f2가 실행될 때가 아닌 정의 될 대의 환경을 보고 a라는 변수를 참조하기 때문에 찾을 수 없는 것이다.&lt;/p&gt;
+&lt;p&gt;다음으로는 또다른 ES3의 특성 중 하나인 호이스팅(Hoisting)을 살펴보도록 하자.&lt;/p&gt;
+&lt;h3&gt;호이스팅(Hoisting)&lt;/h3&gt;
+&lt;p&gt;직역하면 &apos;끌어올리기&apos; 혹은 &apos;들어 올려 나르기&apos;라고 부를 수 있다. JS에서의 호이스팅도 이와 유사한 의미를 가지고 있다. 간단히 JS의 호이스팅은 변수 선언문을 끌어올린다는 뜻으로 이해하면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 호이스팅 Code1&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;value=&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;value=&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+value= undefined  
+value= 10  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 호이스팅 Code2&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;value=&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;value=&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+value= undefined  
+value= 10  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 두 예제를 통해 호이스팅을 간단하게 이해해보도록 하자. Code1을 보면 hoistingExam 안에서 변수 value의 호출이 2번 일어난다. 한 번은 변수 선언문 전에, 또 한 번은 변수 선언 후에 호출되는데, 다른 프로그래밍 언어의 경우에는 선언문 전에 호출됐을 때 에러가 발생하지만, Js의 경우에는 호이스팅을 통해 Code2와 같은 의미로 구동된다. 즉, 변수 선언문이 유효범위 안의 제일 상단부로 끌어올려지게 되고, 선언문이 있던 자리에서 초기화가 이루어지는 결과를 갖는 것이다. 이때 선언에서는 따로 값을 정해주지 않았기 때문에 undefined가 출력된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;value=&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;value=&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+value= undefined  
+value= 10  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그렇다면 위 코드에서는 어떤 결과가 나타날까? 다른 프로그래밍 언어에 익숙하다면 첫 번째 호출에서는 전역 변수의 값인 &apos;30&apos;이, 두 번째 호출에서는 지역 변수의 값인 &apos;10&apos;이 들어간다고 생각할 수 있다. 하지만 이 경우에는 JS의 호이스팅으로 인해서 선언 부가 함수 hoistingExam의 최 상단에서 끌어올려 짐으로써 전역변수가 아닌 지역변수를 참조하게 되는 것이다.&lt;/p&gt;
+&lt;p&gt;다음으로는 함수의 호이스팅을 살펴보도록 하자. 이때는 여러 가지의 함수 정의 방법 중 &apos;오직 함수 선언문 방식만 호이스팅이 가능하다&apos;라는 점을 기억하도록 하자. 다음을 살펴보자.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 호이스팅 - 함수 선언문&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;hoistingExam&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; hoisting_val &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hoisting_val =&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;hoisting_val&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+hoisting_val =10  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 호이스팅 - 함수 표현식&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;hoistingExam2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;hoistingExam2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; hoisting_val &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hoisting_val =&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;hoisting_val&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+hoistingExam2 of object is not a function  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 호이스팅 - Function 생성자&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;hoistingExam3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; hoistingExam3 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;return console.log(&apos;Ya-ho!!&apos;);&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token comment&quot;&gt;/* 실행결과
+hoistingExam3 of object is not a function  
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;오직 함수 선언문 방식만 호이스팅이 되고 함수 표현식과 function 생성자 방식은 호이스팅되지 않는다. 그 이유는 함수 표현식과 Function 생성자를 통한 함수 정의 방법은 변수에 함수를 초기화시키기 때문에 선언문이 호이스팅되어 상단으로 올려진다 하더라도 함수가 아닌 변수로써 인지하기 때문이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 3]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
 <p>일단 이 글을 읽는 이들은 다음과 같은 조건을 충족했다고 가정한다.</p>
 <ul>
 <li><a href="https://rayleighko.github.io/blog/2019-02-12-aws_ac_web_2">이전 글(이론)</a>을 읽었다.</li>
