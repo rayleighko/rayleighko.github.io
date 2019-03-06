@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Mar 2019 09:55:48 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - project NextJS2]]></title><description><![CDATA[<h1>NextJS 실습하기 - 기본 예제 따라하기</h1>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Mar 2019 10:01:06 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - project NextJS2]]></title><description><![CDATA[<h1>NextJS 실습하기 - 기본 예제 따라하기</h1>
 <p>먼저 NextJS에서 제공하는 기본 튜토리얼을 따라 NextJS를 이해하도록 하자. 기본 튜토리얼은 NextJS의 문서에서 Learn을 통해 진행할 수 있으며, GitHub 로그인을 통한 연동이 가능하기 때문에 어렵지않게 진행할 수 있을 것이다.</p>
 <p><a href="https://nextjs.org/learn/basics/getting-started/">NextJS 기본 튜토리얼</a>에서 로그인 후 실습을 진행하도록 하자. 실습 진행은 각자의 몫이기 때문에 여기에 별도의 글을 작성하지는 않고, 그저 후기를 작성하도록 할 것이다.</p>
 <blockquote>
@@ -543,7 +543,7 @@ marked&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 <li>
 <p>리펙터링을 한다는 마음으로 사내 코드 읽기: 사내 코드의 규율 적응 및 모르는 라이브러리의 메서드 및 컴포넌트의 학습이 필요하다고 느꼈기 때문에, 이를 해결하기 위해 사내의 코드를 읽고, 읽은 코드를 바탕으로 학습할 내용을 정리할 것이다. 물론 사내의 코드를 공유하지는 않을 것이다.</p>
 </li>
-</ol>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_study_1</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_study_1</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WePlanet Intern - study&lt;/h1&gt;
+</ol>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_study_plan</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_study_plan</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WePlanet Intern - study&lt;/h1&gt;
 &lt;h3&gt;앞으로의 계획 및 목표&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;익숙하지 않은 Javascript(ES6, ES7, ES8) 문법 이해, React, Node(Express) 문법 및 각종 라이브러리의 메서드(파리미터, 결과 중심) 이해&lt;/li&gt;
@@ -580,7 +580,111 @@ marked&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;li&gt;
 &lt;p&gt;리펙터링을 한다는 마음으로 사내 코드 읽기: 사내 코드의 규율 적응 및 모르는 라이브러리의 메서드 및 컴포넌트의 학습이 필요하다고 느꼈기 때문에, 이를 해결하기 위해 사내의 코드를 읽고, 읽은 코드를 바탕으로 학습할 내용을 정리할 것이다. 물론 사내의 코드를 공유하지는 않을 것이다.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS2]]></title><description><![CDATA[<h1>(아마도)NextJS를 사용하기 위한 사전 지식</h1>
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS1]]></title><description><![CDATA[<h1>Next 입문하기</h1>
+<p>우선 나는 이 글을 쓰기 전에 <a href="https://nextjs.org/">NextJS</a>에서 제공하는 Quick Start를 따라 간단한 <a href="https://github.com/rayleighko/react-nextjs">예제</a>를 구현한 경험이 있다. 하지만, NextJS를 사용하는 법은 알았지만, 억지로 쓰자면 쓸 수 있었지만 왜 써야하고 무엇을 위해 존재하는지를 알지 못했기 때문에 이번 기회를 통해 제대로 NextJS를 이해하고 입문하고자 했다.</p>
+<p>더불어 지금 내가 보고있는 코드가 NextJS를 기반으로 이루어진 코드이기 때문에 이를 이해하기 위해서는 필수불가결하게 NextJS를 이해해야만 했다.</p>
+<p><a href="https://velopert.com/3293">참고자료 1 - Next.js 2.0] 간단한 React 전용 서버사이드 프레임워크, 기초부터 본격적으로 파보기</a></p>
+<p><a href="https://jaroinside.tistory.com/24">참고자료 2 - 11. 서버 사이드 렌더링, 클라이언트 사이드 렌더링</a></p>
+<p><a href="https://nextjs.org/learn/basics/getting-started">참고자료 3 - NextJS Getting Started</a></p>
+<h2>왜 NextJS인가?</h2>
+<p>우선적으로 무언가가 존재하는 이유를 알기 위해서는 그 기술이 왜 만들어졌는지를 이해하면 학습에 큰 도움이 될 것이다. 그렇다면 Next.JS는 왜 만들어진 걸까?</p>
+<p>가장 큰 이유는 리액트에서 SSR(Server Side Rendering)을 하기 위함이라고 할 수 있을 것이다. 리액트에서의 SSR이라는 것을 이해하기 위해서는 기존 웹페이지에서 렌더링하던 방식을 알아야 한다. 우리는 먼저 웹페이지를 구동하는 방식에 대한 이해부터 시작하자.</p>
+<p>우선적으로 웹페이지가 존재하기 위해서는 어떠한 웹 페이지에 접속할 때, 그 페이지를 사용자 화면에 그려주기 위해 렌더링이라는 작업이 필요하다. 그래서 웹페이지를 구동하는 방식은 "언제, 어떻게 렌더링을 할 것인가?"에 대한 답이기도 하다.</p>
+<h3>전통적인 웹페이지 구동 방식</h3>
+<p>요청 시마다 새로고침과 함께 서버에 새로운 페이지에 대한 요청을 하는 방식이다. 이때 View가 어떻게 보여질지 또한 서버에서 해석하여 보내주기 때문에 이를 '서버 사이드 렌더링'이라고 이야기한다. 더불어 이는 물건을 쟁여두지않고 필요할 때마다 사러가는 것과 같은 맥락이다. </p>
+<p>하지만 기술의 발전으로 웹에서 제공하는 정보량이 많아지고, 이에 따라 여러 문제점이 발견되면서 전통적인 웹페이지 구동 방식과는 다른 SPA(Single Page Application)라는 기법이 등장하게 되었다.</p>
+<h3>SPA 구동 방식</h3>
+<p>SPA는 이름 그대로 처음에 하나의 빈 페이지만 서버측에 제공하고, View에 대해서는 Client에서 JS를 통해 렌더링하는 방식을 택했다. 이를 CSR(Client Side Rendering), 혹은 '클라이언트 사이드 렌더링'이라고 이야기한다. CSR은 물건을 사러 갈 알바를 고용하고 필요할 때마다 물건을 배송받는 것과 같다.</p>
+<p>SSR과 CSR을 비교하여 설명하는 것은 처음에는 이해가 안될 수도 있지만, 간단히 View를 렌더링하는 위치가 서버냐 클라이언트냐에 따라 서버 사이드 혹은 클라이언트 사이드 렌더링이라고 이야기한다는 것을 알고 넘어가도록 하자.</p>
+<blockquote>
+<p>여기서 주의할 점은 우리가 살펴 볼 SSR과 CSR은 전통적인 웹페이지 구동방식, SPA 구동 방식을 의미하는 것이 아닌 전통적인 웹페이지 구동방식에서는 SSR을 사용하고, SPA 구동 방식에서는 CSR을 사용한다는 것이다.</p>
+</blockquote>
+<p>그리고 이제부터 SSR과 CSR의 가장 큰 차이인 '초기 View 로딩 속도', 'SEO'에 대해 살펴보고 보다 확실하게 NextJS를 사용해보도록 하자.</p>
+<h3>SSR과 CSR의 차이</h3>
+<p>먼저 SSR과 CSR의 가장 큰 차이 중 하나인 '초기 View 로딩 속도'를 비교해보도록 하자.</p>
+<p>SSR의 경우에는 View를 서버에서 렌더링해 가져오기 때문에, 첫 로딩이 매우 짧다. 물론, JS 파일을 모두 다운로드하고 적용하기 전까지는 각각의 기능이 동작하지 않겠지만, 사용자의 입장에서는 매우 빠른 속도로 로딩이 됐다고 생각할 수 있는 것이다.</p>
+<p>반면에 CSR은 서버에서 View를 렌더링하지 않고, 먼저 HTML을 다운로드하고, JS 파일이나 서비스에 필요한 리소스를 다운로드한 후 브라우저에서 렌더링 해 보여주기 때문에 SSR보다는 초기 View를 보기까지의 시간이 길다. 하지만, 보여진 기능 모두 보임과 동시에 동작 가능하다.</p>
+<p>물론, 이 두 차이점은 개인의 취향 혹은 서비스의 UX에 따라 달라질 것이기 때문에 어떤 것이 옳다고 이야기할 수 없을 것이다. 그렇기 때문에 두 번째 큰 차이점인 SEO 문제에 대해 살펴봐야 어떤 것을 선택할지를 판단할 수 있을 것이다.</p>
+<h3>SEO 문제</h3>
+<p>SEO는 Search Engine Optimization의 약자로 검색 엔진 최적화를 의미한다. 즉, SEO 문제는 검색 엔진 최적화 문제를 말하고 검색 엔진의 크롤러들이 웹 페이지의 JS를 해석해 노출시키기 때문에 크롤링을 할 수 없는 시점에서는 검색 엔진에 노출시키지 않는 것이고, 이는 노출 횟수가 줄어듦을 의미한다.</p>
+<p>따라서 CSR은 View를 생성하기 위해서는 JS가 필요하고, View를 생성하기 전까지는 검색 엔진 크롤러의 데이터 수집이 제한적이기 때문에 상대적으로 SEO가 잘되지 않아 사용자 유입이 적고, SSR은 View를 서버에서 렌더링해 제공하기 때문에 상대적으로 SEO에 유리해져 사용자 유입이 많을 것이다.</p>
+<p>정리하면 SSR은 초기 로딩 속도가 빠르고 SEO에 유리하지만, View 변경 시 서버에 계속적으로 요청해야 하므로 서버에 부담이 크다. 그리고 CSR은 초기 로딩 속도가 느리고 SEO에 대한 문제가 있지만, 초기 로딩 후에는 View를 서버에 요청하는 것이 아닌 Client에서 직접 렌더링하기 때문에 매우 빠르다는 장점이 있다.</p>
+<p>또한, 최근에는 이 두 가지 방법을 적절하게 융합한 방법들도 나오고 있다. 즉, 첫 번째 페이지 로딩에서는 서버 사이드 렌더링을 사용하고, 그 후에 모든 페이지 로드에는 클라이언트 사이드 렌더링을 활용하는 방안이 그것이다.</p>
+<h2>다시 본론으로..</h2>
+<p>우리는 NextJS의 탄생 배경을 이해하기 위해 앞선 것처럼 SSR과 CSR을 알아봤다. 그래서 우리는 NextJS를 리액트에서의 SSR을 위한 '도구'라는 것까지 이해했다. 그럼에도 불구하고 다른 도구가 아닌 NextJS를 사용해야만 하는지에 대해서는 이해하지 못했다. 그래서 우선은 NextJS에서 제공하는 <a href="https://nextjs.org/learn/">문서</a>를 살펴보기로 했다.</p>
+<p>문서에 따르면, 최근에 각광받는 Single Page(단일) JavaScript applications에 대한 이야기와 이를 구현하는 것에 대한 어려움을 이야기한다. 더불어 아직도 적절한 어플리케이션을 만들기 위해서는 높은 러닝 커브(client-side routing, page layout 등)를 감수해야 하고, 이는 빠른 페이지 로드를 위해 사용하는 SSR을 적용하기 위한 어려움으로 이어질 수 있다고 이야기한다.</p>
+<p>그래서 NextJS 팀은 사용자 설정이 가능하지만 간단한 무언가를 원했고, 이것을 PHP의 그것과 같이 라우팅에 대해서 걱정할 필요없으며 기본적으로 응용 프로그램이 서버에 렌더링되게 만들고자 생각했다고 한다. 그래서 탄생한 것이 NextJS이다.</p>
+<p>이제 NextJS의 탄생 배경을 어렴풋이 알게 되었다. 그렇다면, 본격적으로 문서를 통해 NextJS로 무엇을 할 수 있을지를 살펴보자. 왜냐면 우리는 NextJS를 '잘' 사용해야 하기 때문이다.</p>
+<ul>
+<li>Server-rendered by default</li>
+<li>Automatic code splitting for faster page loads</li>
+<li>Simple client-side routing (page based)</li>
+<li>Webpack-based dev environment which supports <a href="https://webpack.js.org/concepts/hot-module-replacement/">Hot Module Replacement</a>(HMR)</li>
+<li>Able to implement with Express or any other Node.js HTTP server</li>
+<li>Customizable with your own Babel and Webpack configurations</li>
+</ul>
+<p>위의 내용을 한글로 살펴보면 다음과 같이 이해할 수 있을 것이다.</p>
+<ul>
+<li>기본적으로 서버 렌더링</li>
+<li>보다 빠른 페이지 로드를 위한 자동 코드 스플리팅</li>
+<li>간단한 클라이언트 사이드 라우팅(page 기반)</li>
+<li><a href="https://webpack.js.org/concepts/hot-module-replacement/">Hot Module Replacement</a>(HMR)을 지원하는 웹팩 기반 개발 환경</li>
+<li>익스프레스 혹은 어떤 Node.js HTTP server로 구현이 가능</li>
+<li>바벨과 웹펙 설정으로 사용자 정의 가능</li>
+</ul>
+<p>이제야 NextJS를 왜 사용하고, 언제 사용하면 좋을지를 알게 되었다. 하지만, 아직까지 코드 스플리팅이 무엇인지, HMR이 무엇인지 이것들이 실제 코드에서 어떻게 구현되고 어떤 도움이 되는지를 알지 못한다. 따라서 다음에는 본격적으로 NextJS를 사용하기 전에 익숙하지 않은 키워드들을 정리해보도록 하자.</p>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_project_1</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_project_1</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Next 입문하기&lt;/h1&gt;
+&lt;p&gt;우선 나는 이 글을 쓰기 전에 &lt;a href=&quot;https://nextjs.org/&quot;&gt;NextJS&lt;/a&gt;에서 제공하는 Quick Start를 따라 간단한 &lt;a href=&quot;https://github.com/rayleighko/react-nextjs&quot;&gt;예제&lt;/a&gt;를 구현한 경험이 있다. 하지만, NextJS를 사용하는 법은 알았지만, 억지로 쓰자면 쓸 수 있었지만 왜 써야하고 무엇을 위해 존재하는지를 알지 못했기 때문에 이번 기회를 통해 제대로 NextJS를 이해하고 입문하고자 했다.&lt;/p&gt;
+&lt;p&gt;더불어 지금 내가 보고있는 코드가 NextJS를 기반으로 이루어진 코드이기 때문에 이를 이해하기 위해서는 필수불가결하게 NextJS를 이해해야만 했다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://velopert.com/3293&quot;&gt;참고자료 1 - Next.js 2.0] 간단한 React 전용 서버사이드 프레임워크, 기초부터 본격적으로 파보기&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jaroinside.tistory.com/24&quot;&gt;참고자료 2 - 11. 서버 사이드 렌더링, 클라이언트 사이드 렌더링&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nextjs.org/learn/basics/getting-started&quot;&gt;참고자료 3 - NextJS Getting Started&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;왜 NextJS인가?&lt;/h2&gt;
+&lt;p&gt;우선적으로 무언가가 존재하는 이유를 알기 위해서는 그 기술이 왜 만들어졌는지를 이해하면 학습에 큰 도움이 될 것이다. 그렇다면 Next.JS는 왜 만들어진 걸까?&lt;/p&gt;
+&lt;p&gt;가장 큰 이유는 리액트에서 SSR(Server Side Rendering)을 하기 위함이라고 할 수 있을 것이다. 리액트에서의 SSR이라는 것을 이해하기 위해서는 기존 웹페이지에서 렌더링하던 방식을 알아야 한다. 우리는 먼저 웹페이지를 구동하는 방식에 대한 이해부터 시작하자.&lt;/p&gt;
+&lt;p&gt;우선적으로 웹페이지가 존재하기 위해서는 어떠한 웹 페이지에 접속할 때, 그 페이지를 사용자 화면에 그려주기 위해 렌더링이라는 작업이 필요하다. 그래서 웹페이지를 구동하는 방식은 &quot;언제, 어떻게 렌더링을 할 것인가?&quot;에 대한 답이기도 하다.&lt;/p&gt;
+&lt;h3&gt;전통적인 웹페이지 구동 방식&lt;/h3&gt;
+&lt;p&gt;요청 시마다 새로고침과 함께 서버에 새로운 페이지에 대한 요청을 하는 방식이다. 이때 View가 어떻게 보여질지 또한 서버에서 해석하여 보내주기 때문에 이를 &apos;서버 사이드 렌더링&apos;이라고 이야기한다. 더불어 이는 물건을 쟁여두지않고 필요할 때마다 사러가는 것과 같은 맥락이다. &lt;/p&gt;
+&lt;p&gt;하지만 기술의 발전으로 웹에서 제공하는 정보량이 많아지고, 이에 따라 여러 문제점이 발견되면서 전통적인 웹페이지 구동 방식과는 다른 SPA(Single Page Application)라는 기법이 등장하게 되었다.&lt;/p&gt;
+&lt;h3&gt;SPA 구동 방식&lt;/h3&gt;
+&lt;p&gt;SPA는 이름 그대로 처음에 하나의 빈 페이지만 서버측에 제공하고, View에 대해서는 Client에서 JS를 통해 렌더링하는 방식을 택했다. 이를 CSR(Client Side Rendering), 혹은 &apos;클라이언트 사이드 렌더링&apos;이라고 이야기한다. CSR은 물건을 사러 갈 알바를 고용하고 필요할 때마다 물건을 배송받는 것과 같다.&lt;/p&gt;
+&lt;p&gt;SSR과 CSR을 비교하여 설명하는 것은 처음에는 이해가 안될 수도 있지만, 간단히 View를 렌더링하는 위치가 서버냐 클라이언트냐에 따라 서버 사이드 혹은 클라이언트 사이드 렌더링이라고 이야기한다는 것을 알고 넘어가도록 하자.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;여기서 주의할 점은 우리가 살펴 볼 SSR과 CSR은 전통적인 웹페이지 구동방식, SPA 구동 방식을 의미하는 것이 아닌 전통적인 웹페이지 구동방식에서는 SSR을 사용하고, SPA 구동 방식에서는 CSR을 사용한다는 것이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;그리고 이제부터 SSR과 CSR의 가장 큰 차이인 &apos;초기 View 로딩 속도&apos;, &apos;SEO&apos;에 대해 살펴보고 보다 확실하게 NextJS를 사용해보도록 하자.&lt;/p&gt;
+&lt;h3&gt;SSR과 CSR의 차이&lt;/h3&gt;
+&lt;p&gt;먼저 SSR과 CSR의 가장 큰 차이 중 하나인 &apos;초기 View 로딩 속도&apos;를 비교해보도록 하자.&lt;/p&gt;
+&lt;p&gt;SSR의 경우에는 View를 서버에서 렌더링해 가져오기 때문에, 첫 로딩이 매우 짧다. 물론, JS 파일을 모두 다운로드하고 적용하기 전까지는 각각의 기능이 동작하지 않겠지만, 사용자의 입장에서는 매우 빠른 속도로 로딩이 됐다고 생각할 수 있는 것이다.&lt;/p&gt;
+&lt;p&gt;반면에 CSR은 서버에서 View를 렌더링하지 않고, 먼저 HTML을 다운로드하고, JS 파일이나 서비스에 필요한 리소스를 다운로드한 후 브라우저에서 렌더링 해 보여주기 때문에 SSR보다는 초기 View를 보기까지의 시간이 길다. 하지만, 보여진 기능 모두 보임과 동시에 동작 가능하다.&lt;/p&gt;
+&lt;p&gt;물론, 이 두 차이점은 개인의 취향 혹은 서비스의 UX에 따라 달라질 것이기 때문에 어떤 것이 옳다고 이야기할 수 없을 것이다. 그렇기 때문에 두 번째 큰 차이점인 SEO 문제에 대해 살펴봐야 어떤 것을 선택할지를 판단할 수 있을 것이다.&lt;/p&gt;
+&lt;h3&gt;SEO 문제&lt;/h3&gt;
+&lt;p&gt;SEO는 Search Engine Optimization의 약자로 검색 엔진 최적화를 의미한다. 즉, SEO 문제는 검색 엔진 최적화 문제를 말하고 검색 엔진의 크롤러들이 웹 페이지의 JS를 해석해 노출시키기 때문에 크롤링을 할 수 없는 시점에서는 검색 엔진에 노출시키지 않는 것이고, 이는 노출 횟수가 줄어듦을 의미한다.&lt;/p&gt;
+&lt;p&gt;따라서 CSR은 View를 생성하기 위해서는 JS가 필요하고, View를 생성하기 전까지는 검색 엔진 크롤러의 데이터 수집이 제한적이기 때문에 상대적으로 SEO가 잘되지 않아 사용자 유입이 적고, SSR은 View를 서버에서 렌더링해 제공하기 때문에 상대적으로 SEO에 유리해져 사용자 유입이 많을 것이다.&lt;/p&gt;
+&lt;p&gt;정리하면 SSR은 초기 로딩 속도가 빠르고 SEO에 유리하지만, View 변경 시 서버에 계속적으로 요청해야 하므로 서버에 부담이 크다. 그리고 CSR은 초기 로딩 속도가 느리고 SEO에 대한 문제가 있지만, 초기 로딩 후에는 View를 서버에 요청하는 것이 아닌 Client에서 직접 렌더링하기 때문에 매우 빠르다는 장점이 있다.&lt;/p&gt;
+&lt;p&gt;또한, 최근에는 이 두 가지 방법을 적절하게 융합한 방법들도 나오고 있다. 즉, 첫 번째 페이지 로딩에서는 서버 사이드 렌더링을 사용하고, 그 후에 모든 페이지 로드에는 클라이언트 사이드 렌더링을 활용하는 방안이 그것이다.&lt;/p&gt;
+&lt;h2&gt;다시 본론으로..&lt;/h2&gt;
+&lt;p&gt;우리는 NextJS의 탄생 배경을 이해하기 위해 앞선 것처럼 SSR과 CSR을 알아봤다. 그래서 우리는 NextJS를 리액트에서의 SSR을 위한 &apos;도구&apos;라는 것까지 이해했다. 그럼에도 불구하고 다른 도구가 아닌 NextJS를 사용해야만 하는지에 대해서는 이해하지 못했다. 그래서 우선은 NextJS에서 제공하는 &lt;a href=&quot;https://nextjs.org/learn/&quot;&gt;문서&lt;/a&gt;를 살펴보기로 했다.&lt;/p&gt;
+&lt;p&gt;문서에 따르면, 최근에 각광받는 Single Page(단일) JavaScript applications에 대한 이야기와 이를 구현하는 것에 대한 어려움을 이야기한다. 더불어 아직도 적절한 어플리케이션을 만들기 위해서는 높은 러닝 커브(client-side routing, page layout 등)를 감수해야 하고, 이는 빠른 페이지 로드를 위해 사용하는 SSR을 적용하기 위한 어려움으로 이어질 수 있다고 이야기한다.&lt;/p&gt;
+&lt;p&gt;그래서 NextJS 팀은 사용자 설정이 가능하지만 간단한 무언가를 원했고, 이것을 PHP의 그것과 같이 라우팅에 대해서 걱정할 필요없으며 기본적으로 응용 프로그램이 서버에 렌더링되게 만들고자 생각했다고 한다. 그래서 탄생한 것이 NextJS이다.&lt;/p&gt;
+&lt;p&gt;이제 NextJS의 탄생 배경을 어렴풋이 알게 되었다. 그렇다면, 본격적으로 문서를 통해 NextJS로 무엇을 할 수 있을지를 살펴보자. 왜냐면 우리는 NextJS를 &apos;잘&apos; 사용해야 하기 때문이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Server-rendered by default&lt;/li&gt;
+&lt;li&gt;Automatic code splitting for faster page loads&lt;/li&gt;
+&lt;li&gt;Simple client-side routing (page based)&lt;/li&gt;
+&lt;li&gt;Webpack-based dev environment which supports &lt;a href=&quot;https://webpack.js.org/concepts/hot-module-replacement/&quot;&gt;Hot Module Replacement&lt;/a&gt;(HMR)&lt;/li&gt;
+&lt;li&gt;Able to implement with Express or any other Node.js HTTP server&lt;/li&gt;
+&lt;li&gt;Customizable with your own Babel and Webpack configurations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;위의 내용을 한글로 살펴보면 다음과 같이 이해할 수 있을 것이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;기본적으로 서버 렌더링&lt;/li&gt;
+&lt;li&gt;보다 빠른 페이지 로드를 위한 자동 코드 스플리팅&lt;/li&gt;
+&lt;li&gt;간단한 클라이언트 사이드 라우팅(page 기반)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://webpack.js.org/concepts/hot-module-replacement/&quot;&gt;Hot Module Replacement&lt;/a&gt;(HMR)을 지원하는 웹팩 기반 개발 환경&lt;/li&gt;
+&lt;li&gt;익스프레스 혹은 어떤 Node.js HTTP server로 구현이 가능&lt;/li&gt;
+&lt;li&gt;바벨과 웹펙 설정으로 사용자 정의 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이제야 NextJS를 왜 사용하고, 언제 사용하면 좋을지를 알게 되었다. 하지만, 아직까지 코드 스플리팅이 무엇인지, HMR이 무엇인지 이것들이 실제 코드에서 어떻게 구현되고 어떤 도움이 되는지를 알지 못한다. 따라서 다음에는 본격적으로 NextJS를 사용하기 전에 익숙하지 않은 키워드들을 정리해보도록 하자.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS2]]></title><description><![CDATA[<h1>(아마도)NextJS를 사용하기 위한 사전 지식</h1>
 <p>앞선 내용에서 NextJS를 왜 사용하는지, 언제 사용하면 좋을지를 살펴봤다. 하지만, 아직까지 NextJS에서 제공하는 기능을 전부 이해하지 못했기 때문에 이번에는 NextJS에서 제공하는 기능을 하나하나 살펴보도록 하자.</p>
 <p><a href="https://velopert.com/3293">참고자료 1 - Next.js 2.0] 간단한 React 전용 서버사이드 프레임워크, 기초부터 본격적으로 파보기</a></p>
 <p><a href="https://nextjs.org/learn/basics/getting-started">참고자료 2 - NextJS Getting Started</a></p>
@@ -897,7 +1001,7 @@ hoistingExam2 of object is not a function
 <span class="token comment">/* 실행결과
 hoistingExam3 of object is not a function  
 */</span></code></pre></div>
-<p>오직 함수 선언문 방식만 호이스팅이 되고 함수 표현식과 function 생성자 방식은 호이스팅되지 않는다. 그 이유는 함수 표현식과 Function 생성자를 통한 함수 정의 방법은 변수에 함수를 초기화시키기 때문에 선언문이 호이스팅되어 상단으로 올려진다 하더라도 함수가 아닌 변수로써 인지하기 때문이다.</p>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_study_2</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_study_2</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WePlanet Intern - study - ES3(스코프, 호이스팅)&lt;/h1&gt;
+<p>오직 함수 선언문 방식만 호이스팅이 되고 함수 표현식과 function 생성자 방식은 호이스팅되지 않는다. 그 이유는 함수 표현식과 Function 생성자를 통한 함수 정의 방법은 변수에 함수를 초기화시키기 때문에 선언문이 호이스팅되어 상단으로 올려진다 하더라도 함수가 아닌 변수로써 인지하기 때문이다.</p>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_study_es3_01</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_study_es3_01</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WePlanet Intern - study - ES3(스코프, 호이스팅)&lt;/h1&gt;
 &lt;h2&gt;이번 스터디 목표&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;JS 문법 학습&lt;/strong&gt;: 구현만 가능하다고 적재적소에 원하는 코드를 삽입할 수는 없을 것이라는 생각이 있었기 때문에, 이를 해결하기 위해서 JS의 문법을 다시 한 번 학습하고자 하는 필요성을 느꼈다. 하지만 아주 기본적인 단계를 다시 학습하는 건 불필요하다는 생각이 있기 때문에 기본 문법 및 매커니즘 등의 이해는 건너뛴다.&lt;/p&gt;
 &lt;ol&gt;
@@ -1112,111 +1216,7 @@ hoistingExam2 of object is not a function
 &lt;span class=&quot;token comment&quot;&gt;/* 실행결과
 hoistingExam3 of object is not a function  
 */&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;오직 함수 선언문 방식만 호이스팅이 되고 함수 표현식과 function 생성자 방식은 호이스팅되지 않는다. 그 이유는 함수 표현식과 Function 생성자를 통한 함수 정의 방법은 변수에 함수를 초기화시키기 때문에 선언문이 호이스팅되어 상단으로 올려진다 하더라도 함수가 아닌 변수로써 인지하기 때문이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS1]]></title><description><![CDATA[<h1>Next 입문하기</h1>
-<p>우선 나는 이 글을 쓰기 전에 <a href="https://nextjs.org/">NextJS</a>에서 제공하는 Quick Start를 따라 간단한 <a href="https://github.com/rayleighko/react-nextjs">예제</a>를 구현한 경험이 있다. 하지만, NextJS를 사용하는 법은 알았지만, 억지로 쓰자면 쓸 수 있었지만 왜 써야하고 무엇을 위해 존재하는지를 알지 못했기 때문에 이번 기회를 통해 제대로 NextJS를 이해하고 입문하고자 했다.</p>
-<p>더불어 지금 내가 보고있는 코드가 NextJS를 기반으로 이루어진 코드이기 때문에 이를 이해하기 위해서는 필수불가결하게 NextJS를 이해해야만 했다.</p>
-<p><a href="https://velopert.com/3293">참고자료 1 - Next.js 2.0] 간단한 React 전용 서버사이드 프레임워크, 기초부터 본격적으로 파보기</a></p>
-<p><a href="https://jaroinside.tistory.com/24">참고자료 2 - 11. 서버 사이드 렌더링, 클라이언트 사이드 렌더링</a></p>
-<p><a href="https://nextjs.org/learn/basics/getting-started">참고자료 3 - NextJS Getting Started</a></p>
-<h2>왜 NextJS인가?</h2>
-<p>우선적으로 무언가가 존재하는 이유를 알기 위해서는 그 기술이 왜 만들어졌는지를 이해하면 학습에 큰 도움이 될 것이다. 그렇다면 Next.JS는 왜 만들어진 걸까?</p>
-<p>가장 큰 이유는 리액트에서 SSR(Server Side Rendering)을 하기 위함이라고 할 수 있을 것이다. 리액트에서의 SSR이라는 것을 이해하기 위해서는 기존 웹페이지에서 렌더링하던 방식을 알아야 한다. 우리는 먼저 웹페이지를 구동하는 방식에 대한 이해부터 시작하자.</p>
-<p>우선적으로 웹페이지가 존재하기 위해서는 어떠한 웹 페이지에 접속할 때, 그 페이지를 사용자 화면에 그려주기 위해 렌더링이라는 작업이 필요하다. 그래서 웹페이지를 구동하는 방식은 "언제, 어떻게 렌더링을 할 것인가?"에 대한 답이기도 하다.</p>
-<h3>전통적인 웹페이지 구동 방식</h3>
-<p>요청 시마다 새로고침과 함께 서버에 새로운 페이지에 대한 요청을 하는 방식이다. 이때 View가 어떻게 보여질지 또한 서버에서 해석하여 보내주기 때문에 이를 '서버 사이드 렌더링'이라고 이야기한다. 더불어 이는 물건을 쟁여두지않고 필요할 때마다 사러가는 것과 같은 맥락이다. </p>
-<p>하지만 기술의 발전으로 웹에서 제공하는 정보량이 많아지고, 이에 따라 여러 문제점이 발견되면서 전통적인 웹페이지 구동 방식과는 다른 SPA(Single Page Application)라는 기법이 등장하게 되었다.</p>
-<h3>SPA 구동 방식</h3>
-<p>SPA는 이름 그대로 처음에 하나의 빈 페이지만 서버측에 제공하고, View에 대해서는 Client에서 JS를 통해 렌더링하는 방식을 택했다. 이를 CSR(Client Side Rendering), 혹은 '클라이언트 사이드 렌더링'이라고 이야기한다. CSR은 물건을 사러 갈 알바를 고용하고 필요할 때마다 물건을 배송받는 것과 같다.</p>
-<p>SSR과 CSR을 비교하여 설명하는 것은 처음에는 이해가 안될 수도 있지만, 간단히 View를 렌더링하는 위치가 서버냐 클라이언트냐에 따라 서버 사이드 혹은 클라이언트 사이드 렌더링이라고 이야기한다는 것을 알고 넘어가도록 하자.</p>
-<blockquote>
-<p>여기서 주의할 점은 우리가 살펴 볼 SSR과 CSR은 전통적인 웹페이지 구동방식, SPA 구동 방식을 의미하는 것이 아닌 전통적인 웹페이지 구동방식에서는 SSR을 사용하고, SPA 구동 방식에서는 CSR을 사용한다는 것이다.</p>
-</blockquote>
-<p>그리고 이제부터 SSR과 CSR의 가장 큰 차이인 '초기 View 로딩 속도', 'SEO'에 대해 살펴보고 보다 확실하게 NextJS를 사용해보도록 하자.</p>
-<h3>SSR과 CSR의 차이</h3>
-<p>먼저 SSR과 CSR의 가장 큰 차이 중 하나인 '초기 View 로딩 속도'를 비교해보도록 하자.</p>
-<p>SSR의 경우에는 View를 서버에서 렌더링해 가져오기 때문에, 첫 로딩이 매우 짧다. 물론, JS 파일을 모두 다운로드하고 적용하기 전까지는 각각의 기능이 동작하지 않겠지만, 사용자의 입장에서는 매우 빠른 속도로 로딩이 됐다고 생각할 수 있는 것이다.</p>
-<p>반면에 CSR은 서버에서 View를 렌더링하지 않고, 먼저 HTML을 다운로드하고, JS 파일이나 서비스에 필요한 리소스를 다운로드한 후 브라우저에서 렌더링 해 보여주기 때문에 SSR보다는 초기 View를 보기까지의 시간이 길다. 하지만, 보여진 기능 모두 보임과 동시에 동작 가능하다.</p>
-<p>물론, 이 두 차이점은 개인의 취향 혹은 서비스의 UX에 따라 달라질 것이기 때문에 어떤 것이 옳다고 이야기할 수 없을 것이다. 그렇기 때문에 두 번째 큰 차이점인 SEO 문제에 대해 살펴봐야 어떤 것을 선택할지를 판단할 수 있을 것이다.</p>
-<h3>SEO 문제</h3>
-<p>SEO는 Search Engine Optimization의 약자로 검색 엔진 최적화를 의미한다. 즉, SEO 문제는 검색 엔진 최적화 문제를 말하고 검색 엔진의 크롤러들이 웹 페이지의 JS를 해석해 노출시키기 때문에 크롤링을 할 수 없는 시점에서는 검색 엔진에 노출시키지 않는 것이고, 이는 노출 횟수가 줄어듦을 의미한다.</p>
-<p>따라서 CSR은 View를 생성하기 위해서는 JS가 필요하고, View를 생성하기 전까지는 검색 엔진 크롤러의 데이터 수집이 제한적이기 때문에 상대적으로 SEO가 잘되지 않아 사용자 유입이 적고, SSR은 View를 서버에서 렌더링해 제공하기 때문에 상대적으로 SEO에 유리해져 사용자 유입이 많을 것이다.</p>
-<p>정리하면 SSR은 초기 로딩 속도가 빠르고 SEO에 유리하지만, View 변경 시 서버에 계속적으로 요청해야 하므로 서버에 부담이 크다. 그리고 CSR은 초기 로딩 속도가 느리고 SEO에 대한 문제가 있지만, 초기 로딩 후에는 View를 서버에 요청하는 것이 아닌 Client에서 직접 렌더링하기 때문에 매우 빠르다는 장점이 있다.</p>
-<p>또한, 최근에는 이 두 가지 방법을 적절하게 융합한 방법들도 나오고 있다. 즉, 첫 번째 페이지 로딩에서는 서버 사이드 렌더링을 사용하고, 그 후에 모든 페이지 로드에는 클라이언트 사이드 렌더링을 활용하는 방안이 그것이다.</p>
-<h2>다시 본론으로..</h2>
-<p>우리는 NextJS의 탄생 배경을 이해하기 위해 앞선 것처럼 SSR과 CSR을 알아봤다. 그래서 우리는 NextJS를 리액트에서의 SSR을 위한 '도구'라는 것까지 이해했다. 그럼에도 불구하고 다른 도구가 아닌 NextJS를 사용해야만 하는지에 대해서는 이해하지 못했다. 그래서 우선은 NextJS에서 제공하는 <a href="https://nextjs.org/learn/">문서</a>를 살펴보기로 했다.</p>
-<p>문서에 따르면, 최근에 각광받는 Single Page(단일) JavaScript applications에 대한 이야기와 이를 구현하는 것에 대한 어려움을 이야기한다. 더불어 아직도 적절한 어플리케이션을 만들기 위해서는 높은 러닝 커브(client-side routing, page layout 등)를 감수해야 하고, 이는 빠른 페이지 로드를 위해 사용하는 SSR을 적용하기 위한 어려움으로 이어질 수 있다고 이야기한다.</p>
-<p>그래서 NextJS 팀은 사용자 설정이 가능하지만 간단한 무언가를 원했고, 이것을 PHP의 그것과 같이 라우팅에 대해서 걱정할 필요없으며 기본적으로 응용 프로그램이 서버에 렌더링되게 만들고자 생각했다고 한다. 그래서 탄생한 것이 NextJS이다.</p>
-<p>이제 NextJS의 탄생 배경을 어렴풋이 알게 되었다. 그렇다면, 본격적으로 문서를 통해 NextJS로 무엇을 할 수 있을지를 살펴보자. 왜냐면 우리는 NextJS를 '잘' 사용해야 하기 때문이다.</p>
-<ul>
-<li>Server-rendered by default</li>
-<li>Automatic code splitting for faster page loads</li>
-<li>Simple client-side routing (page based)</li>
-<li>Webpack-based dev environment which supports <a href="https://webpack.js.org/concepts/hot-module-replacement/">Hot Module Replacement</a>(HMR)</li>
-<li>Able to implement with Express or any other Node.js HTTP server</li>
-<li>Customizable with your own Babel and Webpack configurations</li>
-</ul>
-<p>위의 내용을 한글로 살펴보면 다음과 같이 이해할 수 있을 것이다.</p>
-<ul>
-<li>기본적으로 서버 렌더링</li>
-<li>보다 빠른 페이지 로드를 위한 자동 코드 스플리팅</li>
-<li>간단한 클라이언트 사이드 라우팅(page 기반)</li>
-<li><a href="https://webpack.js.org/concepts/hot-module-replacement/">Hot Module Replacement</a>(HMR)을 지원하는 웹팩 기반 개발 환경</li>
-<li>익스프레스 혹은 어떤 Node.js HTTP server로 구현이 가능</li>
-<li>바벨과 웹펙 설정으로 사용자 정의 가능</li>
-</ul>
-<p>이제야 NextJS를 왜 사용하고, 언제 사용하면 좋을지를 알게 되었다. 하지만, 아직까지 코드 스플리팅이 무엇인지, HMR이 무엇인지 이것들이 실제 코드에서 어떻게 구현되고 어떤 도움이 되는지를 알지 못한다. 따라서 다음에는 본격적으로 NextJS를 사용하기 전에 익숙하지 않은 키워드들을 정리해보도록 하자.</p>]]></description><link>https://rayleighko.github.io/blog/2019-03-05-weplanet_project_1</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-05-weplanet_project_1</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Next 입문하기&lt;/h1&gt;
-&lt;p&gt;우선 나는 이 글을 쓰기 전에 &lt;a href=&quot;https://nextjs.org/&quot;&gt;NextJS&lt;/a&gt;에서 제공하는 Quick Start를 따라 간단한 &lt;a href=&quot;https://github.com/rayleighko/react-nextjs&quot;&gt;예제&lt;/a&gt;를 구현한 경험이 있다. 하지만, NextJS를 사용하는 법은 알았지만, 억지로 쓰자면 쓸 수 있었지만 왜 써야하고 무엇을 위해 존재하는지를 알지 못했기 때문에 이번 기회를 통해 제대로 NextJS를 이해하고 입문하고자 했다.&lt;/p&gt;
-&lt;p&gt;더불어 지금 내가 보고있는 코드가 NextJS를 기반으로 이루어진 코드이기 때문에 이를 이해하기 위해서는 필수불가결하게 NextJS를 이해해야만 했다.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://velopert.com/3293&quot;&gt;참고자료 1 - Next.js 2.0] 간단한 React 전용 서버사이드 프레임워크, 기초부터 본격적으로 파보기&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://jaroinside.tistory.com/24&quot;&gt;참고자료 2 - 11. 서버 사이드 렌더링, 클라이언트 사이드 렌더링&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://nextjs.org/learn/basics/getting-started&quot;&gt;참고자료 3 - NextJS Getting Started&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;왜 NextJS인가?&lt;/h2&gt;
-&lt;p&gt;우선적으로 무언가가 존재하는 이유를 알기 위해서는 그 기술이 왜 만들어졌는지를 이해하면 학습에 큰 도움이 될 것이다. 그렇다면 Next.JS는 왜 만들어진 걸까?&lt;/p&gt;
-&lt;p&gt;가장 큰 이유는 리액트에서 SSR(Server Side Rendering)을 하기 위함이라고 할 수 있을 것이다. 리액트에서의 SSR이라는 것을 이해하기 위해서는 기존 웹페이지에서 렌더링하던 방식을 알아야 한다. 우리는 먼저 웹페이지를 구동하는 방식에 대한 이해부터 시작하자.&lt;/p&gt;
-&lt;p&gt;우선적으로 웹페이지가 존재하기 위해서는 어떠한 웹 페이지에 접속할 때, 그 페이지를 사용자 화면에 그려주기 위해 렌더링이라는 작업이 필요하다. 그래서 웹페이지를 구동하는 방식은 &quot;언제, 어떻게 렌더링을 할 것인가?&quot;에 대한 답이기도 하다.&lt;/p&gt;
-&lt;h3&gt;전통적인 웹페이지 구동 방식&lt;/h3&gt;
-&lt;p&gt;요청 시마다 새로고침과 함께 서버에 새로운 페이지에 대한 요청을 하는 방식이다. 이때 View가 어떻게 보여질지 또한 서버에서 해석하여 보내주기 때문에 이를 &apos;서버 사이드 렌더링&apos;이라고 이야기한다. 더불어 이는 물건을 쟁여두지않고 필요할 때마다 사러가는 것과 같은 맥락이다. &lt;/p&gt;
-&lt;p&gt;하지만 기술의 발전으로 웹에서 제공하는 정보량이 많아지고, 이에 따라 여러 문제점이 발견되면서 전통적인 웹페이지 구동 방식과는 다른 SPA(Single Page Application)라는 기법이 등장하게 되었다.&lt;/p&gt;
-&lt;h3&gt;SPA 구동 방식&lt;/h3&gt;
-&lt;p&gt;SPA는 이름 그대로 처음에 하나의 빈 페이지만 서버측에 제공하고, View에 대해서는 Client에서 JS를 통해 렌더링하는 방식을 택했다. 이를 CSR(Client Side Rendering), 혹은 &apos;클라이언트 사이드 렌더링&apos;이라고 이야기한다. CSR은 물건을 사러 갈 알바를 고용하고 필요할 때마다 물건을 배송받는 것과 같다.&lt;/p&gt;
-&lt;p&gt;SSR과 CSR을 비교하여 설명하는 것은 처음에는 이해가 안될 수도 있지만, 간단히 View를 렌더링하는 위치가 서버냐 클라이언트냐에 따라 서버 사이드 혹은 클라이언트 사이드 렌더링이라고 이야기한다는 것을 알고 넘어가도록 하자.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;여기서 주의할 점은 우리가 살펴 볼 SSR과 CSR은 전통적인 웹페이지 구동방식, SPA 구동 방식을 의미하는 것이 아닌 전통적인 웹페이지 구동방식에서는 SSR을 사용하고, SPA 구동 방식에서는 CSR을 사용한다는 것이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;그리고 이제부터 SSR과 CSR의 가장 큰 차이인 &apos;초기 View 로딩 속도&apos;, &apos;SEO&apos;에 대해 살펴보고 보다 확실하게 NextJS를 사용해보도록 하자.&lt;/p&gt;
-&lt;h3&gt;SSR과 CSR의 차이&lt;/h3&gt;
-&lt;p&gt;먼저 SSR과 CSR의 가장 큰 차이 중 하나인 &apos;초기 View 로딩 속도&apos;를 비교해보도록 하자.&lt;/p&gt;
-&lt;p&gt;SSR의 경우에는 View를 서버에서 렌더링해 가져오기 때문에, 첫 로딩이 매우 짧다. 물론, JS 파일을 모두 다운로드하고 적용하기 전까지는 각각의 기능이 동작하지 않겠지만, 사용자의 입장에서는 매우 빠른 속도로 로딩이 됐다고 생각할 수 있는 것이다.&lt;/p&gt;
-&lt;p&gt;반면에 CSR은 서버에서 View를 렌더링하지 않고, 먼저 HTML을 다운로드하고, JS 파일이나 서비스에 필요한 리소스를 다운로드한 후 브라우저에서 렌더링 해 보여주기 때문에 SSR보다는 초기 View를 보기까지의 시간이 길다. 하지만, 보여진 기능 모두 보임과 동시에 동작 가능하다.&lt;/p&gt;
-&lt;p&gt;물론, 이 두 차이점은 개인의 취향 혹은 서비스의 UX에 따라 달라질 것이기 때문에 어떤 것이 옳다고 이야기할 수 없을 것이다. 그렇기 때문에 두 번째 큰 차이점인 SEO 문제에 대해 살펴봐야 어떤 것을 선택할지를 판단할 수 있을 것이다.&lt;/p&gt;
-&lt;h3&gt;SEO 문제&lt;/h3&gt;
-&lt;p&gt;SEO는 Search Engine Optimization의 약자로 검색 엔진 최적화를 의미한다. 즉, SEO 문제는 검색 엔진 최적화 문제를 말하고 검색 엔진의 크롤러들이 웹 페이지의 JS를 해석해 노출시키기 때문에 크롤링을 할 수 없는 시점에서는 검색 엔진에 노출시키지 않는 것이고, 이는 노출 횟수가 줄어듦을 의미한다.&lt;/p&gt;
-&lt;p&gt;따라서 CSR은 View를 생성하기 위해서는 JS가 필요하고, View를 생성하기 전까지는 검색 엔진 크롤러의 데이터 수집이 제한적이기 때문에 상대적으로 SEO가 잘되지 않아 사용자 유입이 적고, SSR은 View를 서버에서 렌더링해 제공하기 때문에 상대적으로 SEO에 유리해져 사용자 유입이 많을 것이다.&lt;/p&gt;
-&lt;p&gt;정리하면 SSR은 초기 로딩 속도가 빠르고 SEO에 유리하지만, View 변경 시 서버에 계속적으로 요청해야 하므로 서버에 부담이 크다. 그리고 CSR은 초기 로딩 속도가 느리고 SEO에 대한 문제가 있지만, 초기 로딩 후에는 View를 서버에 요청하는 것이 아닌 Client에서 직접 렌더링하기 때문에 매우 빠르다는 장점이 있다.&lt;/p&gt;
-&lt;p&gt;또한, 최근에는 이 두 가지 방법을 적절하게 융합한 방법들도 나오고 있다. 즉, 첫 번째 페이지 로딩에서는 서버 사이드 렌더링을 사용하고, 그 후에 모든 페이지 로드에는 클라이언트 사이드 렌더링을 활용하는 방안이 그것이다.&lt;/p&gt;
-&lt;h2&gt;다시 본론으로..&lt;/h2&gt;
-&lt;p&gt;우리는 NextJS의 탄생 배경을 이해하기 위해 앞선 것처럼 SSR과 CSR을 알아봤다. 그래서 우리는 NextJS를 리액트에서의 SSR을 위한 &apos;도구&apos;라는 것까지 이해했다. 그럼에도 불구하고 다른 도구가 아닌 NextJS를 사용해야만 하는지에 대해서는 이해하지 못했다. 그래서 우선은 NextJS에서 제공하는 &lt;a href=&quot;https://nextjs.org/learn/&quot;&gt;문서&lt;/a&gt;를 살펴보기로 했다.&lt;/p&gt;
-&lt;p&gt;문서에 따르면, 최근에 각광받는 Single Page(단일) JavaScript applications에 대한 이야기와 이를 구현하는 것에 대한 어려움을 이야기한다. 더불어 아직도 적절한 어플리케이션을 만들기 위해서는 높은 러닝 커브(client-side routing, page layout 등)를 감수해야 하고, 이는 빠른 페이지 로드를 위해 사용하는 SSR을 적용하기 위한 어려움으로 이어질 수 있다고 이야기한다.&lt;/p&gt;
-&lt;p&gt;그래서 NextJS 팀은 사용자 설정이 가능하지만 간단한 무언가를 원했고, 이것을 PHP의 그것과 같이 라우팅에 대해서 걱정할 필요없으며 기본적으로 응용 프로그램이 서버에 렌더링되게 만들고자 생각했다고 한다. 그래서 탄생한 것이 NextJS이다.&lt;/p&gt;
-&lt;p&gt;이제 NextJS의 탄생 배경을 어렴풋이 알게 되었다. 그렇다면, 본격적으로 문서를 통해 NextJS로 무엇을 할 수 있을지를 살펴보자. 왜냐면 우리는 NextJS를 &apos;잘&apos; 사용해야 하기 때문이다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Server-rendered by default&lt;/li&gt;
-&lt;li&gt;Automatic code splitting for faster page loads&lt;/li&gt;
-&lt;li&gt;Simple client-side routing (page based)&lt;/li&gt;
-&lt;li&gt;Webpack-based dev environment which supports &lt;a href=&quot;https://webpack.js.org/concepts/hot-module-replacement/&quot;&gt;Hot Module Replacement&lt;/a&gt;(HMR)&lt;/li&gt;
-&lt;li&gt;Able to implement with Express or any other Node.js HTTP server&lt;/li&gt;
-&lt;li&gt;Customizable with your own Babel and Webpack configurations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;위의 내용을 한글로 살펴보면 다음과 같이 이해할 수 있을 것이다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;기본적으로 서버 렌더링&lt;/li&gt;
-&lt;li&gt;보다 빠른 페이지 로드를 위한 자동 코드 스플리팅&lt;/li&gt;
-&lt;li&gt;간단한 클라이언트 사이드 라우팅(page 기반)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://webpack.js.org/concepts/hot-module-replacement/&quot;&gt;Hot Module Replacement&lt;/a&gt;(HMR)을 지원하는 웹팩 기반 개발 환경&lt;/li&gt;
-&lt;li&gt;익스프레스 혹은 어떤 Node.js HTTP server로 구현이 가능&lt;/li&gt;
-&lt;li&gt;바벨과 웹펙 설정으로 사용자 정의 가능&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;이제야 NextJS를 왜 사용하고, 언제 사용하면 좋을지를 알게 되었다. 하지만, 아직까지 코드 스플리팅이 무엇인지, HMR이 무엇인지 이것들이 실제 코드에서 어떻게 구현되고 어떤 도움이 되는지를 알지 못한다. 따라서 다음에는 본격적으로 NextJS를 사용하기 전에 익숙하지 않은 키워드들을 정리해보도록 하자.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 3]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
+&lt;p&gt;오직 함수 선언문 방식만 호이스팅이 되고 함수 표현식과 function 생성자 방식은 호이스팅되지 않는다. 그 이유는 함수 표현식과 Function 생성자를 통한 함수 정의 방법은 변수에 함수를 초기화시키기 때문에 선언문이 호이스팅되어 상단으로 올려진다 하더라도 함수가 아닌 변수로써 인지하기 때문이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 3]]></title><description><![CDATA[<h1>AWS - Architecture study: WEB APPLICATION HOSTING</h1>
 <p>일단 이 글을 읽는 이들은 다음과 같은 조건을 충족했다고 가정한다.</p>
 <ul>
 <li><a href="https://rayleighko.github.io/blog/2019-02-12-aws_ac_web_2">이전 글(이론)</a>을 읽었다.</li>
@@ -2474,7 +2474,7 @@ Auto Scaling에서 해당 그룹에서 이만큼의 인스턴스를 보유할 �
 &lt;p&gt;고가용성을 제공하기 위해 어플리케이션 데이터가 포함된 관계형 데이터베이스는 RDS의 다중 가용구역(Multi-AZ, Master-Slave) 배포 위에서 중복적으로(redundantly) 호스팅된다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;드디어 실습을 위한 사전 학습이 마무리됐다. 이 글 이후에는 실습을 위한 자료를 제공해 보다 나은 학습을 진행하고자 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting 1]]></title><description><![CDATA[<h1>AWS 아키텍처 - Web Application Hosting</h1>
+&lt;p&gt;드디어 실습을 위한 사전 학습이 마무리됐다. 이 글 이후에는 실습을 위한 자료를 제공해 보다 나은 학습을 진행하고자 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS 아키텍처 - Web Application Hosting_01]]></title><description><![CDATA[<h1>AWS 아키텍처 - Web Application Hosting</h1>
 <p>What is <code class="language-text">Web-Application Hosting</code> in <a href="https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_web_01.pdf">AWS Reference Architecture</a>?</p>
 <div class="gatsby-highlight" data-language="english"><pre class="language-english"><code class="language-english">Highly available and scalable web hosting can be complex and expensive.
 Dense peak periods and wild swings in traffic patterns result in low utilization of expensive hardware.
@@ -2484,7 +2484,7 @@ Amazon Web Services provides the reliable, scalable, secure, and high- performan
 <div class="gatsby-highlight" data-language="korean"><pre class="language-korean"><code class="language-korean">고가용성 및 확장성 웹 호스팅은 복잡하고 비용이 많이 듭니다.
 이는 트래픽 패턴이 짙어지면서 피크 시간이 길어지고 값 비싼 하드웨어의 사용률이 낮아집니다.
 
-Amazon Web Services에서는 웹 애플리케이션에 필요한 안정적이고 확장 가능하며 안전한 고성능 인프라를 제공하는 동시에 고객 트래픽이 변동함에 따라 IT 비용을 실시간으로 일치시킬 수있는 유연한 스케일 아웃 및 축소형 인프라를 제공합니다.</code></pre></div>]]></description><link>https://rayleighko.github.io/blog/2019-02-12-aws_ac_web</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-02-12-aws_ac_web</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;AWS 아키텍처 - Web Application Hosting&lt;/h1&gt;
+Amazon Web Services에서는 웹 애플리케이션에 필요한 안정적이고 확장 가능하며 안전한 고성능 인프라를 제공하는 동시에 고객 트래픽이 변동함에 따라 IT 비용을 실시간으로 일치시킬 수있는 유연한 스케일 아웃 및 축소형 인프라를 제공합니다.</code></pre></div>]]></description><link>https://rayleighko.github.io/blog/2019-02-12-aws_ac_web_01</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-02-12-aws_ac_web_01</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;AWS 아키텍처 - Web Application Hosting&lt;/h1&gt;
 &lt;p&gt;What is &lt;code class=&quot;language-text&quot;&gt;Web-Application Hosting&lt;/code&gt; in &lt;a href=&quot;https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_web_01.pdf&quot;&gt;AWS Reference Architecture&lt;/a&gt;?&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;english&quot;&gt;&lt;pre class=&quot;language-english&quot;&gt;&lt;code class=&quot;language-english&quot;&gt;Highly available and scalable web hosting can be complex and expensive.
 Dense peak periods and wild swings in traffic patterns result in low utilization of expensive hardware.
