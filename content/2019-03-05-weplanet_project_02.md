@@ -1,8 +1,8 @@
 ---
 layout: post
-title: WePlanet Intern - project NextJS2
+title: WePlanet Intern - project NextJS_02
 date: '2019-03-05'
-path: '/blog/2019-03-05-weplanet_project_2'
+path: '/blog/2019-03-05-weplanet_project_02'
 tags: next
 ---
 
