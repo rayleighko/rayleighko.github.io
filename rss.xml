@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 12 Mar 2019 12:02:21 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - project NextJS5]]></title><description><![CDATA[<h2>ViewMore(더보기) 동작 구현</h2>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 12 Mar 2019 12:03:46 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - project NextJS_05]]></title><description><![CDATA[<h2>ViewMore(더보기) 동작 구현</h2>
 <h3>현재 상황</h3>
 <ol>
 <li>API 서버에는 대략 80개 이상의 Comments(댓글 및 답글)에 대한 정보가 담겨있다.  </li>
@@ -59,7 +59,7 @@
 <ol start="3">
 <li>concat이 아닌, props로 넘겨 받는 데이터를 state로 변환(직접적이지 않게)해 list를 만들고 이걸 map해서 page가 증가함에 따라 mapping하자!</li>
 <li>중간에 props의 list로 map해서 state는 바뀌는데, 이에 따라 View가 변하지 않아서 한참을 삽질했지만, 결국 해결!</li>
-</ol>]]></description><link>https://rayleighko.github.io/blog/2019-03-12-weplanet_project_5</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-12-weplanet_project_5</guid><pubDate>Tue, 12 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;ViewMore(더보기) 동작 구현&lt;/h2&gt;
+</ol>]]></description><link>https://rayleighko.github.io/blog/2019-03-12-weplanet_project_05</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-12-weplanet_project_05</guid><pubDate>Tue, 12 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;ViewMore(더보기) 동작 구현&lt;/h2&gt;
 &lt;h3&gt;현재 상황&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;API 서버에는 대략 80개 이상의 Comments(댓글 및 답글)에 대한 정보가 담겨있다.  &lt;/li&gt;
