@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 12 Mar 2019 11:55:42 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - project NextJS1]]></title><description><![CDATA[<h2>ViewMore(더보기) 동작 구현</h2>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 12 Mar 2019 11:59:28 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - project NextJS5]]></title><description><![CDATA[<h2>ViewMore(더보기) 동작 구현</h2>
 <h3>현재 상황</h3>
 <ol>
 <li>API 서버에는 대략 80개 이상의 Comments(댓글 및 답글)에 대한 정보가 담겨있다.  </li>
@@ -336,7 +336,7 @@ Github: https://github.com/rayleighko
 Mail: gmj1197@gmail.com
 Djangogirls, seoul: https://djangogirls.org/seoul/  
 AUSG: https://www.facebook.com/AUSG-311547172765852/
-Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS2]]></title><description><![CDATA[<h1>NextJS 실습하기 - 기본 예제 따라하기</h1>
+Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS3]]></title><description><![CDATA[<h1>NextJS 실습하기 - 기본 예제 따라하기</h1>
 <p>먼저 NextJS에서 제공하는 기본 튜토리얼을 따라 NextJS를 이해하도록 하자. 기본 튜토리얼은 NextJS의 문서에서 Learn을 통해 진행할 수 있으며, GitHub 로그인을 통한 연동이 가능하기 때문에 어렵지않게 진행할 수 있을 것이다.</p>
 <p><a href="https://nextjs.org/learn/basics/getting-started/">NextJS 기본 튜토리얼</a>에서 로그인 후 실습을 진행하도록 하자. 실습 진행은 각자의 몫이기 때문에 여기에 별도의 글을 작성하지는 않고, 그저 후기를 작성하도록 할 것이다.</p>
 <blockquote>
@@ -1961,7 +1961,7 @@ hoistingExam3 of object is not a function
   </span>
   </a></p>
 <p>인스턴스를 만들었고, ssh를 이용해 콘솔을 통해 인스턴스에 접근했다면, 홈 디렉터리(ssh로 접속한 바로 그 지점(~))에서 index.html이라는 문서를 만들어 앞선 html을 입력하도록 하고 각자가 원하는 웹 서버(필자는 nodejs로 만들 것이다)를 실행하도로 하자.</p>
-<p>이제 대망의 ELB 설정이 남아있다. ELB를 설정하기 위해서는 EC2 내에서 Elastic IPs로 고정 IP를 발급받아 만들어진 인스턴스에 적용하고, Load Balancers로 로드 밸런싱을 통해 유입에 따른 인스턴스 설정을 해주어야 한다. 이 작업은 <a href="https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/classic/elb-getting-started.html">자습서: 클래식 로드 밸런서 생성</a>를 통해 진행하도록 하자.</p>]]></description><link>https://rayleighko.github.io/blog/2019-02-27-aws_ac_web_2</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-02-27-aws_ac_web_2</guid><pubDate>Wed, 27 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;AWS - Architecture study: WEB APPLICATION HOSTING&lt;/h1&gt;
+<p>이제 대망의 ELB 설정이 남아있다. ELB를 설정하기 위해서는 EC2 내에서 Elastic IPs로 고정 IP를 발급받아 만들어진 인스턴스에 적용하고, Load Balancers로 로드 밸런싱을 통해 유입에 따른 인스턴스 설정을 해주어야 한다. 이 작업은 <a href="https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/classic/elb-getting-started.html">자습서: 클래식 로드 밸런서 생성</a>를 통해 진행하도록 하자.</p>]]></description><link>https://rayleighko.github.io/blog/2019-02-27-aws_ac_web_3</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-02-27-aws_ac_web_3</guid><pubDate>Wed, 27 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;AWS - Architecture study: WEB APPLICATION HOSTING&lt;/h1&gt;
 &lt;p&gt;일단 이 글을 읽는 이들은 다음과 같은 조건을 충족했다고 가정한다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://rayleighko.github.io/blog/2019-02-12-aws_ac_web_2&quot;&gt;이전 글(이론)&lt;/a&gt;을 읽었다.&lt;/li&gt;
