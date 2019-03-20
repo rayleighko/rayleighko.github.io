@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WePlanet Intern - study ES3(스코프, 호이스팅)
+title: WePlanet Intern - JS study_01 ES3(스코프, 호이스팅)
 date: '2019-03-05'
 path: '/blog/2019-03-05-weplanet_study_es3_01'
 tags: js

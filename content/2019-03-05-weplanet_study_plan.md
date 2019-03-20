@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WePlanet Intern - study 기록 계획
+title: WePlanet Intern - Js study_계획
 date: '2019-03-05'
 path: '/blog/2019-03-05-weplanet_study_plan'
 tags: js
