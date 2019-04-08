@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Thu, 21 Mar 2019 02:39:46 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - 개발 문서 작성기]]></title><description><![CDATA[<h2>개발 문서 작성기</h2>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 08 Apr 2019 03:33:51 GMT</lastBuildDate><item><title><![CDATA[WePlanet Intern - study docker]]></title><description><![CDATA[<h1>WePlanet Intern - study - Docker</h1>
+<h2>이번 스터디 목표</h2>
+<p><a href="https://aws.amazon.com/ko/docker/">AWS - Docker란 무엇입니까?</a>를 참고하여 Docker에 대한 학습을 하는 것이 이번 스터디의 목적이다.</p>
+<p>사실 이번에 시작한 프로젝트에서 Docker를 사용하기 때문에 이를 학습하여 보다 나은 이해를 하고자 함이다.</p>
+<p>우선 위에서 언급한 <a href="https://aws.amazon.com/ko/docker/">AWS - Docker란 무엇입니까?</a>를 살펴보면
+Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우 등을 설명한다. 그래서 우리도 마찬가지로 이것들을
+살펴보고 어떻게 하면 도커를 잘 사용할 수 있을지를 생각해보자.</p>
+<p>언제나 말하지만 기술은 그냥 사용하는 게 아닌 '잘' 사용해야 하기 때문이다.</p>
+<p><a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html">참고자료 - 초보를 위한 도커 안내서</a></p>
+<h3>Docker란 무엇인가?</h3>
+<p>우선 Docker는 애플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 소프트웨어 플랫폼이다.</p>
+<p>소프트웨어를 컨테이너라는 표준화된 유닛으로 패키징하며, 이 컨테이너에는 라이브러리, 시스템 도구, 코드, 런타임 등
+소프트웨어를 실행하는 데 필요한 모든 것이 포함되어 있다.</p>
+<p>그래서 Docker를 사용하면 개발 환경에 구애받지 않고 애플리케이션을 신속하게 배포 및 확장할 수 있다.
+즉, Docker를 사용하면 서비스마다 다른 개발 환경에 대한 스트레스가 줄어든다는 의미가 될 것이다.</p>
+<h3>Docker의 작동 방식</h3>
+<p><img src="https://d1.awsstatic.com/Developer%20Marketing/containers/monolith_2-VM-vs-Containers.78f841efba175556d82f64d1779eb8b725de398d.png"></p>
+<p>Docker는 코드를 실행하는 표준 방식을 제공하기 때문에 개발 환경에 구애받지 않고, 운영체제가 달라져도
+어렵지않게 애플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 것이다.</p>
+<p>그래서 Docker는 컨테이너를 위한 운영 체제라고 할 수 있다. 기존의 가상 머신(VMWare 등)과 유사하게 컴퓨팅 파워(서버 하드웨어)를
+가상화하지만 실제로 모든 것을 가상화하는 것이 아니라 '이미지'라는 단위를 통해 최소한으로 가상화하는 방식이다.</p>
+<p>이렇게 가상화된 단위를 '컨테이너'라고 부르는데, 이해를 돕자면 '이미지'를 통해 컨테이너를 추상화해놓고 필요할 때마다
+이미지를 바탕으로 컨테이너를 구성하는 것을 말한다고 할 수 있다.</p>
+<p>여기까지 설명하면 사실 감이 잘 오지 않을 것이다. 그래서 지금은 완전히 이해한다는 마음보다는 'Docker는 이렇게 동작하는구나' 정도로 이해하고
+넘어가도록 하자.</p>
+<h3>Docker를 사용해야 하는 이유</h3>
+<p>Docker를 사용하면 코드를 더 빨리 전달하고, 애플리케이션 운영을 표준화하고, 코드를 원활하게 이동하고, 리소스 사용률을 높여 비용을 절감할 수 있다고 한다.</p>
+<p>따라서 Docker를 사용하면 어디서나 안정적으로 실행할 수 있는 단일 객체를 확보할 수 있고, 간단한 Docker 구문으로 이를 완벽하게 제어할 수 있다. 이를 정리하면 다음과 같다.</p>
+<ul>
+<li>
+<p>더 많은 소프트웨어를 더 빨리 제공: Docker를 사용하면 필요할 때마다 격리돤 서비스를 제공할 수 있어 상대적으로 더 많은 소프트웨어를 더 빨리 제공할 수 있다.  </p>
+</li>
+<li>
+<p>운영 표준화: 컨테이너 기반 애플리케이션을 사용하면 손쉽게 배포하고, 문제를 파악할 수 있으며, 수정을 위해 롤백을 할 수도 있다.</p>
+</li>
+<li>
+<p>원활한 이전: Docker 기반 애플리케이션을 로컬 개발 환경에서 프로덕션 환경으로 원활하게 배포할 수 있다.</p>
+</li>
+<li>
+<p>비용 절감: 각 서버에서 좀 더 쉽게 더 많은 코드를 실행하여 사용률을 높이고 비용을 절감할 수 있다.</p>
+</li>
+</ul>
+<h3>Docker를 사용하는 경우</h3>
+<p>Docker 컨테이너를 최신 애플리케이션 및 플랫폼을 생성하는 핵심 빌딩 블록으로 사용할 수 있다.
+따라서 Docker를 사용하면 분산 마이크로 서비스 아키텍처를 구축 및 실행하고, 표준화된 지속적 통합 및 지속적 전달 파이프라인을 통해 코드를 배포하고, 고도로 확장 가능한 데이터 처리 시스템을 구축하고, 개발자를 위한 완전관리형 플랫폼을 생성할 수 있다.</p>
+<p>그래서 Docker는 대체로 마이크로 서비스, CI/CD, 대량의 데이터 처리, 컨테이너 서비스 등에 사용한다.</p>
+<h3>마지막으로</h3>
+<p>이제는 어느정도 도커를 사용하는 이유와 사용하면 좋은 점을 이해했다고 할 수 있다. 그러니 이제부터는 별도의 프로젝트를 통해 어떻게 하면 도커를 '잘' 사용할 수 있을지를 고민해보자.</p>]]></description><link>https://rayleighko.github.io/blog/2019-04-08-weplanet_study_docker</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-04-08-weplanet_study_docker</guid><pubDate>Mon, 08 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WePlanet Intern - study - Docker&lt;/h1&gt;
+&lt;h2&gt;이번 스터디 목표&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/ko/docker/&quot;&gt;AWS - Docker란 무엇입니까?&lt;/a&gt;를 참고하여 Docker에 대한 학습을 하는 것이 이번 스터디의 목적이다.&lt;/p&gt;
+&lt;p&gt;사실 이번에 시작한 프로젝트에서 Docker를 사용하기 때문에 이를 학습하여 보다 나은 이해를 하고자 함이다.&lt;/p&gt;
+&lt;p&gt;우선 위에서 언급한 &lt;a href=&quot;https://aws.amazon.com/ko/docker/&quot;&gt;AWS - Docker란 무엇입니까?&lt;/a&gt;를 살펴보면
+Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우 등을 설명한다. 그래서 우리도 마찬가지로 이것들을
+살펴보고 어떻게 하면 도커를 잘 사용할 수 있을지를 생각해보자.&lt;/p&gt;
+&lt;p&gt;언제나 말하지만 기술은 그냥 사용하는 게 아닌 &apos;잘&apos; 사용해야 하기 때문이다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html&quot;&gt;참고자료 - 초보를 위한 도커 안내서&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Docker란 무엇인가?&lt;/h3&gt;
+&lt;p&gt;우선 Docker는 애플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 소프트웨어 플랫폼이다.&lt;/p&gt;
+&lt;p&gt;소프트웨어를 컨테이너라는 표준화된 유닛으로 패키징하며, 이 컨테이너에는 라이브러리, 시스템 도구, 코드, 런타임 등
+소프트웨어를 실행하는 데 필요한 모든 것이 포함되어 있다.&lt;/p&gt;
+&lt;p&gt;그래서 Docker를 사용하면 개발 환경에 구애받지 않고 애플리케이션을 신속하게 배포 및 확장할 수 있다.
+즉, Docker를 사용하면 서비스마다 다른 개발 환경에 대한 스트레스가 줄어든다는 의미가 될 것이다.&lt;/p&gt;
+&lt;h3&gt;Docker의 작동 방식&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://d1.awsstatic.com/Developer%20Marketing/containers/monolith_2-VM-vs-Containers.78f841efba175556d82f64d1779eb8b725de398d.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Docker는 코드를 실행하는 표준 방식을 제공하기 때문에 개발 환경에 구애받지 않고, 운영체제가 달라져도
+어렵지않게 애플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 것이다.&lt;/p&gt;
+&lt;p&gt;그래서 Docker는 컨테이너를 위한 운영 체제라고 할 수 있다. 기존의 가상 머신(VMWare 등)과 유사하게 컴퓨팅 파워(서버 하드웨어)를
+가상화하지만 실제로 모든 것을 가상화하는 것이 아니라 &apos;이미지&apos;라는 단위를 통해 최소한으로 가상화하는 방식이다.&lt;/p&gt;
+&lt;p&gt;이렇게 가상화된 단위를 &apos;컨테이너&apos;라고 부르는데, 이해를 돕자면 &apos;이미지&apos;를 통해 컨테이너를 추상화해놓고 필요할 때마다
+이미지를 바탕으로 컨테이너를 구성하는 것을 말한다고 할 수 있다.&lt;/p&gt;
+&lt;p&gt;여기까지 설명하면 사실 감이 잘 오지 않을 것이다. 그래서 지금은 완전히 이해한다는 마음보다는 &apos;Docker는 이렇게 동작하는구나&apos; 정도로 이해하고
+넘어가도록 하자.&lt;/p&gt;
+&lt;h3&gt;Docker를 사용해야 하는 이유&lt;/h3&gt;
+&lt;p&gt;Docker를 사용하면 코드를 더 빨리 전달하고, 애플리케이션 운영을 표준화하고, 코드를 원활하게 이동하고, 리소스 사용률을 높여 비용을 절감할 수 있다고 한다.&lt;/p&gt;
+&lt;p&gt;따라서 Docker를 사용하면 어디서나 안정적으로 실행할 수 있는 단일 객체를 확보할 수 있고, 간단한 Docker 구문으로 이를 완벽하게 제어할 수 있다. 이를 정리하면 다음과 같다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;더 많은 소프트웨어를 더 빨리 제공: Docker를 사용하면 필요할 때마다 격리돤 서비스를 제공할 수 있어 상대적으로 더 많은 소프트웨어를 더 빨리 제공할 수 있다.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;운영 표준화: 컨테이너 기반 애플리케이션을 사용하면 손쉽게 배포하고, 문제를 파악할 수 있으며, 수정을 위해 롤백을 할 수도 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;원활한 이전: Docker 기반 애플리케이션을 로컬 개발 환경에서 프로덕션 환경으로 원활하게 배포할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;비용 절감: 각 서버에서 좀 더 쉽게 더 많은 코드를 실행하여 사용률을 높이고 비용을 절감할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Docker를 사용하는 경우&lt;/h3&gt;
+&lt;p&gt;Docker 컨테이너를 최신 애플리케이션 및 플랫폼을 생성하는 핵심 빌딩 블록으로 사용할 수 있다.
+따라서 Docker를 사용하면 분산 마이크로 서비스 아키텍처를 구축 및 실행하고, 표준화된 지속적 통합 및 지속적 전달 파이프라인을 통해 코드를 배포하고, 고도로 확장 가능한 데이터 처리 시스템을 구축하고, 개발자를 위한 완전관리형 플랫폼을 생성할 수 있다.&lt;/p&gt;
+&lt;p&gt;그래서 Docker는 대체로 마이크로 서비스, CI/CD, 대량의 데이터 처리, 컨테이너 서비스 등에 사용한다.&lt;/p&gt;
+&lt;h3&gt;마지막으로&lt;/h3&gt;
+&lt;p&gt;이제는 어느정도 도커를 사용하는 이유와 사용하면 좋은 점을 이해했다고 할 수 있다. 그러니 이제부터는 별도의 프로젝트를 통해 어떻게 하면 도커를 &apos;잘&apos; 사용할 수 있을지를 고민해보자.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - 개발 문서 작성기]]></title><description><![CDATA[<h2>개발 문서 작성기</h2>
 <h3>현재 상황</h3>
 <p>이번에는 개발팀 내의 문서화 작업에 대한 고민을 하게 되었다. 그 이유는 CEO인 Daniel이 개발 팀 내에 따로 문서를 정의하고 있지 않아, 이번 기회에 문서화 작업을 해보자는 의견이 있었기 때문이다.</p>
 <p>현재는 각자의 스타일대로 코드를 작성하고, API나 DB 구조를 구현하고 있다. 물론, 이는 각자의 개성이나 취향이기 때문에 욕할 수 있는 부분은 아니다. 하지만, 만약 그 프로젝트를 본인이 아닌 타인 그러니까 co-worker가 본다면 단번에 이해할 수 없는 부분이 있을 것이기 때문에 이를 위해 문서화 작업이 필요한 것이다.</p>
