@@ -26,7 +26,7 @@ const H3 = styled.h4(({ theme }) => ({
 }))
 
 const Article = styled.article(({ theme }) => ({
-  marginBottom: '2%',
+  marginBottom: '1%',
   borderBottom: '1px solid #bac8ff',
 }))
 

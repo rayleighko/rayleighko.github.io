@@ -29,6 +29,10 @@ const Link = styled(GatsbyLink)(({ theme }) => ({
   },
 }))
 
+const Small = styled.small(({theme}) => ({
+  borderBottom: '0.08rem solid #bac8ff',
+}))
+
 const PostNav = ({ prev, post }) => {
   const link = post ? (
     <Link to={post.frontmatter.path}>
@@ -40,7 +44,7 @@ const PostNav = ({ prev, post }) => {
   return (
     <Wrap prev={prev}>
       {link}
-      <small>{post ? post.frontmatter.title : null}</small>
+      <Small>{post ? post.frontmatter.title : null}</Small>
     </Wrap>
   )
 }

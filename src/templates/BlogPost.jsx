@@ -17,21 +17,23 @@ import postShape from '../shapes/post'
 const ArticleWrap = styled.div(({}) => ({
   width: '100%',
   height: '100%',
-  padding: '0 2%',
-  background: '#495057',
+  padding: '0 1%',
+  background: '#ffffff',
+  borderBottom: '0.4rem solid #bac8ff',
   borderRadius: '2px',
-  margin: '2% 0',
+  margin: '1% 0',
   wordBreak: 'break-all',
   wordWrap: 'break-word',
 }))
 
 const Main = styled.main(({ theme }) => ({
-  color: 'white',
+  color: '#000000',
   padding: '0 10%',
+  fontFamily:	'Source Sans Pro, Helvetica, sans-serif'
 }))
 
 const Header = styled.header(({ theme }) => ({
-  borderBottom: '1px solid #bac8ff',
+  borderBottom: '0.4rem solid #bac8ff',
   marginBottom: '1%',
   display: 'flex',
   flexDirection: 'row',
@@ -83,8 +85,10 @@ const PostWrap = styled.section(({ theme }) => ({
   '>ul,>ol': {
     width: `calc(100% - ${theme.spacingPx * 4}px)`,
   },
-  '>h1': { color: ' #845ef7' },
-  '>h2': { color: ' #9775fa' },
+  '>h1': { color: ' #845ef7',
+    borderBottom: '0.4rem solid #845ef7'},
+  '>h2': { color: ' #9775fa',
+    borderBottom: '0.2rem solid #845ef7' },
   '>h3 ': { color: '#b197fc' },
 }))
 

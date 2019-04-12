@@ -13,7 +13,8 @@ const ResumeWrap = styled.div(({}) => ({
   margin: '2% 10%',
 }))
 const ResumeInnerWrap = styled.div(({}) => ({
-  background: '#495057',
+  background: '#000000',
+  border:				'1px solid rgba(10,10,10,0.2)',
   borderRadius: '2px',
 }))
 
