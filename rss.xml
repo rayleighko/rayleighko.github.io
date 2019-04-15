@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Apr 2019 09:29:07 GMT</lastBuildDate><item><title><![CDATA[Puppeteer vs. Selenium]]></title><description><![CDATA[<h1>Puppeteer vs. Selenium</h1>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RayLog]]></title><description><![CDATA[Technical blog]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 15 Apr 2019 11:19:09 GMT</lastBuildDate><item><title><![CDATA[Puppeteer vs. Selenium]]></title><description><![CDATA[<h1>Puppeteer vs. Selenium</h1>
 <p>이 글에서는 6개월 전에 올라온 <a href="https://linuxhint.com/puppeteer_vs_selenium/">Puppeteer vs. Selenium</a>을 바탕으로 둘을 비교해보려고 한다.</p>
 <p>우선 둘의 가장 큰 특징은 Headless Chrome을 제어할 수 있도록 도와주는 도구이다. Headless Chrome은 뒤에서 언급할 Headless browser의 한 종류로 Chrome 59부터 지원하기 시작한 브라우저이다.</p>
 <p>그래서 현 시점에서 가장 대중적인 Node.js - Puppeteer와 Python - Selenium을 중심으로 Headless Chrome을 제어하는 도구들을 비교해보도록 할 것이다.</p>
@@ -336,33 +336,7 @@ Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우
 따라서 Docker를 사용하면 분산 마이크로 서비스 아키텍처를 구축 및 실행하고, 표준화된 지속적 통합 및 지속적 전달 파이프라인을 통해 코드를 배포하고, 고도로 확장 가능한 데이터 처리 시스템을 구축하고, 개발자를 위한 완전관리형 플랫폼을 생성할 수 있다.&lt;/p&gt;
 &lt;p&gt;그래서 Docker는 대체로 마이크로 서비스, CI/CD, 대량의 데이터 처리, 컨테이너 서비스 등에 사용한다.&lt;/p&gt;
 &lt;h3&gt;마지막으로&lt;/h3&gt;
-&lt;p&gt;이제는 어느정도 도커를 사용하는 이유와 사용하면 좋은 점을 이해했다고 할 수 있다. 그러니 이제부터는 별도의 프로젝트를 통해 어떻게 하면 도커를 &apos;잘&apos; 사용할 수 있을지를 고민해보자.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS_06]]></title><description><![CDATA[<h2>투표 기능 구현</h2>
-<h3>현재 상황</h3>]]></description><link>https://rayleighko.github.io/blog/2019-03-20-weplanet_project_06</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-20-weplanet_project_06</guid><pubDate>Wed, 20 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;투표 기능 구현&lt;/h2&gt;
-&lt;h3&gt;현재 상황&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project React-Admin_01]]></title><description><![CDATA[<h2>React-Admin을 활용한 프로젝트 리뷰</h2>
-<h3>현재 상황</h3>
-<p>이번 프로젝트에서는 React-Admin으로 Admin page를 구현한다고 한다. 하지만, 이전에 React-Admin을 사용해본 적이 없기 때문에 이번 기회에 튜토리얼을 따라 만들며 React-Admin을 학습해보자.  </p>
-<h3><a href="https://marmelab.com/react-admin/Tutorial.html">React-Admin Tutorial</a></h3>
-<p>물론 저번 NextJS 튜토리얼처럼 우선 개별적으로 튜토리얼을 진행하고, 후기와 함께 유의해야 할 내용을 정리할 것이다.  </p>
-<blockquote>
-<p>후기: Admin에 해당하는 부분을 React 프로젝트에서 구현할 수 있도록 해주는 도구라고 생각했다.
-더불어 만약 Django를 쓰면 그냥 Django Admin으로 편하게 작업을 할 수도 있지 않을까 했다.</p>
-<p>그럼에도 만약 프로젝트 전체를 JS로 관리하고 싶다거나 다른 백엔드 환경을 구성해야 할 필요가 있다면,
-사용하면 좋을 것도 같다고 생각했다.</p>
-</blockquote>
-<p>이번에는 전체적으로 유의해야 할 내용에 대해 적을 필요성을 느끼지 못했다. 가장 큰 이유는 특정 기술이나 React의 어떤 특성을 사용한다기보다는 React-Admin이라는 도구를 사용한다고 느꼈기 때문이다.</p>
-<p>그렇기 때문에 만약 추후에 문제가 생기거나 이해가 되지 않는 부분이 생긴다면 그저 문서를 보면 답이 나올 것 같았다.</p>]]></description><link>https://rayleighko.github.io/blog/2019-03-20-weplanet_project_07</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-20-weplanet_project_07</guid><pubDate>Wed, 20 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;React-Admin을 활용한 프로젝트 리뷰&lt;/h2&gt;
-&lt;h3&gt;현재 상황&lt;/h3&gt;
-&lt;p&gt;이번 프로젝트에서는 React-Admin으로 Admin page를 구현한다고 한다. 하지만, 이전에 React-Admin을 사용해본 적이 없기 때문에 이번 기회에 튜토리얼을 따라 만들며 React-Admin을 학습해보자.  &lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://marmelab.com/react-admin/Tutorial.html&quot;&gt;React-Admin Tutorial&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;물론 저번 NextJS 튜토리얼처럼 우선 개별적으로 튜토리얼을 진행하고, 후기와 함께 유의해야 할 내용을 정리할 것이다.  &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;후기: Admin에 해당하는 부분을 React 프로젝트에서 구현할 수 있도록 해주는 도구라고 생각했다.
-더불어 만약 Django를 쓰면 그냥 Django Admin으로 편하게 작업을 할 수도 있지 않을까 했다.&lt;/p&gt;
-&lt;p&gt;그럼에도 만약 프로젝트 전체를 JS로 관리하고 싶다거나 다른 백엔드 환경을 구성해야 할 필요가 있다면,
-사용하면 좋을 것도 같다고 생각했다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;이번에는 전체적으로 유의해야 할 내용에 대해 적을 필요성을 느끼지 못했다. 가장 큰 이유는 특정 기술이나 React의 어떤 특성을 사용한다기보다는 React-Admin이라는 도구를 사용한다고 느꼈기 때문이다.&lt;/p&gt;
-&lt;p&gt;그렇기 때문에 만약 추후에 문제가 생기거나 이해가 되지 않는 부분이 생긴다면 그저 문서를 보면 답이 나올 것 같았다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - 개발 문서 작성기]]></title><description><![CDATA[<h2>개발 문서 작성기</h2>
+&lt;p&gt;이제는 어느정도 도커를 사용하는 이유와 사용하면 좋은 점을 이해했다고 할 수 있다. 그러니 이제부터는 별도의 프로젝트를 통해 어떻게 하면 도커를 &apos;잘&apos; 사용할 수 있을지를 고민해보자.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - 개발 문서 작성기]]></title><description><![CDATA[<h2>개발 문서 작성기</h2>
 <h3>현재 상황</h3>
 <p>이번에는 개발팀 내의 문서화 작업에 대한 고민을 하게 되었다. 그 이유는 CEO인 Daniel이 개발 팀 내에 따로 문서를 정의하고 있지 않아, 이번 기회에 문서화 작업을 해보자는 의견이 있었기 때문이다.</p>
 <p>현재는 각자의 스타일대로 코드를 작성하고, API나 DB 구조를 구현하고 있다. 물론, 이는 각자의 개성이나 취향이기 때문에 욕할 수 있는 부분은 아니다. 하지만, 만약 그 프로젝트를 본인이 아닌 타인 그러니까 co-worker가 본다면 단번에 이해할 수 없는 부분이 있을 것이기 때문에 이를 위해 문서화 작업이 필요한 것이다.</p>
@@ -408,7 +382,33 @@ Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우
 &lt;p&gt;위 두 문서는 더글라스 크락포드의 JS 가이드와 Google의 JS Styleguide인데, 둘 다 많은 회사들이 JS에 대한 기술 문서를 작성할 때 많이 참고할 것 같아서 흝어보게 되었다. 이 두 문서는 앞으로도 계속 참고해야 할 것만 같으니 다음에 기회가 되면 정독해보도록 할 것이다.&lt;/p&gt;
 &lt;h3&gt;결론&lt;/h3&gt;
 &lt;p&gt;결과적으로 FE JS 가이드, BE JS 가이드, 프로젝트 별 가이드로 나누었고, 이를 마크다운으로 정리했다. 더불어 개발 문서이기 때문에 이것을 처음 읽는 사람의 입장에서 &apos;이걸 왜 읽어야 하지?&apos;라는 의문을 해결하기 위해 문서화를 하는 목적, 수정 방법 등을 명시해두었다.&lt;/p&gt;
-&lt;p&gt;여기까지의 소감은 하루동안 작성했기 때문에 너무 대충 적었다는 자기 반성과 앞으로 프로젝트를 진행하며 갈고 닦아야 한다는 의지를 볼 수 있었다는 것이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project Backend_01]]></title><description><![CDATA[<h2>Node Backend API 서버 - Web Storage</h2>
+&lt;p&gt;여기까지의 소감은 하루동안 작성했기 때문에 너무 대충 적었다는 자기 반성과 앞으로 프로젝트를 진행하며 갈고 닦아야 한다는 의지를 볼 수 있었다는 것이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project NextJS_06]]></title><description><![CDATA[<h2>투표 기능 구현</h2>
+<h3>현재 상황</h3>]]></description><link>https://rayleighko.github.io/blog/2019-03-20-weplanet_project_06</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-20-weplanet_project_06</guid><pubDate>Wed, 20 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;투표 기능 구현&lt;/h2&gt;
+&lt;h3&gt;현재 상황&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project React-Admin_01]]></title><description><![CDATA[<h2>React-Admin을 활용한 프로젝트 리뷰</h2>
+<h3>현재 상황</h3>
+<p>이번 프로젝트에서는 React-Admin으로 Admin page를 구현한다고 한다. 하지만, 이전에 React-Admin을 사용해본 적이 없기 때문에 이번 기회에 튜토리얼을 따라 만들며 React-Admin을 학습해보자.  </p>
+<h3><a href="https://marmelab.com/react-admin/Tutorial.html">React-Admin Tutorial</a></h3>
+<p>물론 저번 NextJS 튜토리얼처럼 우선 개별적으로 튜토리얼을 진행하고, 후기와 함께 유의해야 할 내용을 정리할 것이다.  </p>
+<blockquote>
+<p>후기: Admin에 해당하는 부분을 React 프로젝트에서 구현할 수 있도록 해주는 도구라고 생각했다.
+더불어 만약 Django를 쓰면 그냥 Django Admin으로 편하게 작업을 할 수도 있지 않을까 했다.</p>
+<p>그럼에도 만약 프로젝트 전체를 JS로 관리하고 싶다거나 다른 백엔드 환경을 구성해야 할 필요가 있다면,
+사용하면 좋을 것도 같다고 생각했다.</p>
+</blockquote>
+<p>이번에는 전체적으로 유의해야 할 내용에 대해 적을 필요성을 느끼지 못했다. 가장 큰 이유는 특정 기술이나 React의 어떤 특성을 사용한다기보다는 React-Admin이라는 도구를 사용한다고 느꼈기 때문이다.</p>
+<p>그렇기 때문에 만약 추후에 문제가 생기거나 이해가 되지 않는 부분이 생긴다면 그저 문서를 보면 답이 나올 것 같았다.</p>]]></description><link>https://rayleighko.github.io/blog/2019-03-20-weplanet_project_07</link><guid isPermaLink="false">https://rayleighko.github.io/blog/2019-03-20-weplanet_project_07</guid><pubDate>Wed, 20 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;React-Admin을 활용한 프로젝트 리뷰&lt;/h2&gt;
+&lt;h3&gt;현재 상황&lt;/h3&gt;
+&lt;p&gt;이번 프로젝트에서는 React-Admin으로 Admin page를 구현한다고 한다. 하지만, 이전에 React-Admin을 사용해본 적이 없기 때문에 이번 기회에 튜토리얼을 따라 만들며 React-Admin을 학습해보자.  &lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://marmelab.com/react-admin/Tutorial.html&quot;&gt;React-Admin Tutorial&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;물론 저번 NextJS 튜토리얼처럼 우선 개별적으로 튜토리얼을 진행하고, 후기와 함께 유의해야 할 내용을 정리할 것이다.  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;후기: Admin에 해당하는 부분을 React 프로젝트에서 구현할 수 있도록 해주는 도구라고 생각했다.
+더불어 만약 Django를 쓰면 그냥 Django Admin으로 편하게 작업을 할 수도 있지 않을까 했다.&lt;/p&gt;
+&lt;p&gt;그럼에도 만약 프로젝트 전체를 JS로 관리하고 싶다거나 다른 백엔드 환경을 구성해야 할 필요가 있다면,
+사용하면 좋을 것도 같다고 생각했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;이번에는 전체적으로 유의해야 할 내용에 대해 적을 필요성을 느끼지 못했다. 가장 큰 이유는 특정 기술이나 React의 어떤 특성을 사용한다기보다는 React-Admin이라는 도구를 사용한다고 느꼈기 때문이다.&lt;/p&gt;
+&lt;p&gt;그렇기 때문에 만약 추후에 문제가 생기거나 이해가 되지 않는 부분이 생긴다면 그저 문서를 보면 답이 나올 것 같았다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WePlanet Intern - project Backend_01]]></title><description><![CDATA[<h2>Node Backend API 서버 - Web Storage</h2>
 <h3>현재 상황</h3>
 <p>이번에 진행하는 프로젝트의 백엔드 부분을 살펴보고 있다. 현재 API 서버를 구현해 Localstorage 방식으로 토큰(AccessToken, refreshToken)을 교환하기 때문에 이에 대해 학습할 필요가 있다고 느꼈다.</p>
 <p><a href="https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API">참고자료 - 1 Mozilla, Web<em>Storage</em>API </a></p>
@@ -439,21 +439,21 @@ Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우
 <div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
   <span class="token property">"list"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token punctuation">{</span>
-      <span class="token property">"id"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> not <span class="token null">null</span><span class="token punctuation">,</span> // 모든 comments는 id를 갖는다.
-      <span class="token property">"content"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 내용
-      <span class="token property">"parent_id"</span><span class="token operator">:</span> number or <span class="token null">null</span><span class="token punctuation">,</span> // 댓글은 <span class="token null">null</span><span class="token punctuation">,</span> 답글은 number
-      <span class="token property">"created_at"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 만들어진 시기
-      <span class="token property">"author_name"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 작성자
-      <span class="token property">"author_image"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 작성자 프로필 사진
-      <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 답글의 갯수<span class="token punctuation">,</span> 답글의 경우는 해당 데이터가 존재하지 않음.
+      <span class="token property">"id"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> not <span class="token null keyword">null</span><span class="token punctuation">,</span> <span class="token comment">// 모든 comments는 id를 갖는다.</span>
+      <span class="token property">"content"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 내용</span>
+      <span class="token property">"parent_id"</span><span class="token operator">:</span> number or <span class="token null keyword">null</span><span class="token punctuation">,</span> <span class="token comment">// 댓글은 null, 답글은 number</span>
+      <span class="token property">"created_at"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 만들어진 시기</span>
+      <span class="token property">"author_name"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 작성자</span>
+      <span class="token property">"author_image"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 작성자 프로필 사진</span>
+      <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 답글의 갯수, 답글의 경우는 해당 데이터가 존재하지 않음.</span>
       <span class="token punctuation">}</span><span class="token punctuation">,</span>
       ...
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 해당 게시글의 댓글 및 답글의 수
-    <span class="token property">"parent_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 해당 게시글의 댓글 수
-    <span class="token property">"limit"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 한 번에 전달되는 데이터의 수(default<span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">)</span>
+    <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 해당 게시글의 댓글 및 답글의 수</span>
+    <span class="token property">"parent_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 해당 게시글의 댓글 수</span>
+    <span class="token property">"limit"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 한 번에 전달되는 데이터의 수(default: 20)</span>
 <span class="token punctuation">}</span>
-// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id<span class="token punctuation">)</span><span class="token punctuation">,</span> last_created_at(첫 번째로 전달받을 comments의 생성 일자<span class="token punctuation">)</span>임.</code></pre></div>
+<span class="token comment">// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id), last_created_at(첫 번째로 전달받을 comments의 생성 일자)임.</span></code></pre></div>
 <ol start="3">
 <li>프론트 엔드는 액션 함수를 통해 받은 데이터를 Array.prototype.map으로 뿌려준다.  </li>
 <li>이런 상황에서 유저는 viewMore(더보기) 버튼을 눌렀다.  </li>
@@ -473,21 +473,21 @@ Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우
 <div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
   <span class="token property">"list"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token punctuation">{</span>
-      <span class="token property">"id"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> not <span class="token null">null</span><span class="token punctuation">,</span> // 모든 comments는 id를 갖는다.
-      <span class="token property">"content"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 내용
-      <span class="token property">"parent_id"</span><span class="token operator">:</span> number or <span class="token null">null</span><span class="token punctuation">,</span> // 댓글은 <span class="token null">null</span><span class="token punctuation">,</span> 답글은 number
-      <span class="token property">"created_at"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 만들어진 시기
-      <span class="token property">"author_name"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 작성자
-      <span class="token property">"author_image"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> // 작성자 프로필 사진
-      <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 답글의 갯수<span class="token punctuation">,</span> 답글의 경우는 해당 데이터가 존재하지 않음.
+      <span class="token property">"id"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> not <span class="token null keyword">null</span><span class="token punctuation">,</span> <span class="token comment">// 모든 comments는 id를 갖는다.</span>
+      <span class="token property">"content"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 내용</span>
+      <span class="token property">"parent_id"</span><span class="token operator">:</span> number or <span class="token null keyword">null</span><span class="token punctuation">,</span> <span class="token comment">// 댓글은 null, 답글은 number</span>
+      <span class="token property">"created_at"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 만들어진 시기</span>
+      <span class="token property">"author_name"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 작성자</span>
+      <span class="token property">"author_image"</span><span class="token operator">:</span> string<span class="token punctuation">,</span> <span class="token comment">// 작성자 프로필 사진</span>
+      <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 답글의 갯수, 답글의 경우는 해당 데이터가 존재하지 않음.</span>
       <span class="token punctuation">}</span><span class="token punctuation">,</span>
       ...
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 해당 게시글의 댓글 및 답글의 수
-    <span class="token property">"parent_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 해당 게시글의 댓글 수
-    <span class="token property">"limit"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> // 한 번에 전달되는 데이터의 수(default<span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">)</span>
+    <span class="token property">"total_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 해당 게시글의 댓글 및 답글의 수</span>
+    <span class="token property">"parent_count"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 해당 게시글의 댓글 수</span>
+    <span class="token property">"limit"</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token comment">// 한 번에 전달되는 데이터의 수(default: 20)</span>
 <span class="token punctuation">}</span>
-// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id<span class="token punctuation">)</span><span class="token punctuation">,</span> page(<span class="token number">1</span>부터 시작<span class="token punctuation">,</span> <span class="token number">1</span>개의 페이지는 total_count까지 limit의 배수만큼 증가<span class="token punctuation">,</span> Ex. page가 <span class="token number">3</span>이고<span class="token punctuation">,</span> limit이 <span class="token number">20</span>이면 총 <span class="token number">60</span>개의 comments를 보여줌<span class="token punctuation">)</span>임.</code></pre></div>
+<span class="token comment">// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id), page(1부터 시작, 1개의 페이지는 total_count까지 limit의 배수만큼 증가, Ex. page가 3이고, limit이 20이면 총 60개의 comments를 보여줌)임.</span></code></pre></div>
 <ol start="3">
 <li>concat이 아닌, props로 넘겨 받는 데이터를 state로 변환(직접적이지 않게)해 list를 만들고 이걸 map해서 page가 증가함에 따라 mapping하자!</li>
 <li>중간에 props의 list로 map해서 state는 바뀌는데, 이에 따라 View가 변하지 않아서 한참을 삽질했지만, 결국 해결!</li>
@@ -500,21 +500,21 @@ Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;&quot;list&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token property&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; not &lt;span class=&quot;token null&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 모든 comments는 id를 갖는다.
-      &lt;span class=&quot;token property&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 내용
-      &lt;span class=&quot;token property&quot;&gt;&quot;parent_id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number or &lt;span class=&quot;token null&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 댓글은 &lt;span class=&quot;token null&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 답글은 number
-      &lt;span class=&quot;token property&quot;&gt;&quot;created_at&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 만들어진 시기
-      &lt;span class=&quot;token property&quot;&gt;&quot;author_name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 작성자
-      &lt;span class=&quot;token property&quot;&gt;&quot;author_image&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 작성자 프로필 사진
-      &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 답글의 갯수&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 답글의 경우는 해당 데이터가 존재하지 않음.
+      &lt;span class=&quot;token property&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; not &lt;span class=&quot;token null keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 모든 comments는 id를 갖는다.&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 내용&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;parent_id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number or &lt;span class=&quot;token null keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 댓글은 null, 답글은 number&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;created_at&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 만들어진 시기&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;author_name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 작성자&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;author_image&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 작성자 프로필 사진&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 답글의 갯수, 답글의 경우는 해당 데이터가 존재하지 않음.&lt;/span&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       ...
     &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 해당 게시글의 댓글 및 답글의 수
-    &lt;span class=&quot;token property&quot;&gt;&quot;parent_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 해당 게시글의 댓글 수
-    &lt;span class=&quot;token property&quot;&gt;&quot;limit&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 한 번에 전달되는 데이터의 수(default&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 해당 게시글의 댓글 및 답글의 수&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;parent_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 해당 게시글의 댓글 수&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;limit&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 한 번에 전달되는 데이터의 수(default: 20)&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; last_created_at(첫 번째로 전달받을 comments의 생성 일자&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;임.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id), last_created_at(첫 번째로 전달받을 comments의 생성 일자)임.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;프론트 엔드는 액션 함수를 통해 받은 데이터를 Array.prototype.map으로 뿌려준다.  &lt;/li&gt;
 &lt;li&gt;이런 상황에서 유저는 viewMore(더보기) 버튼을 눌렀다.  &lt;/li&gt;
@@ -534,21 +534,21 @@ Docker의 정의, 작동 방식, 사용해야 하는 이유, 사용하는 경우
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;&quot;list&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token property&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; not &lt;span class=&quot;token null&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 모든 comments는 id를 갖는다.
-      &lt;span class=&quot;token property&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 내용
-      &lt;span class=&quot;token property&quot;&gt;&quot;parent_id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number or &lt;span class=&quot;token null&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 댓글은 &lt;span class=&quot;token null&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 답글은 number
-      &lt;span class=&quot;token property&quot;&gt;&quot;created_at&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 만들어진 시기
-      &lt;span class=&quot;token property&quot;&gt;&quot;author_name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 작성자
-      &lt;span class=&quot;token property&quot;&gt;&quot;author_image&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 작성자 프로필 사진
-      &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 답글의 갯수&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 답글의 경우는 해당 데이터가 존재하지 않음.
+      &lt;span class=&quot;token property&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; not &lt;span class=&quot;token null keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 모든 comments는 id를 갖는다.&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 내용&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;parent_id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number or &lt;span class=&quot;token null keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 댓글은 null, 답글은 number&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;created_at&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 만들어진 시기&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;author_name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 작성자&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;author_image&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 작성자 프로필 사진&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 답글의 갯수, 답글의 경우는 해당 데이터가 존재하지 않음.&lt;/span&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       ...
     &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 해당 게시글의 댓글 및 답글의 수
-    &lt;span class=&quot;token property&quot;&gt;&quot;parent_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 해당 게시글의 댓글 수
-    &lt;span class=&quot;token property&quot;&gt;&quot;limit&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; // 한 번에 전달되는 데이터의 수(default&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;total_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 해당 게시글의 댓글 및 답글의 수&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;parent_count&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 해당 게시글의 댓글 수&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;limit&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 한 번에 전달되는 데이터의 수(default: 20)&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; page(&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;부터 시작&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;개의 페이지는 total_count까지 limit의 배수만큼 증가&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Ex. page가 &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;이고&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; limit이 &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;이면 총 &lt;span class=&quot;token number&quot;&gt;60&lt;/span&gt;개의 comments를 보여줌&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;임.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 서버에서 전달하는 Parameters는 Id(해당 게시글의 Id), page(1부터 시작, 1개의 페이지는 total_count까지 limit의 배수만큼 증가, Ex. page가 3이고, limit이 20이면 총 60개의 comments를 보여줌)임.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;concat이 아닌, props로 넘겨 받는 데이터를 state로 변환(직접적이지 않게)해 list를 만들고 이걸 map해서 page가 증가함에 따라 mapping하자!&lt;/li&gt;
 &lt;li&gt;중간에 props의 list로 map해서 state는 바뀌는데, 이에 따라 View가 변하지 않아서 한참을 삽질했지만, 결국 해결!&lt;/li&gt;
@@ -863,7 +863,7 @@ Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/di
 <p>NextJS의 Link는 HOC이다. 위와 같은 문서의 내용에서도 알 수 있듯이 Link는 단순히 HOC이기 때문에 이미 지정된 props에 대해서만 반응한다. 그래서 <code class="language-text">&lt;a&gt; 태그</code>와 같은 일종의 테그로 인식해 사전에 지정된 props가 아닌 style 등의 props를 전달한다면 Link에서 그 결과를 기대하기는 힘들다.</p>
 <h2>Create Dynamic Pages - Passing Data via Query Strings</h2>
 <p>Link에서는 문자열 매개변수(string parameter)를 통해 데이터를 전달한다. NextJS에서는 다음과 같이 질의 문자열(query strings)을 통해 어떤 데이터던지 전달할 수 있다. </p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">PostLink</span> <span class="token operator">=</span> <span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">PostLink</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
   <span class="token operator">&lt;</span>li<span class="token operator">></span>
     <span class="token operator">&lt;</span>Link href<span class="token operator">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token string">`/post?title=</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>title<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">}</span><span class="token operator">></span>
       <span class="token operator">&lt;</span>a<span class="token operator">></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>title<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">></span>
@@ -874,7 +874,7 @@ Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/di
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span>withRouter<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'next/router'</span>
 <span class="token keyword">import</span> Layout <span class="token keyword">from</span> <span class="token string">'../components/MyLayout.js'</span>
 
-<span class="token keyword">const</span> Page <span class="token operator">=</span> <span class="token function">withRouter</span><span class="token punctuation">(</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+<span class="token keyword">const</span> Page <span class="token operator">=</span> <span class="token function">withRouter</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
     <span class="token operator">&lt;</span>Layout<span class="token operator">></span>
        <span class="token operator">&lt;</span>h1<span class="token operator">></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>router<span class="token punctuation">.</span>query<span class="token punctuation">.</span>title<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">></span>
        <span class="token operator">&lt;</span>p<span class="token operator">></span>This is the blog post content<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
@@ -896,7 +896,7 @@ Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/di
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>localhost<span class="token punctuation">:</span><span class="token number">3000</span><span class="token operator">/</span>post<span class="token operator">?</span>title<span class="token operator">=</span>Hello<span class="token operator">%</span><span class="token number">20</span>Next<span class="token punctuation">.</span>js</code></pre></div>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>localhost<span class="token punctuation">:</span><span class="token number">3000</span><span class="token operator">/</span>p<span class="token operator">/</span>hello<span class="token operator">-</span>nextjs</code></pre></div>
 <p>두 URL은 같은 곳을 라우팅하고 있지만, 서로 다른 모습을 가진다. 이렇게 변화한 것은 Route Masking을 통해 앞선 Link의 예제가 다음과 같이 수정되어 제공됐기 때문이다.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">PostLink</span> <span class="token operator">=</span> <span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">PostLink</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
   <span class="token operator">&lt;</span>li<span class="token operator">></span>
     <span class="token operator">&lt;</span>Link <span class="token keyword">as</span><span class="token operator">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token string">`/p/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">}</span> href<span class="token operator">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token string">`/post?title=</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>title<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">}</span><span class="token operator">></span>
       <span class="token operator">&lt;</span>a<span class="token operator">></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>title<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">></span>
@@ -919,7 +919,7 @@ Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/di
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> Layout <span class="token keyword">from</span> <span class="token string">'../components/MyLayout.js'</span>
 <span class="token keyword">import</span> fetch <span class="token keyword">from</span> <span class="token string">'isomorphic-unfetch'</span>
 
-<span class="token keyword">const</span> <span class="token function-variable function">Post</span> <span class="token operator">=</span> <span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+<span class="token keyword">const</span> <span class="token function-variable function">Post</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
     <span class="token operator">&lt;</span>Layout<span class="token operator">></span>
        <span class="token operator">&lt;</span>h1<span class="token operator">></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>show<span class="token punctuation">.</span>name<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">></span>
        <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>show<span class="token punctuation">.</span>summary<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex">/&lt;[/]?p>/g</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
@@ -927,7 +927,7 @@ Facebook page: https://www.facebook.com/RaykoDev&lt;/code&gt;&lt;/pre&gt;&lt;/di
     <span class="token operator">&lt;</span><span class="token operator">/</span>Layout<span class="token operator">></span>
 <span class="token punctuation">)</span>
 
-Post<span class="token punctuation">.</span>getInitialProps <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+Post<span class="token punctuation">.</span><span class="token function-variable function">getInitialProps</span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">context</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">const</span> <span class="token punctuation">{</span> id <span class="token punctuation">}</span> <span class="token operator">=</span> context<span class="token punctuation">.</span>query
   <span class="token keyword">const</span> res <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token template-string"><span class="token string">`https://api.tvmaze.com/shows/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">)</span>
   <span class="token keyword">const</span> show <span class="token operator">=</span> <span class="token keyword">await</span> res<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
@@ -960,7 +960,7 @@ Post<span class="token punctuation">.</span>getInitialProps <span class="token o
     firebase<span class="token punctuation">.</span><span class="token function">initializeApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
       databaseURL<span class="token punctuation">:</span> <span class="token string">'https://hacker-news.firebaseio.com'</span>
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">err</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token comment">// we skip the "already exists" message which is</span>
     <span class="token comment">// not an actual error when we're hot-reloading</span>
     <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token regex">/already exists/</span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -978,7 +978,7 @@ Post<span class="token punctuation">.</span>getInitialProps <span class="token o
     firebase<span class="token punctuation">.</span><span class="token function">initializeApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
       databaseURL<span class="token punctuation">:</span> <span class="token string">'https://hacker-news.firebaseio.com'</span>
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">err</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token comment">// we skip the "already exists" message which is</span>
     <span class="token comment">// not an actual error when we're hot-reloading</span>
     <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token regex">/already exists/</span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -1015,7 +1015,7 @@ marked<span class="token punctuation">.</span><span class="token function">setOp
   breaks<span class="token punctuation">:</span> <span class="token boolean">true</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 
-<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">WithPost</span> <span class="token punctuation">(</span>options<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">WithPost</span> <span class="token punctuation">(</span><span class="token parameter">options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token keyword">class</span> <span class="token class-name">PostPage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
     <span class="token function">render</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
       <span class="token keyword">return</span> <span class="token punctuation">(</span>
@@ -1049,7 +1049,7 @@ marked<span class="token punctuation">.</span><span class="token function">setOp
   breaks<span class="token punctuation">:</span> <span class="token boolean">true</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 
-<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">WithPost</span> <span class="token punctuation">(</span>options<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">WithPost</span> <span class="token punctuation">(</span><span class="token parameter">options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">return</span> <span class="token keyword">class</span> <span class="token class-name">PostPage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
         <span class="token function">renderMarkdown</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
             <span class="token comment">// If a code snippet contains in the markdown content</span>
@@ -1117,7 +1117,7 @@ marked<span class="token punctuation">.</span><span class="token function">setOp
 &lt;p&gt;NextJS의 Link는 HOC이다. 위와 같은 문서의 내용에서도 알 수 있듯이 Link는 단순히 HOC이기 때문에 이미 지정된 props에 대해서만 반응한다. 그래서 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;a&amp;gt; 태그&lt;/code&gt;와 같은 일종의 테그로 인식해 사전에 지정된 props가 아닌 style 등의 props를 전달한다면 Link에서 그 결과를 기대하기는 힘들다.&lt;/p&gt;
 &lt;h2&gt;Create Dynamic Pages - Passing Data via Query Strings&lt;/h2&gt;
 &lt;p&gt;Link에서는 문자열 매개변수(string parameter)를 통해 데이터를 전달한다. NextJS에서는 다음과 같이 질의 문자열(query strings)을 통해 어떤 데이터던지 전달할 수 있다. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;PostLink&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;PostLink&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Link href&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`/post?title=&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -1128,7 +1128,7 @@ marked<span class="token punctuation">.</span><span class="token function">setOp
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;withRouter&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;next/router&apos;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Layout &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../components/MyLayout.js&apos;&lt;/span&gt;
 
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Page &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;withRouter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Page &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;withRouter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Layout&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;router&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;query&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;This is the blog post content&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -1150,7 +1150,7 @@ marked<span class="token punctuation">.</span><span class="token function">setOp
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;http&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;localhost&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;post&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;title&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Hello&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;Next&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;http&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;localhost&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;hello&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;nextjs&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;두 URL은 같은 곳을 라우팅하고 있지만, 서로 다른 모습을 가진다. 이렇게 변화한 것은 Route Masking을 통해 앞선 Link의 예제가 다음과 같이 수정되어 제공됐기 때문이다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;PostLink&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;PostLink&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Link &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`/p/&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; href&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`/post?title=&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -1173,7 +1173,7 @@ marked<span class="token punctuation">.</span><span class="token function">setOp
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Layout &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../components/MyLayout.js&apos;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; fetch &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;isomorphic-unfetch&apos;&lt;/span&gt;
 
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Post&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Post&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Layout&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;summary&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token regex&quot;&gt;/&amp;lt;[/]?p&gt;/g&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -1181,7 +1181,7 @@ marked<span class="token punctuation">.</span><span class="token function">setOp
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Layout&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-Post&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;getInitialProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;context&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+Post&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;getInitialProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; id &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;query
   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; res &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`https://api.tvmaze.com/shows/&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;id&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; show &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -1214,7 +1214,7 @@ Post&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;getInitialProp
     firebase&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;initializeApp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
       databaseURL&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;https://hacker-news.firebaseio.com&apos;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token comment&quot;&gt;// we skip the &quot;already exists&quot; message which is&lt;/span&gt;
     &lt;span class=&quot;token comment&quot;&gt;// not an actual error when we&apos;re hot-reloading&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token regex&quot;&gt;/already exists/&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -1232,7 +1232,7 @@ Post&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;getInitialProp
     firebase&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;initializeApp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
       databaseURL&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;https://hacker-news.firebaseio.com&apos;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token comment&quot;&gt;// we skip the &quot;already exists&quot; message which is&lt;/span&gt;
     &lt;span class=&quot;token comment&quot;&gt;// not an actual error when we&apos;re hot-reloading&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token regex&quot;&gt;/already exists/&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -1269,7 +1269,7 @@ marked&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
   breaks&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;WithPost&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;WithPost&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PostPage&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
@@ -1303,7 +1303,7 @@ marked&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
   breaks&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;WithPost&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;WithPost&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PostPage&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token function&quot;&gt;renderMarkdown&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
             &lt;span class=&quot;token comment&quot;&gt;// If a code snippet contains in the markdown content&lt;/span&gt;
@@ -1557,7 +1557,7 @@ marked&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">전역 유효범위: 스크립트의 스코프 가장 바깥쪽에서 정의하며, 스크립트 내 어느 곳에서든 참조될 수 있다.
 지역 유효범위: 하나의 메서드 안에서 정의하며, 정의된 메서드 안에서만 참조될 수 있다.</code></pre></div>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> global_scope<span class="token operator">=</span><span class="token string">"global"</span>
-<span class="token keyword">function</span> <span class="token constant">A</span><span class="token punctuation">(</span>a_scope_param<span class="token punctuation">)</span><span class="token punctuation">{</span>
+<span class="token keyword">function</span> <span class="token constant">A</span><span class="token punctuation">(</span><span class="token parameter">a_scope_param</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
     <span class="token keyword">var</span> local_scope_a <span class="token operator">=</span> <span class="token string">"local_a"</span>
     
     <span class="token keyword">function</span> <span class="token constant">B</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
@@ -1772,7 +1772,7 @@ hoistingExam3 of object is not a function
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;전역 유효범위: 스크립트의 스코프 가장 바깥쪽에서 정의하며, 스크립트 내 어느 곳에서든 참조될 수 있다.
 지역 유효범위: 하나의 메서드 안에서 정의하며, 정의된 메서드 안에서만 참조될 수 있다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; global_scope&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;global&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a_scope_param&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a_scope_param&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; local_scope_a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;local_a&quot;&lt;/span&gt;
     
     &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -2070,14 +2070,14 @@ hoistingExam3 of object is not a function
 <p>만약 필자와 같은 선택을 할 것이라면 본격적으로 실습을 진행해보자. 내가 이 글을 쓰는 지금(2019. 02. 26)의 AWS 콘솔의 첫 페이지는 다음과 같다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png"
+    href="/static/9608e87e453c04fc6a5d7f2da593ecca/8d0ff/aws-main.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2088,13 +2088,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-main"
         title=""
-        src="/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png"
-        srcset="/static/9608e87e453c04fc6a5d7f2da593ecca/f1223/aws-main.png 163w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/593bc/aws-main.png 325w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png 650w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/a1e87/aws-main.png 975w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/89a59/aws-main.png 1300w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png 1440w"
+        src="/static/9608e87e453c04fc6a5d7f2da593ecca/dbb61/aws-main.png"
+        srcset="/static/9608e87e453c04fc6a5d7f2da593ecca/19bd1/aws-main.png 163w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/d3bcb/aws-main.png 325w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/dbb61/aws-main.png 650w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/6b691/aws-main.png 975w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/91670/aws-main.png 1300w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/8d0ff/aws-main.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2104,14 +2104,14 @@ hoistingExam3 of object is not a function
 <p>Create bucket을 눌러 아래와 같이 'aws-webapp'이라는 버킷을 만들자(버킷은 이름의 중복을 피해야 한다. 가령 다른 사람이 aws-webapp을 사용하고 있다면 그 이름을 사용할 수 없다. 그래서 나는 aws-webapp-mj라는 버킷을 만들었다).</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png"
+    href="/static/55a3692a6246c0c11e677f616a78d37d/8d0ff/aws-s3-2.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2122,13 +2122,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png"
-        srcset="/static/55a3692a6246c0c11e677f616a78d37d/f1223/aws-s3-2.png 163w,
-/static/55a3692a6246c0c11e677f616a78d37d/593bc/aws-s3-2.png 325w,
-/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png 650w,
-/static/55a3692a6246c0c11e677f616a78d37d/a1e87/aws-s3-2.png 975w,
-/static/55a3692a6246c0c11e677f616a78d37d/89a59/aws-s3-2.png 1300w,
-/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png 1440w"
+        src="/static/55a3692a6246c0c11e677f616a78d37d/dbb61/aws-s3-2.png"
+        srcset="/static/55a3692a6246c0c11e677f616a78d37d/19bd1/aws-s3-2.png 163w,
+/static/55a3692a6246c0c11e677f616a78d37d/d3bcb/aws-s3-2.png 325w,
+/static/55a3692a6246c0c11e677f616a78d37d/dbb61/aws-s3-2.png 650w,
+/static/55a3692a6246c0c11e677f616a78d37d/6b691/aws-s3-2.png 975w,
+/static/55a3692a6246c0c11e677f616a78d37d/91670/aws-s3-2.png 1300w,
+/static/55a3692a6246c0c11e677f616a78d37d/8d0ff/aws-s3-2.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2136,14 +2136,14 @@ hoistingExam3 of object is not a function
 <p>Copy할 버킷이 없으므로 다음으로 넘어가자. 다음으로 넘어가게 되면 다양한 속성들을 설정할 수 있는데, 만약 사용할 기능이 있다면 체크해도 좋지만 나는 여기서 따로 사용할 기능이 없기 때문에 Tags에 Name이라는 key를 webapp으로 만들어주고 다음으로 넘어갈 것이다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png"
+    href="/static/c2f24c16a02dbe2053ee7193fe516139/8d0ff/aws-s3-3.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2154,13 +2154,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png"
-        srcset="/static/c2f24c16a02dbe2053ee7193fe516139/f1223/aws-s3-3.png 163w,
-/static/c2f24c16a02dbe2053ee7193fe516139/593bc/aws-s3-3.png 325w,
-/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png 650w,
-/static/c2f24c16a02dbe2053ee7193fe516139/a1e87/aws-s3-3.png 975w,
-/static/c2f24c16a02dbe2053ee7193fe516139/89a59/aws-s3-3.png 1300w,
-/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png 1440w"
+        src="/static/c2f24c16a02dbe2053ee7193fe516139/dbb61/aws-s3-3.png"
+        srcset="/static/c2f24c16a02dbe2053ee7193fe516139/19bd1/aws-s3-3.png 163w,
+/static/c2f24c16a02dbe2053ee7193fe516139/d3bcb/aws-s3-3.png 325w,
+/static/c2f24c16a02dbe2053ee7193fe516139/dbb61/aws-s3-3.png 650w,
+/static/c2f24c16a02dbe2053ee7193fe516139/6b691/aws-s3-3.png 975w,
+/static/c2f24c16a02dbe2053ee7193fe516139/91670/aws-s3-3.png 1300w,
+/static/c2f24c16a02dbe2053ee7193fe516139/8d0ff/aws-s3-3.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2168,14 +2168,14 @@ hoistingExam3 of object is not a function
 <p>다음으로 넘어가게 되면 다시 한 번 체크 박스가 나온다. 여기서도 사용자의 필요에 따라 체크를 하지 않을 수 있지만, 권장 사항이기 때문에 체크하고 넘어가는 것이 바람직할 것 같다. 더불어 Manage system permissions는 S3 로그 전달 그룹(Delivery group)에 이 버킷의 로그가 쓰여지는 것을 허용할 것이냐는 말인데, 지금 당장 로그 정보가 필요없으니 허용하지 않고 넘어갈 것이다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png"
+    href="/static/52e6474dec63308124774db90162e8bf/894d1/aws-s3-4.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2186,13 +2186,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png"
-        srcset="/static/52e6474dec63308124774db90162e8bf/f1223/aws-s3-4.png 163w,
-/static/52e6474dec63308124774db90162e8bf/593bc/aws-s3-4.png 325w,
-/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png 650w,
-/static/52e6474dec63308124774db90162e8bf/a1e87/aws-s3-4.png 975w,
-/static/52e6474dec63308124774db90162e8bf/89a59/aws-s3-4.png 1300w,
-/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png 1424w"
+        src="/static/52e6474dec63308124774db90162e8bf/dbb61/aws-s3-4.png"
+        srcset="/static/52e6474dec63308124774db90162e8bf/19bd1/aws-s3-4.png 163w,
+/static/52e6474dec63308124774db90162e8bf/d3bcb/aws-s3-4.png 325w,
+/static/52e6474dec63308124774db90162e8bf/dbb61/aws-s3-4.png 650w,
+/static/52e6474dec63308124774db90162e8bf/6b691/aws-s3-4.png 975w,
+/static/52e6474dec63308124774db90162e8bf/91670/aws-s3-4.png 1300w,
+/static/52e6474dec63308124774db90162e8bf/894d1/aws-s3-4.png 1424w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2200,14 +2200,14 @@ hoistingExam3 of object is not a function
 <p>마지막으로 지금까지의 설정을 확인하고 되묻는데, 여기서 제대로 설정했는지를 확인하고 생성을 마치도록 하자.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png"
+    href="/static/bfd7adee2c7548bb808b1704a41bb866/8d0ff/aws-s3-5.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2218,13 +2218,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png"
-        srcset="/static/bfd7adee2c7548bb808b1704a41bb866/f1223/aws-s3-5.png 163w,
-/static/bfd7adee2c7548bb808b1704a41bb866/593bc/aws-s3-5.png 325w,
-/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png 650w,
-/static/bfd7adee2c7548bb808b1704a41bb866/a1e87/aws-s3-5.png 975w,
-/static/bfd7adee2c7548bb808b1704a41bb866/89a59/aws-s3-5.png 1300w,
-/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png 1440w"
+        src="/static/bfd7adee2c7548bb808b1704a41bb866/dbb61/aws-s3-5.png"
+        srcset="/static/bfd7adee2c7548bb808b1704a41bb866/19bd1/aws-s3-5.png 163w,
+/static/bfd7adee2c7548bb808b1704a41bb866/d3bcb/aws-s3-5.png 325w,
+/static/bfd7adee2c7548bb808b1704a41bb866/dbb61/aws-s3-5.png 650w,
+/static/bfd7adee2c7548bb808b1704a41bb866/6b691/aws-s3-5.png 975w,
+/static/bfd7adee2c7548bb808b1704a41bb866/91670/aws-s3-5.png 1300w,
+/static/bfd7adee2c7548bb808b1704a41bb866/8d0ff/aws-s3-5.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2234,14 +2234,14 @@ hoistingExam3 of object is not a function
 <p>이를 위해 해당 문서의 <strong>Amazon S3에 콘텐츠를 업로드하고 모두에게 읽기 권한을 부여하는 방법</strong>을 따라 S3의 설정을 진행하도록 하자. 우리는 "6. <strong>버킷</strong> 창에서 버킷을 선택하고 <strong>업로드</strong>를 선택합니다."부터 진행하면 될 것이다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png"
+    href="/static/8815065789df870264505531a319bd98/8d0ff/aws-s3-6.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2252,13 +2252,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png"
-        srcset="/static/8815065789df870264505531a319bd98/f1223/aws-s3-6.png 163w,
-/static/8815065789df870264505531a319bd98/593bc/aws-s3-6.png 325w,
-/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png 650w,
-/static/8815065789df870264505531a319bd98/a1e87/aws-s3-6.png 975w,
-/static/8815065789df870264505531a319bd98/89a59/aws-s3-6.png 1300w,
-/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png 1440w"
+        src="/static/8815065789df870264505531a319bd98/dbb61/aws-s3-6.png"
+        srcset="/static/8815065789df870264505531a319bd98/19bd1/aws-s3-6.png 163w,
+/static/8815065789df870264505531a319bd98/d3bcb/aws-s3-6.png 325w,
+/static/8815065789df870264505531a319bd98/dbb61/aws-s3-6.png 650w,
+/static/8815065789df870264505531a319bd98/6b691/aws-s3-6.png 975w,
+/static/8815065789df870264505531a319bd98/91670/aws-s3-6.png 1300w,
+/static/8815065789df870264505531a319bd98/8d0ff/aws-s3-6.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2266,14 +2266,14 @@ hoistingExam3 of object is not a function
 <p>업로드 시 유의해야 할 사항은 읽기와 쓰기 권한의 설정이다. 필자의 이미지는 S3를 필자의 AWS계정에서만 사용 가능하도록 설정할 것이다. 더불어 여기서는 암호화 또는 태깅과 같이 객체에 원하는 속성을 설정할 수 있는데, 이는 사용자가 알맞게 사용하면 된다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png"
+    href="/static/afe834832c776264de2bd9968c862d69/8d0ff/aws-s3-7.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2284,13 +2284,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png"
-        srcset="/static/afe834832c776264de2bd9968c862d69/f1223/aws-s3-7.png 163w,
-/static/afe834832c776264de2bd9968c862d69/593bc/aws-s3-7.png 325w,
-/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png 650w,
-/static/afe834832c776264de2bd9968c862d69/a1e87/aws-s3-7.png 975w,
-/static/afe834832c776264de2bd9968c862d69/89a59/aws-s3-7.png 1300w,
-/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png 1440w"
+        src="/static/afe834832c776264de2bd9968c862d69/dbb61/aws-s3-7.png"
+        srcset="/static/afe834832c776264de2bd9968c862d69/19bd1/aws-s3-7.png 163w,
+/static/afe834832c776264de2bd9968c862d69/d3bcb/aws-s3-7.png 325w,
+/static/afe834832c776264de2bd9968c862d69/dbb61/aws-s3-7.png 650w,
+/static/afe834832c776264de2bd9968c862d69/6b691/aws-s3-7.png 975w,
+/static/afe834832c776264de2bd9968c862d69/91670/aws-s3-7.png 1300w,
+/static/afe834832c776264de2bd9968c862d69/8d0ff/aws-s3-7.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2298,14 +2298,14 @@ hoistingExam3 of object is not a function
 <p>다음으로 넘어가면 다시 여러 속성을 만날 수 있는데, 나는 기본 세팅 그대로 설정해주고 넘어가도록 할 것이다(지금 당장 필요가 없는 설정이기도 하고 귀찮기 때문).</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png"
+    href="/static/3ec0d347303704bf9a94f2ed8e825901/8d0ff/aws-s3-8.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2316,13 +2316,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-s3"
         title=""
-        src="/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png"
-        srcset="/static/3ec0d347303704bf9a94f2ed8e825901/f1223/aws-s3-8.png 163w,
-/static/3ec0d347303704bf9a94f2ed8e825901/593bc/aws-s3-8.png 325w,
-/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png 650w,
-/static/3ec0d347303704bf9a94f2ed8e825901/a1e87/aws-s3-8.png 975w,
-/static/3ec0d347303704bf9a94f2ed8e825901/89a59/aws-s3-8.png 1300w,
-/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png 1440w"
+        src="/static/3ec0d347303704bf9a94f2ed8e825901/dbb61/aws-s3-8.png"
+        srcset="/static/3ec0d347303704bf9a94f2ed8e825901/19bd1/aws-s3-8.png 163w,
+/static/3ec0d347303704bf9a94f2ed8e825901/d3bcb/aws-s3-8.png 325w,
+/static/3ec0d347303704bf9a94f2ed8e825901/dbb61/aws-s3-8.png 650w,
+/static/3ec0d347303704bf9a94f2ed8e825901/6b691/aws-s3-8.png 975w,
+/static/3ec0d347303704bf9a94f2ed8e825901/91670/aws-s3-8.png 1300w,
+/static/3ec0d347303704bf9a94f2ed8e825901/8d0ff/aws-s3-8.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2337,14 +2337,14 @@ hoistingExam3 of object is not a function
 <p>나는 S3를 설정한 것 외에는 전부 기본값을 사용해서 다음과 같은 CloudeFront Distributions(배포판)을 만들었다.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png"
+    href="/static/e3170a7ac6872a024aec5b7487eceffb/8d0ff/aws-cloudfront.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2355,13 +2355,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-cloudfront"
         title=""
-        src="/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png"
-        srcset="/static/e3170a7ac6872a024aec5b7487eceffb/f1223/aws-cloudfront.png 163w,
-/static/e3170a7ac6872a024aec5b7487eceffb/593bc/aws-cloudfront.png 325w,
-/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png 650w,
-/static/e3170a7ac6872a024aec5b7487eceffb/a1e87/aws-cloudfront.png 975w,
-/static/e3170a7ac6872a024aec5b7487eceffb/89a59/aws-cloudfront.png 1300w,
-/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png 1440w"
+        src="/static/e3170a7ac6872a024aec5b7487eceffb/dbb61/aws-cloudfront.png"
+        srcset="/static/e3170a7ac6872a024aec5b7487eceffb/19bd1/aws-cloudfront.png 163w,
+/static/e3170a7ac6872a024aec5b7487eceffb/d3bcb/aws-cloudfront.png 325w,
+/static/e3170a7ac6872a024aec5b7487eceffb/dbb61/aws-cloudfront.png 650w,
+/static/e3170a7ac6872a024aec5b7487eceffb/6b691/aws-cloudfront.png 975w,
+/static/e3170a7ac6872a024aec5b7487eceffb/91670/aws-cloudfront.png 1300w,
+/static/e3170a7ac6872a024aec5b7487eceffb/8d0ff/aws-cloudfront.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2391,14 +2391,14 @@ hoistingExam3 of object is not a function
 </blockquote>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png"
+    href="/static/4ee2830543a9829f432ba125659b15fe/73a55/aws-ec2.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2409,13 +2409,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-ec2"
         title=""
-        src="/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png"
-        srcset="/static/4ee2830543a9829f432ba125659b15fe/f1223/aws-ec2.png 163w,
-/static/4ee2830543a9829f432ba125659b15fe/593bc/aws-ec2.png 325w,
-/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png 650w,
-/static/4ee2830543a9829f432ba125659b15fe/a1e87/aws-ec2.png 975w,
-/static/4ee2830543a9829f432ba125659b15fe/89a59/aws-ec2.png 1300w,
-/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png 1421w"
+        src="/static/4ee2830543a9829f432ba125659b15fe/dbb61/aws-ec2.png"
+        srcset="/static/4ee2830543a9829f432ba125659b15fe/19bd1/aws-ec2.png 163w,
+/static/4ee2830543a9829f432ba125659b15fe/d3bcb/aws-ec2.png 325w,
+/static/4ee2830543a9829f432ba125659b15fe/dbb61/aws-ec2.png 650w,
+/static/4ee2830543a9829f432ba125659b15fe/6b691/aws-ec2.png 975w,
+/static/4ee2830543a9829f432ba125659b15fe/91670/aws-ec2.png 1300w,
+/static/4ee2830543a9829f432ba125659b15fe/73a55/aws-ec2.png 1421w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2427,14 +2427,14 @@ hoistingExam3 of object is not a function
 </blockquote>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png"
+    href="/static/94d1d6c91600ad921e2c3356d16be476/8d0ff/aws-auto-scaling.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2445,13 +2445,13 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="aws-auto-scaling"
         title=""
-        src="/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png"
-        srcset="/static/94d1d6c91600ad921e2c3356d16be476/f1223/aws-auto-scaling.png 163w,
-/static/94d1d6c91600ad921e2c3356d16be476/593bc/aws-auto-scaling.png 325w,
-/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png 650w,
-/static/94d1d6c91600ad921e2c3356d16be476/a1e87/aws-auto-scaling.png 975w,
-/static/94d1d6c91600ad921e2c3356d16be476/89a59/aws-auto-scaling.png 1300w,
-/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png 1440w"
+        src="/static/94d1d6c91600ad921e2c3356d16be476/dbb61/aws-auto-scaling.png"
+        srcset="/static/94d1d6c91600ad921e2c3356d16be476/19bd1/aws-auto-scaling.png 163w,
+/static/94d1d6c91600ad921e2c3356d16be476/d3bcb/aws-auto-scaling.png 325w,
+/static/94d1d6c91600ad921e2c3356d16be476/dbb61/aws-auto-scaling.png 650w,
+/static/94d1d6c91600ad921e2c3356d16be476/6b691/aws-auto-scaling.png 975w,
+/static/94d1d6c91600ad921e2c3356d16be476/91670/aws-auto-scaling.png 1300w,
+/static/94d1d6c91600ad921e2c3356d16be476/8d0ff/aws-auto-scaling.png 1440w"
         sizes="(max-width: 650px) 100vw, 650px"
       />
   </span>
@@ -2477,14 +2477,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;만약 필자와 같은 선택을 할 것이라면 본격적으로 실습을 진행해보자. 내가 이 글을 쓰는 지금(2019. 02. 26)의 AWS 콘솔의 첫 페이지는 다음과 같다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png&quot;
+    href=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/8d0ff/aws-main.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2495,13 +2495,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-main&quot;
         title=&quot;&quot;
-        src=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png&quot;
-        srcset=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/f1223/aws-main.png 163w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/593bc/aws-main.png 325w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/b33e9/aws-main.png 650w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/a1e87/aws-main.png 975w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/89a59/aws-main.png 1300w,
-/static/9608e87e453c04fc6a5d7f2da593ecca/c2bec/aws-main.png 1440w&quot;
+        src=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/dbb61/aws-main.png&quot;
+        srcset=&quot;/static/9608e87e453c04fc6a5d7f2da593ecca/19bd1/aws-main.png 163w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/d3bcb/aws-main.png 325w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/dbb61/aws-main.png 650w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/6b691/aws-main.png 975w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/91670/aws-main.png 1300w,
+/static/9608e87e453c04fc6a5d7f2da593ecca/8d0ff/aws-main.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2511,14 +2511,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;Create bucket을 눌러 아래와 같이 &apos;aws-webapp&apos;이라는 버킷을 만들자(버킷은 이름의 중복을 피해야 한다. 가령 다른 사람이 aws-webapp을 사용하고 있다면 그 이름을 사용할 수 없다. 그래서 나는 aws-webapp-mj라는 버킷을 만들었다).&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png&quot;
+    href=&quot;/static/55a3692a6246c0c11e677f616a78d37d/8d0ff/aws-s3-2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2529,13 +2529,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png&quot;
-        srcset=&quot;/static/55a3692a6246c0c11e677f616a78d37d/f1223/aws-s3-2.png 163w,
-/static/55a3692a6246c0c11e677f616a78d37d/593bc/aws-s3-2.png 325w,
-/static/55a3692a6246c0c11e677f616a78d37d/b33e9/aws-s3-2.png 650w,
-/static/55a3692a6246c0c11e677f616a78d37d/a1e87/aws-s3-2.png 975w,
-/static/55a3692a6246c0c11e677f616a78d37d/89a59/aws-s3-2.png 1300w,
-/static/55a3692a6246c0c11e677f616a78d37d/c2bec/aws-s3-2.png 1440w&quot;
+        src=&quot;/static/55a3692a6246c0c11e677f616a78d37d/dbb61/aws-s3-2.png&quot;
+        srcset=&quot;/static/55a3692a6246c0c11e677f616a78d37d/19bd1/aws-s3-2.png 163w,
+/static/55a3692a6246c0c11e677f616a78d37d/d3bcb/aws-s3-2.png 325w,
+/static/55a3692a6246c0c11e677f616a78d37d/dbb61/aws-s3-2.png 650w,
+/static/55a3692a6246c0c11e677f616a78d37d/6b691/aws-s3-2.png 975w,
+/static/55a3692a6246c0c11e677f616a78d37d/91670/aws-s3-2.png 1300w,
+/static/55a3692a6246c0c11e677f616a78d37d/8d0ff/aws-s3-2.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2543,14 +2543,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;Copy할 버킷이 없으므로 다음으로 넘어가자. 다음으로 넘어가게 되면 다양한 속성들을 설정할 수 있는데, 만약 사용할 기능이 있다면 체크해도 좋지만 나는 여기서 따로 사용할 기능이 없기 때문에 Tags에 Name이라는 key를 webapp으로 만들어주고 다음으로 넘어갈 것이다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png&quot;
+    href=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/8d0ff/aws-s3-3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2561,13 +2561,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png&quot;
-        srcset=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/f1223/aws-s3-3.png 163w,
-/static/c2f24c16a02dbe2053ee7193fe516139/593bc/aws-s3-3.png 325w,
-/static/c2f24c16a02dbe2053ee7193fe516139/b33e9/aws-s3-3.png 650w,
-/static/c2f24c16a02dbe2053ee7193fe516139/a1e87/aws-s3-3.png 975w,
-/static/c2f24c16a02dbe2053ee7193fe516139/89a59/aws-s3-3.png 1300w,
-/static/c2f24c16a02dbe2053ee7193fe516139/c2bec/aws-s3-3.png 1440w&quot;
+        src=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/dbb61/aws-s3-3.png&quot;
+        srcset=&quot;/static/c2f24c16a02dbe2053ee7193fe516139/19bd1/aws-s3-3.png 163w,
+/static/c2f24c16a02dbe2053ee7193fe516139/d3bcb/aws-s3-3.png 325w,
+/static/c2f24c16a02dbe2053ee7193fe516139/dbb61/aws-s3-3.png 650w,
+/static/c2f24c16a02dbe2053ee7193fe516139/6b691/aws-s3-3.png 975w,
+/static/c2f24c16a02dbe2053ee7193fe516139/91670/aws-s3-3.png 1300w,
+/static/c2f24c16a02dbe2053ee7193fe516139/8d0ff/aws-s3-3.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2575,14 +2575,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;다음으로 넘어가게 되면 다시 한 번 체크 박스가 나온다. 여기서도 사용자의 필요에 따라 체크를 하지 않을 수 있지만, 권장 사항이기 때문에 체크하고 넘어가는 것이 바람직할 것 같다. 더불어 Manage system permissions는 S3 로그 전달 그룹(Delivery group)에 이 버킷의 로그가 쓰여지는 것을 허용할 것이냐는 말인데, 지금 당장 로그 정보가 필요없으니 허용하지 않고 넘어갈 것이다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png&quot;
+    href=&quot;/static/52e6474dec63308124774db90162e8bf/894d1/aws-s3-4.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2593,13 +2593,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png&quot;
-        srcset=&quot;/static/52e6474dec63308124774db90162e8bf/f1223/aws-s3-4.png 163w,
-/static/52e6474dec63308124774db90162e8bf/593bc/aws-s3-4.png 325w,
-/static/52e6474dec63308124774db90162e8bf/b33e9/aws-s3-4.png 650w,
-/static/52e6474dec63308124774db90162e8bf/a1e87/aws-s3-4.png 975w,
-/static/52e6474dec63308124774db90162e8bf/89a59/aws-s3-4.png 1300w,
-/static/52e6474dec63308124774db90162e8bf/9ddb8/aws-s3-4.png 1424w&quot;
+        src=&quot;/static/52e6474dec63308124774db90162e8bf/dbb61/aws-s3-4.png&quot;
+        srcset=&quot;/static/52e6474dec63308124774db90162e8bf/19bd1/aws-s3-4.png 163w,
+/static/52e6474dec63308124774db90162e8bf/d3bcb/aws-s3-4.png 325w,
+/static/52e6474dec63308124774db90162e8bf/dbb61/aws-s3-4.png 650w,
+/static/52e6474dec63308124774db90162e8bf/6b691/aws-s3-4.png 975w,
+/static/52e6474dec63308124774db90162e8bf/91670/aws-s3-4.png 1300w,
+/static/52e6474dec63308124774db90162e8bf/894d1/aws-s3-4.png 1424w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2607,14 +2607,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;마지막으로 지금까지의 설정을 확인하고 되묻는데, 여기서 제대로 설정했는지를 확인하고 생성을 마치도록 하자.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png&quot;
+    href=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/8d0ff/aws-s3-5.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2625,13 +2625,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png&quot;
-        srcset=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/f1223/aws-s3-5.png 163w,
-/static/bfd7adee2c7548bb808b1704a41bb866/593bc/aws-s3-5.png 325w,
-/static/bfd7adee2c7548bb808b1704a41bb866/b33e9/aws-s3-5.png 650w,
-/static/bfd7adee2c7548bb808b1704a41bb866/a1e87/aws-s3-5.png 975w,
-/static/bfd7adee2c7548bb808b1704a41bb866/89a59/aws-s3-5.png 1300w,
-/static/bfd7adee2c7548bb808b1704a41bb866/c2bec/aws-s3-5.png 1440w&quot;
+        src=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/dbb61/aws-s3-5.png&quot;
+        srcset=&quot;/static/bfd7adee2c7548bb808b1704a41bb866/19bd1/aws-s3-5.png 163w,
+/static/bfd7adee2c7548bb808b1704a41bb866/d3bcb/aws-s3-5.png 325w,
+/static/bfd7adee2c7548bb808b1704a41bb866/dbb61/aws-s3-5.png 650w,
+/static/bfd7adee2c7548bb808b1704a41bb866/6b691/aws-s3-5.png 975w,
+/static/bfd7adee2c7548bb808b1704a41bb866/91670/aws-s3-5.png 1300w,
+/static/bfd7adee2c7548bb808b1704a41bb866/8d0ff/aws-s3-5.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2641,14 +2641,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;이를 위해 해당 문서의 &lt;strong&gt;Amazon S3에 콘텐츠를 업로드하고 모두에게 읽기 권한을 부여하는 방법&lt;/strong&gt;을 따라 S3의 설정을 진행하도록 하자. 우리는 &quot;6. &lt;strong&gt;버킷&lt;/strong&gt; 창에서 버킷을 선택하고 &lt;strong&gt;업로드&lt;/strong&gt;를 선택합니다.&quot;부터 진행하면 될 것이다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png&quot;
+    href=&quot;/static/8815065789df870264505531a319bd98/8d0ff/aws-s3-6.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2659,13 +2659,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png&quot;
-        srcset=&quot;/static/8815065789df870264505531a319bd98/f1223/aws-s3-6.png 163w,
-/static/8815065789df870264505531a319bd98/593bc/aws-s3-6.png 325w,
-/static/8815065789df870264505531a319bd98/b33e9/aws-s3-6.png 650w,
-/static/8815065789df870264505531a319bd98/a1e87/aws-s3-6.png 975w,
-/static/8815065789df870264505531a319bd98/89a59/aws-s3-6.png 1300w,
-/static/8815065789df870264505531a319bd98/c2bec/aws-s3-6.png 1440w&quot;
+        src=&quot;/static/8815065789df870264505531a319bd98/dbb61/aws-s3-6.png&quot;
+        srcset=&quot;/static/8815065789df870264505531a319bd98/19bd1/aws-s3-6.png 163w,
+/static/8815065789df870264505531a319bd98/d3bcb/aws-s3-6.png 325w,
+/static/8815065789df870264505531a319bd98/dbb61/aws-s3-6.png 650w,
+/static/8815065789df870264505531a319bd98/6b691/aws-s3-6.png 975w,
+/static/8815065789df870264505531a319bd98/91670/aws-s3-6.png 1300w,
+/static/8815065789df870264505531a319bd98/8d0ff/aws-s3-6.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2673,14 +2673,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;업로드 시 유의해야 할 사항은 읽기와 쓰기 권한의 설정이다. 필자의 이미지는 S3를 필자의 AWS계정에서만 사용 가능하도록 설정할 것이다. 더불어 여기서는 암호화 또는 태깅과 같이 객체에 원하는 속성을 설정할 수 있는데, 이는 사용자가 알맞게 사용하면 된다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png&quot;
+    href=&quot;/static/afe834832c776264de2bd9968c862d69/8d0ff/aws-s3-7.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2691,13 +2691,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png&quot;
-        srcset=&quot;/static/afe834832c776264de2bd9968c862d69/f1223/aws-s3-7.png 163w,
-/static/afe834832c776264de2bd9968c862d69/593bc/aws-s3-7.png 325w,
-/static/afe834832c776264de2bd9968c862d69/b33e9/aws-s3-7.png 650w,
-/static/afe834832c776264de2bd9968c862d69/a1e87/aws-s3-7.png 975w,
-/static/afe834832c776264de2bd9968c862d69/89a59/aws-s3-7.png 1300w,
-/static/afe834832c776264de2bd9968c862d69/c2bec/aws-s3-7.png 1440w&quot;
+        src=&quot;/static/afe834832c776264de2bd9968c862d69/dbb61/aws-s3-7.png&quot;
+        srcset=&quot;/static/afe834832c776264de2bd9968c862d69/19bd1/aws-s3-7.png 163w,
+/static/afe834832c776264de2bd9968c862d69/d3bcb/aws-s3-7.png 325w,
+/static/afe834832c776264de2bd9968c862d69/dbb61/aws-s3-7.png 650w,
+/static/afe834832c776264de2bd9968c862d69/6b691/aws-s3-7.png 975w,
+/static/afe834832c776264de2bd9968c862d69/91670/aws-s3-7.png 1300w,
+/static/afe834832c776264de2bd9968c862d69/8d0ff/aws-s3-7.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2705,14 +2705,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;다음으로 넘어가면 다시 여러 속성을 만날 수 있는데, 나는 기본 세팅 그대로 설정해주고 넘어가도록 할 것이다(지금 당장 필요가 없는 설정이기도 하고 귀찮기 때문).&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png&quot;
+    href=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/8d0ff/aws-s3-8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2723,13 +2723,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-s3&quot;
         title=&quot;&quot;
-        src=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png&quot;
-        srcset=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/f1223/aws-s3-8.png 163w,
-/static/3ec0d347303704bf9a94f2ed8e825901/593bc/aws-s3-8.png 325w,
-/static/3ec0d347303704bf9a94f2ed8e825901/b33e9/aws-s3-8.png 650w,
-/static/3ec0d347303704bf9a94f2ed8e825901/a1e87/aws-s3-8.png 975w,
-/static/3ec0d347303704bf9a94f2ed8e825901/89a59/aws-s3-8.png 1300w,
-/static/3ec0d347303704bf9a94f2ed8e825901/c2bec/aws-s3-8.png 1440w&quot;
+        src=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/dbb61/aws-s3-8.png&quot;
+        srcset=&quot;/static/3ec0d347303704bf9a94f2ed8e825901/19bd1/aws-s3-8.png 163w,
+/static/3ec0d347303704bf9a94f2ed8e825901/d3bcb/aws-s3-8.png 325w,
+/static/3ec0d347303704bf9a94f2ed8e825901/dbb61/aws-s3-8.png 650w,
+/static/3ec0d347303704bf9a94f2ed8e825901/6b691/aws-s3-8.png 975w,
+/static/3ec0d347303704bf9a94f2ed8e825901/91670/aws-s3-8.png 1300w,
+/static/3ec0d347303704bf9a94f2ed8e825901/8d0ff/aws-s3-8.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2744,14 +2744,14 @@ hoistingExam3 of object is not a function
 &lt;p&gt;나는 S3를 설정한 것 외에는 전부 기본값을 사용해서 다음과 같은 CloudeFront Distributions(배포판)을 만들었다.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png&quot;
+    href=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/8d0ff/aws-cloudfront.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2762,13 +2762,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-cloudfront&quot;
         title=&quot;&quot;
-        src=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png&quot;
-        srcset=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/f1223/aws-cloudfront.png 163w,
-/static/e3170a7ac6872a024aec5b7487eceffb/593bc/aws-cloudfront.png 325w,
-/static/e3170a7ac6872a024aec5b7487eceffb/b33e9/aws-cloudfront.png 650w,
-/static/e3170a7ac6872a024aec5b7487eceffb/a1e87/aws-cloudfront.png 975w,
-/static/e3170a7ac6872a024aec5b7487eceffb/89a59/aws-cloudfront.png 1300w,
-/static/e3170a7ac6872a024aec5b7487eceffb/c2bec/aws-cloudfront.png 1440w&quot;
+        src=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/dbb61/aws-cloudfront.png&quot;
+        srcset=&quot;/static/e3170a7ac6872a024aec5b7487eceffb/19bd1/aws-cloudfront.png 163w,
+/static/e3170a7ac6872a024aec5b7487eceffb/d3bcb/aws-cloudfront.png 325w,
+/static/e3170a7ac6872a024aec5b7487eceffb/dbb61/aws-cloudfront.png 650w,
+/static/e3170a7ac6872a024aec5b7487eceffb/6b691/aws-cloudfront.png 975w,
+/static/e3170a7ac6872a024aec5b7487eceffb/91670/aws-cloudfront.png 1300w,
+/static/e3170a7ac6872a024aec5b7487eceffb/8d0ff/aws-cloudfront.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2798,14 +2798,14 @@ hoistingExam3 of object is not a function
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png&quot;
+    href=&quot;/static/4ee2830543a9829f432ba125659b15fe/73a55/aws-ec2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2816,13 +2816,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-ec2&quot;
         title=&quot;&quot;
-        src=&quot;/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png&quot;
-        srcset=&quot;/static/4ee2830543a9829f432ba125659b15fe/f1223/aws-ec2.png 163w,
-/static/4ee2830543a9829f432ba125659b15fe/593bc/aws-ec2.png 325w,
-/static/4ee2830543a9829f432ba125659b15fe/b33e9/aws-ec2.png 650w,
-/static/4ee2830543a9829f432ba125659b15fe/a1e87/aws-ec2.png 975w,
-/static/4ee2830543a9829f432ba125659b15fe/89a59/aws-ec2.png 1300w,
-/static/4ee2830543a9829f432ba125659b15fe/a21cd/aws-ec2.png 1421w&quot;
+        src=&quot;/static/4ee2830543a9829f432ba125659b15fe/dbb61/aws-ec2.png&quot;
+        srcset=&quot;/static/4ee2830543a9829f432ba125659b15fe/19bd1/aws-ec2.png 163w,
+/static/4ee2830543a9829f432ba125659b15fe/d3bcb/aws-ec2.png 325w,
+/static/4ee2830543a9829f432ba125659b15fe/dbb61/aws-ec2.png 650w,
+/static/4ee2830543a9829f432ba125659b15fe/6b691/aws-ec2.png 975w,
+/static/4ee2830543a9829f432ba125659b15fe/91670/aws-ec2.png 1300w,
+/static/4ee2830543a9829f432ba125659b15fe/73a55/aws-ec2.png 1421w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2834,14 +2834,14 @@ hoistingExam3 of object is not a function
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png&quot;
+    href=&quot;/static/94d1d6c91600ad921e2c3356d16be476/8d0ff/aws-auto-scaling.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -2852,13 +2852,13 @@ hoistingExam3 of object is not a function
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;aws-auto-scaling&quot;
         title=&quot;&quot;
-        src=&quot;/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png&quot;
-        srcset=&quot;/static/94d1d6c91600ad921e2c3356d16be476/f1223/aws-auto-scaling.png 163w,
-/static/94d1d6c91600ad921e2c3356d16be476/593bc/aws-auto-scaling.png 325w,
-/static/94d1d6c91600ad921e2c3356d16be476/b33e9/aws-auto-scaling.png 650w,
-/static/94d1d6c91600ad921e2c3356d16be476/a1e87/aws-auto-scaling.png 975w,
-/static/94d1d6c91600ad921e2c3356d16be476/89a59/aws-auto-scaling.png 1300w,
-/static/94d1d6c91600ad921e2c3356d16be476/c2bec/aws-auto-scaling.png 1440w&quot;
+        src=&quot;/static/94d1d6c91600ad921e2c3356d16be476/dbb61/aws-auto-scaling.png&quot;
+        srcset=&quot;/static/94d1d6c91600ad921e2c3356d16be476/19bd1/aws-auto-scaling.png 163w,
+/static/94d1d6c91600ad921e2c3356d16be476/d3bcb/aws-auto-scaling.png 325w,
+/static/94d1d6c91600ad921e2c3356d16be476/dbb61/aws-auto-scaling.png 650w,
+/static/94d1d6c91600ad921e2c3356d16be476/6b691/aws-auto-scaling.png 975w,
+/static/94d1d6c91600ad921e2c3356d16be476/91670/aws-auto-scaling.png 1300w,
+/static/94d1d6c91600ad921e2c3356d16be476/8d0ff/aws-auto-scaling.png 1440w&quot;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
   &lt;/span&gt;
@@ -2876,14 +2876,14 @@ hoistingExam3 of object is not a function
 <p>우선 <a href="https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/Welcome.html">Amazon Route 53란 무엇입니까?</a>를 참고하도록 하자. 해당 참조에 의하면 도메인 등록, DNS 라우팅, 상태 확인의 3가지 주요 기능을 조합하여 실행할 수 있는 서비스라고 한다. 각 요소를 하나하나 살펴보도록 하자.</p>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png"
+    href="/static/e2f6fe34c52e613cd80585054ae48a2f/1b237/dns-routing.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 582px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 582px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -2894,10 +2894,10 @@ hoistingExam3 of object is not a function
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="dns-routing"
         title=""
-        src="/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png"
-        srcset="/static/e2f6fe34c52e613cd80585054ae48a2f/39de5/dns-routing.png 163w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/ec46a/dns-routing.png 325w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png 582w"
+        src="/static/e2f6fe34c52e613cd80585054ae48a2f/1b237/dns-routing.png"
+        srcset="/static/e2f6fe34c52e613cd80585054ae48a2f/19bd1/dns-routing.png 163w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/d3bcb/dns-routing.png 325w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/1b237/dns-routing.png 582w"
         sizes="(max-width: 582px) 100vw, 582px"
       />
   </span>
@@ -2983,14 +2983,14 @@ Amazon EC2는 다음의 기능을 제공합니다.
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">예를 들어, 다음 Auto Scaling 그룹의 경우 최소 인스턴스 수 1개, 희망 인스턴스 용량 2개, 최대 인스턴스 수 4개가 됩니다. 사용자가 정의한 조정 정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.</code></pre></div>
 <p><a
     class="gatsby-resp-image-link"
-    href="/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png"
+    href="/static/7b4c8ac32129aab596d7f10b471ac0c2/fa223/auto-scailing.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block;  max-width: 310px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 310px;"
   >
     <span
       class="gatsby-resp-image-background-image"
@@ -3001,9 +3001,9 @@ Amazon EC2는 다음의 기능을 제공합니다.
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="auto-scailing"
         title=""
-        src="/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png"
-        srcset="/static/7b4c8ac32129aab596d7f10b471ac0c2/60353/auto-scailing.png 163w,
-/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png 310w"
+        src="/static/7b4c8ac32129aab596d7f10b471ac0c2/fa223/auto-scailing.png"
+        srcset="/static/7b4c8ac32129aab596d7f10b471ac0c2/19bd1/auto-scailing.png 163w,
+/static/7b4c8ac32129aab596d7f10b471ac0c2/fa223/auto-scailing.png 310w"
         sizes="(max-width: 310px) 100vw, 310px"
       />
   </span>
@@ -3049,14 +3049,14 @@ Amazon EC2는 다음의 기능을 제공합니다.
 &lt;p&gt;우선 &lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/Welcome.html&quot;&gt;Amazon Route 53란 무엇입니까?&lt;/a&gt;를 참고하도록 하자. 해당 참조에 의하면 도메인 등록, DNS 라우팅, 상태 확인의 3가지 주요 기능을 조합하여 실행할 수 있는 서비스라고 한다. 각 요소를 하나하나 살펴보도록 하자.&lt;/p&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png&quot;
+    href=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/1b237/dns-routing.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 582px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 582px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3067,10 +3067,10 @@ Amazon EC2는 다음의 기능을 제공합니다.
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;dns-routing&quot;
         title=&quot;&quot;
-        src=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png&quot;
-        srcset=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/39de5/dns-routing.png 163w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/ec46a/dns-routing.png 325w,
-/static/e2f6fe34c52e613cd80585054ae48a2f/33e5c/dns-routing.png 582w&quot;
+        src=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/1b237/dns-routing.png&quot;
+        srcset=&quot;/static/e2f6fe34c52e613cd80585054ae48a2f/19bd1/dns-routing.png 163w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/d3bcb/dns-routing.png 325w,
+/static/e2f6fe34c52e613cd80585054ae48a2f/1b237/dns-routing.png 582w&quot;
         sizes=&quot;(max-width: 582px) 100vw, 582px&quot;
       /&gt;
   &lt;/span&gt;
@@ -3156,14 +3156,14 @@ Amazon EC2는 다음의 기능을 제공합니다.
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;예를 들어, 다음 Auto Scaling 그룹의 경우 최소 인스턴스 수 1개, 희망 인스턴스 용량 2개, 최대 인스턴스 수 4개가 됩니다. 사용자가 정의한 조정 정책에 따라 인스턴스 수가 최소 및 최대 인스턴스 수 내에서 지정하는 조건에 따라 조절됩니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png&quot;
+    href=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/fa223/auto-scailing.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 310px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 310px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -3174,9 +3174,9 @@ Amazon EC2는 다음의 기능을 제공합니다.
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;auto-scailing&quot;
         title=&quot;&quot;
-        src=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png&quot;
-        srcset=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/60353/auto-scailing.png 163w,
-/static/7b4c8ac32129aab596d7f10b471ac0c2/68af2/auto-scailing.png 310w&quot;
+        src=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/fa223/auto-scailing.png&quot;
+        srcset=&quot;/static/7b4c8ac32129aab596d7f10b471ac0c2/19bd1/auto-scailing.png 163w,
+/static/7b4c8ac32129aab596d7f10b471ac0c2/fa223/auto-scailing.png 310w&quot;
         sizes=&quot;(max-width: 310px) 100vw, 310px&quot;
       /&gt;
   &lt;/span&gt;
