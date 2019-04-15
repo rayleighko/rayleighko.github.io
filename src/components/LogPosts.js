@@ -27,11 +27,23 @@ const H3 = styled.h4(({ theme }) => ({
 
 const Article = styled.article(({ theme }) => ({
   marginBottom: '1%',
-  borderBottom: '1px solid #bac8ff',
+  borderBottom: '0.2rem solid #bac8ff',
+  borderLeft: '0.4rem solid #bac8ff',
+  paddingLeft: '0.5rem',
+  paddingBottom: '0.3rem',
 }))
 
 const H4 = styled.h4({
   margin: 0,
+})
+
+const TIME = styled.time({
+  fontSize: '1.1rem',
+  color: '#4f8e96',
+  fontWeight: 'bold',
+  borderBottom: '0.1rem solid #bac8ff',
+  padding: '0 0.4rem',
+  fontStyle: 'oblique'
 })
 
 const Link = styled(GatsbyLink)(({ theme }) => ({
@@ -62,11 +74,11 @@ const LogList = ({ posts }) => {
                     {post.frontmatter.title}
                   </Link>
                 </H4>
-                <time
+                <TIME
                   dateTime={dateformat(post.frontmatter.date, 'isoDateTime')}
                 >
                   {dateformat(post.frontmatter.date, 'mmmm d, yyyy')}
-                </time>
+                </TIME>
               </Header>
               <footer>
                 <TagsList tags={post.frontmatter.tags} />

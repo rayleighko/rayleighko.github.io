@@ -33,7 +33,7 @@ const Main = styled.main(({ theme }) => ({
 }))
 
 const Header = styled.header(({ theme }) => ({
-  borderBottom: '0.4rem solid #bac8ff',
+  borderBottom: '0.2rem solid #bac8ff',
   marginBottom: '1%',
   display: 'flex',
   flexDirection: 'row',
@@ -62,6 +62,10 @@ const HeaderDate = styled.time(({ theme }) => ({
     width: '100%',
     textAlign: 'center',
   },
+  fontSize: '1.2rem',
+  color: '#4f8e96',
+  fontWeight: 'bold',
+  fontStyle: 'oblique'
 }))
 
 const Footer = styled.footer(({ theme }) => ({}))
@@ -85,10 +89,8 @@ const PostWrap = styled.section(({ theme }) => ({
   '>ul,>ol': {
     width: `calc(100% - ${theme.spacingPx * 4}px)`,
   },
-  '>h1': { color: ' #845ef7',
-    borderBottom: '0.4rem solid #845ef7'},
-  '>h2': { color: ' #9775fa',
-    borderBottom: '0.2rem solid #845ef7' },
+  '>h1': { color: ' #845ef7' },
+  '>h2': { color: ' #9775fa' },
   '>h3 ': { color: '#b197fc' },
 }))
 

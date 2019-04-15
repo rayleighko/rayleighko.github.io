@@ -5,6 +5,16 @@ import Layout from '../components/layout'
 import CenterWrap from '../components/CenterWrap'
 import LogPosts from '../components/LogPosts'
 import postShape from '../shapes/post'
+import styled from '@emotion/styled'
+
+const H2 = styled.h2({
+  color: '#228be6',
+  fontSize: '2.7rem',
+  margin: 0,
+  padding: '0 1rem',
+  height: '4.5rem',
+  borderBottom: '0.2rem solid #dbe4ff'
+})
 
 const TechLog = ({
   data: {
@@ -13,7 +23,7 @@ const TechLog = ({
 }) => (
   <Layout>
     <CenterWrap className="blog">
-      <h2>Blog</h2>
+      <H2>Blog</H2>
       <LogPosts posts={posts.map(post => post.node)} />
     </CenterWrap>
   </Layout>

@@ -5,10 +5,12 @@ import styled from '@emotion/styled'
 
 const Small = styled.small({
   textTransform: 'uppercase',
+  padding: "0.4rem",
 })
 
 const A = styled(Link)(({ theme }) => ({
   textDecoration: 'none',
+  fontWeight: 'bold',
   color: theme.textColor,
   transition: 'color 250ms linear',
   ':hover': {
