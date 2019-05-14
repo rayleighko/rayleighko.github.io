@@ -8,7 +8,7 @@ export default () => (
       'code[class*="language-"],pre[class*="language-"]': {
         background: 'none',
         textShadow: '0 1px rgba(0, 0, 0, 0.3)',
-        fontFamily: "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
+        fontFamily: 'Consolas, Monaco, \'Andale Mono\', \'Ubuntu Mono\', monospace',
         textAlign: 'left',
         whiteSpace: 'pre',
         wordSpacing: 'normal',

@@ -29,7 +29,7 @@ const ArticleWrap = styled.div(({}) => ({
 const Main = styled.main(({ theme }) => ({
   color: '#000000',
   padding: '0 10%',
-  fontFamily:	'Source Sans Pro, Helvetica, sans-serif'
+  fontFamily: 'Source Sans Pro, Helvetica, sans-serif',
 }))
 
 const Header = styled.header(({ theme }) => ({
@@ -65,7 +65,7 @@ const HeaderDate = styled.time(({ theme }) => ({
   fontSize: '1.2rem',
   color: '#4f8e96',
   fontWeight: 'bold',
-  fontStyle: 'oblique'
+  fontStyle: 'oblique',
 }))
 
 const Footer = styled.footer(({ theme }) => ({}))
@@ -112,7 +112,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <CodeStyle />
+      <CodeStyle/>
       <Main>
         <Helmet>
           <title>
@@ -127,10 +127,10 @@ const BlogPost = ({ data, pageContext }) => {
             >
               {dateformat(post.frontmatter.date, 'mmmm d, yyyy')}
             </HeaderDate>
-            <TagsList tags={post.frontmatter.tags} />
+            <TagsList tags={post.frontmatter.tags}/>
           </Header>
           <ArticleWrap>
-            <PostWrap dangerouslySetInnerHTML={{ __html: post.html }} />
+            <PostWrap dangerouslySetInnerHTML={{ __html: post.html }}/>
           </ArticleWrap>
           <Footer>
             {isProduction && (
@@ -144,8 +144,8 @@ const BlogPost = ({ data, pageContext }) => {
           </Footer>
         </article>
         <LogNavWrap>
-          <LogNav prev post={prev} />
-          <LogNav next post={next} />
+          <LogNav prev post={prev}/>
+          <LogNav next post={next}/>
         </LogNavWrap>
       </Main>
     </Layout>

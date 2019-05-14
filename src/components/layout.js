@@ -42,15 +42,15 @@ class Layout extends React.Component {
       <div
         className={`body ${this.state.loading} ${
           this.state.isMenuVisible ? 'is-menu-visible' : ''
-        }`}
+          }`}
       >
         <div id="wrapper">
-          <Header onToggleMenu={this.handleToggleMenu} />
+          <Header onToggleMenu={this.handleToggleMenu}/>
           {children}
-          <Contact />
-          <Footer />
+          <Contact/>
+          <Footer/>
         </div>
-        <Menu onToggleMenu={this.handleToggleMenu} />
+        <Menu onToggleMenu={this.handleToggleMenu}/>
       </div>
     )
   }

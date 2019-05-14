@@ -7,22 +7,22 @@ const Contact = props => (
         <form method="post" action="#">
           <div className="field half first">
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name"/>
           </div>
           <div className="field half">
             <label htmlFor="email">Email</label>
-            <input type="text" name="email" id="email" />
+            <input type="text" name="email" id="email"/>
           </div>
           <div className="field">
             <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" rows="6" />
+            <textarea name="message" id="message" rows="6"/>
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send Message" className="special" />
+              <input type="submit" value="Send Message" className="special"/>
             </li>
             <li>
-              <input type="reset" value="Clear" />
+              <input type="reset" value="Clear"/>
             </li>
           </ul>
         </form>
@@ -30,21 +30,21 @@ const Contact = props => (
       <section className="split">
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-envelope" />
+            <span className="icon alt fa-envelope"/>
             <h3>Email</h3>
             <a href="#">gmj1197@gmail.com</a>
           </div>
         </section>
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-phone" />
+            <span className="icon alt fa-phone"/>
             <h3>Phone</h3>
             <span>(+082) 010-2925-6426</span>
           </div>
         </section>
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-home" />
+            <span className="icon alt fa-home"/>
             <h3>Address</h3>
             <span>No office</span>
           </div>

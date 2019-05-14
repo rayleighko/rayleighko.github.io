@@ -12,10 +12,10 @@ const Portfolio = props => (
   <Layout>
     <Helmet>
       <title>Ray - Portfolio</title>
-      <meta name="description" content="Portfolio Page" />
+      <meta name="description" content="Portfolio Page"/>
     </Helmet>
 
-    <BannerPortfolio />
+    <BannerPortfolio/>
 
     <div id="main">
       <section id="one">
@@ -37,7 +37,7 @@ const Portfolio = props => (
       <section id="two" className="spotlights">
         <section>
           <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
+            <img src={pic08} alt=""/>
           </Link>
           <div className="content">
             <div className="inner">
@@ -63,7 +63,7 @@ const Portfolio = props => (
         </section>
         <section>
           <Link to="/generic" className="image">
-            <img src={pic09} alt="" />
+            <img src={pic09} alt=""/>
           </Link>
           <div className="content">
             <div className="inner">
@@ -89,7 +89,7 @@ const Portfolio = props => (
         </section>
         <section>
           <Link to="/generic" className="image">
-            <img src={pic10} alt="" />
+            <img src={pic10} alt=""/>
           </Link>
           <div className="content">
             <div className="inner">

@@ -9,11 +9,11 @@ import siteShape from '../shapes/site'
 import Posts from '../components/LogPosts'
 
 const Tags = ({
-  pageContext: { posts, tag },
-  data: {
-    site: { siteMetadata: site },
-  },
-}) => (
+                pageContext: { posts, tag },
+                data: {
+                  site: { siteMetadata: site },
+                },
+              }) => (
   <Layout>
     <CenterWrap>
       <Helmet>
@@ -26,7 +26,7 @@ const Tags = ({
         {posts.length} {posts.length !== 1 ? 'posts' : 'post'} in {tag}.
       </section>
       <section>
-        <Posts posts={posts} />
+        <Posts posts={posts}/>
       </section>
     </CenterWrap>
   </Layout>

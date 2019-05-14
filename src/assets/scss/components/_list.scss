@@ -144,11 +144,11 @@ ul {
 
       > .page {
         @include vendor(
-          'transition',
-          (
-            'background-color #{_duration(transition)} ease-in-out',
-            'color #{_duration(transition)} ease-in-out'
-          )
+                        'transition',
+                                (
+                                        'background-color #{_duration(transition)} ease-in-out',
+                                        'color #{_duration(transition)} ease-in-out'
+                                )
         );
         border-bottom: 0;
         display: inline-block;

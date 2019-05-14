@@ -43,7 +43,7 @@ const TIME = styled.time({
   fontWeight: 'bold',
   borderBottom: '0.1rem solid #bac8ff',
   padding: '0 0.4rem',
-  fontStyle: 'oblique'
+  fontStyle: 'oblique',
 })
 
 const Link = styled(GatsbyLink)(({ theme }) => ({
@@ -81,7 +81,7 @@ const LogList = ({ posts }) => {
                 </TIME>
               </Header>
               <footer>
-                <TagsList tags={post.frontmatter.tags} />
+                <TagsList tags={post.frontmatter.tags}/>
               </footer>
             </Article>
           ))}
@@ -102,7 +102,7 @@ LogList.propTypes = {
           tags: PropTypes.string.isRequired,
         }).isRequired,
       }),
-    })
+    }),
   ).isRequired,
 }
 

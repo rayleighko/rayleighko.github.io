@@ -5,7 +5,7 @@ import styled from '@emotion/styled'
 
 const Small = styled.small({
   textTransform: 'uppercase',
-  padding: "0.4rem",
+  padding: '0.4rem',
 })
 
 const A = styled(Link)(({ theme }) => ({

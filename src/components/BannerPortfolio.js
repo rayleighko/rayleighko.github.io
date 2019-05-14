@@ -9,7 +9,7 @@ const BannerPortfolio = props => (
       <div className="content">
         <p>
           Lorem ipsum dolor sit amet nullam consequat
-          <br />
+          <br/>
           sed veroeros. tempus adipiscing nulla.
         </p>
       </div>

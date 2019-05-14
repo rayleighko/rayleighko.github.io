@@ -11,7 +11,7 @@ const Wrap = styled.div(({ prev }) => ({
   justifyContent: 'flex-start',
   textTransform: 'uppercase',
   border: '1px',
-  padding: '0 0.6rem'
+  padding: '0 0.6rem',
 }))
 
 const Span = styled.span(({ theme }) => ({
@@ -30,10 +30,10 @@ const Link = styled(GatsbyLink)(({ theme }) => ({
   },
 }))
 
-const Small = styled.small(({theme}) => ({
+const Small = styled.small(({ theme }) => ({
   fontWeight: 'bold',
   fontStyle: 'oblique',
-  padding: '0 0.6rem'
+  padding: '0 0.6rem',
 }))
 
 const PostNav = ({ prev, post }) => {

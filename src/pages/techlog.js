@@ -13,18 +13,18 @@ const H2 = styled.h2({
   margin: 0,
   padding: '0 1rem',
   height: '4.5rem',
-  borderBottom: '0.2rem solid #dbe4ff'
+  borderBottom: '0.2rem solid #dbe4ff',
 })
 
 const TechLog = ({
-  data: {
-    allMarkdownRemark: { edges: posts },
-  },
-}) => (
+                   data: {
+                     allMarkdownRemark: { edges: posts },
+                   },
+                 }) => (
   <Layout>
     <CenterWrap className="blog">
       <H2>Blog</H2>
-      <LogPosts posts={posts.map(post => post.node)} />
+      <LogPosts posts={posts.map(post => post.node)}/>
     </CenterWrap>
   </Layout>
 )

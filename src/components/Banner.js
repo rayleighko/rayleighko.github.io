@@ -9,7 +9,7 @@ const Banner = props => (
       <div className="content">
         <p>
           평생학습(LIFELONG LEARNING), 민이호학 불치하문(敏而好學 不恥下問)
-          <br />위 두 문구를 신념으로 삼아 항상 발전하려 노력하고 있습니다.
+          <br/>위 두 문구를 신념으로 삼아 항상 발전하려 노력하고 있습니다.
         </p>
         <ul className="actions">
           <li>

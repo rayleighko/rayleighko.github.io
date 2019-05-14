@@ -11,7 +11,7 @@ const DailyLog = props => (
   <Layout>
     <Helmet>
       <title>Ray - DailyLog</title>
-      <meta name="description" content="DailyLog Page" />
+      <meta name="description" content="DailyLog Page"/>
     </Helmet>
 
     <div id="main" className="alt">
@@ -88,7 +88,7 @@ const DailyLog = props => (
             </div>
           </div>
 
-          <hr className="major" />
+          <hr className="major"/>
 
           <h2 id="elements">Elements</h2>
           <div className="grid-wrapper">
@@ -101,11 +101,11 @@ const DailyLog = props => (
                 text. This is <u>underlined</u> and this is code:{' '}
                 <code>for (;;)</code>. Finally, this is a <a href="#">link</a>.
               </p>
-              <hr />
+              <hr/>
               <h2>Heading Level 2</h2>
               <h3>Heading Level 3</h3>
               <h4>Heading Level 4</h4>
-              <hr />
+              <hr/>
               <p>
                 Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida
                 odio porttitor sem non mi integer non faucibus ornare mi ut ante
@@ -369,44 +369,44 @@ const DailyLog = props => (
               <div className="table-wrapper">
                 <table>
                   <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Description</th>
-                      <th>Price</th>
-                    </tr>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>Item1</td>
-                      <td>Ante turpis integer aliquet porttitor.</td>
-                      <td>29.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item2</td>
-                      <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                      <td>19.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item3</td>
-                      <td> Morbi faucibus arcu accumsan lorem.</td>
-                      <td>29.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item4</td>
-                      <td>Vitae integer tempus condimentum.</td>
-                      <td>19.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item5</td>
-                      <td>Ante turpis integer aliquet porttitor.</td>
-                      <td>29.99</td>
-                    </tr>
+                  <tr>
+                    <td>Item1</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item2</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item3</td>
+                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item4</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item5</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
                   </tbody>
                   <tfoot>
-                    <tr>
-                      <td colSpan="2" />
-                      <td>100.00</td>
-                    </tr>
+                  <tr>
+                    <td colSpan="2"/>
+                    <td>100.00</td>
+                  </tr>
                   </tfoot>
                 </table>
               </div>
@@ -415,44 +415,44 @@ const DailyLog = props => (
               <div className="table-wrapper">
                 <table className="alt">
                   <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Description</th>
-                      <th>Price</th>
-                    </tr>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>Item1</td>
-                      <td>Ante turpis integer aliquet porttitor.</td>
-                      <td>29.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item2</td>
-                      <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                      <td>19.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item3</td>
-                      <td> Morbi faucibus arcu accumsan lorem.</td>
-                      <td>29.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item4</td>
-                      <td>Vitae integer tempus condimentum.</td>
-                      <td>19.99</td>
-                    </tr>
-                    <tr>
-                      <td>Item5</td>
-                      <td>Ante turpis integer aliquet porttitor.</td>
-                      <td>29.99</td>
-                    </tr>
+                  <tr>
+                    <td>Item1</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item2</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item3</td>
+                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item4</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item5</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
                   </tbody>
                   <tfoot>
-                    <tr>
-                      <td colSpan="2" />
-                      <td>100.00</td>
-                    </tr>
+                  <tr>
+                    <td colSpan="2"/>
+                    <td>100.00</td>
+                  </tr>
                   </tfoot>
                 </table>
               </div>
@@ -620,7 +620,7 @@ const DailyLog = props => (
                   </div>
                   <div className="col-6">
                     <div className="mb-5">
-                      <input type="checkbox" id="demo-copy" name="demo-copy" />
+                      <input type="checkbox" id="demo-copy" name="demo-copy"/>
                       <label htmlFor="demo-copy">Email me a copy</label>
                     </div>
                   </div>
@@ -655,7 +655,7 @@ const DailyLog = props => (
                         />
                       </li>
                       <li>
-                        <input type="reset" value="Reset" />
+                        <input type="reset" value="Reset"/>
                       </li>
                     </ul>
                   </div>
@@ -666,53 +666,53 @@ const DailyLog = props => (
 
               <h4>Fit</h4>
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={pic03} alt=""/>
               </span>
               <div className="box alt">
                 <div className="grid-wrapper">
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic08} alt="" />
+                      <img src={pic08} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic09} alt="" />
+                      <img src={pic09} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic10} alt="" />
+                      <img src={pic10} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic10} alt="" />
+                      <img src={pic10} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic08} alt="" />
+                      <img src={pic08} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic09} alt="" />
+                      <img src={pic09} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic09} alt="" />
+                      <img src={pic09} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic10} alt="" />
+                      <img src={pic10} alt=""/>
                     </span>
                   </div>
                   <div className="col-4">
                     <span className="image fit">
-                      <img src={pic08} alt="" />
+                      <img src={pic08} alt=""/>
                     </span>
                   </div>
                 </div>
@@ -721,7 +721,7 @@ const DailyLog = props => (
               <h4>Left &amp; Right</h4>
               <p>
                 <span className="image left">
-                  <img src={pic09} alt="" />
+                  <img src={pic09} alt=""/>
                 </span>
                 Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt
                 felis sagittis eget. tempus euismod. Vestibulum ante ipsum
@@ -737,7 +737,7 @@ const DailyLog = props => (
               </p>
               <p>
                 <span className="image right">
-                  <img src={pic10} alt="" />
+                  <img src={pic10} alt=""/>
                 </span>
                 Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt
                 felis sagittis eget. tempus euismod. Vestibulum ante ipsum

@@ -58,10 +58,10 @@ const Ul = styled.ul(({ theme }) => ({
 }))
 
 const Resume = ({
-  data: {
-    site: { siteMetadata: site },
-  },
-}) => (
+                  data: {
+                    site: { siteMetadata: site },
+                  },
+                }) => (
   <ResumeWrap>
     <Layout>
       <main>
@@ -74,31 +74,44 @@ const Resume = ({
           <H4>Languages</H4>
           <Ul>
             <li>
-              Proficient in: JavaScript (Universal Node, Chrome Browser, TypeScript,
-              React, Redux, Next), HTML5, CSS3(SCSS)
+              Proficient in: Chrome Browser, HTML5, CSS3(SCSS), JavaScript(React, Redux)
             </li>
             <li>
-              Familiar with: AWS, Docker, NginX, Python, MySQL
+              Familiar with: TypeScript, Universal Node, AWS(only for 'Serverless'), Python, MySQL
+            </li>
+            <li>
+              Under study: JavaScript(Next, GraphQL), AWS(Except 'Serverless'), Docker, NginX, K8S
             </li>
           </Ul>
-          <H3>Software</H3>
+          <H3>Software Ability</H3>
           <Ul>
-            <li>Client: React(Redux, Next)</li>
-            <li>Database: MySQL</li>
+            <li>Client: React(Redux)</li>
             <li>Server: Node(Express)</li>
-            <li>Tools: AWS, Docker, NginX</li>
-            <li>Platforms: macOS, Linux</li>
+            <li>Database: MySQL</li>
+            <li>Tools: AWS, optional Docker, optional NginX</li>
+            <li>Platforms: macOS, Linux, optional Windows</li>
           </Ul>
           <H3>Experience</H3>
           <ResumeHeader>
-            <h4>Weplanet &middot; Web Engineer Intern &middot; 서울, 강남</h4>
+            <h4>Weplanet &middot; Web Engineer - Intern &middot; 서울, 강남</h4>
             <h5>2019. 03. 04 ~ 2019. 06. 21</h5>
           </ResumeHeader>
           <Ul>
-            <li>웹 프론트엔드(React, Redux, Next), 웹 백엔드(Node, Express, Swagger UI), 웹 어드민(React-Admin, Node, Express)에 대한 
-              업무 진행. 별도로 프로젝트 배포 시 AWS, Docker, NginX를 사용하는 인프라 구축에 대해 경험함.</li>
+            <li>중소 개발사에서 웹 프론트엔드(React, Redux, Next), 웹 백엔드(Node, Express, Swagger UI), 웹 어드민(React-Admin, Node,
+              Express)에 대한
+              업무를 보조함. 별도로 프로젝트 배포 시 AWS, Docker, NginX를 사용하는 인프라 구축에 대해 경험함.
+            </li>
           </Ul>
           <H3>Education</H3>
+          <ResumeHeader>
+            <h4>
+              Woowahan Brothers &middot; 서울, 송파구 &middot; Front-end Education
+            </h4>
+            <h5>2019. 05. ~ 2019. 06.</h5>
+          </ResumeHeader>
+          <Ul>
+            <li>React와 TypeScript를 이용한 웹 프론트엔드 개발자 교육 수료</li>
+          </Ul>
           <ResumeHeader>
             <h4>
               Sahmyook University &middot; 서울, 노원구 &middot; graduate(Bachelor's degree)
@@ -127,7 +140,7 @@ const Resume = ({
             <h5>2018. 04. ~ Current</h5>
           </ResumeHeader>
           <Ul>
-            <li>{dgLink}은 상대적으로 IT에 대한 경험을 겪기 어려운 여성들을 위해 다양한 행사를 진행합니다. 더불어 여성의 
+            <li>{dgLink}은 상대적으로 IT에 대한 경험을 겪기 어려운 여성들을 위해 다양한 행사를 진행합니다. 더불어 여성의
               IT분야 진출을 장려하고, 더 많은 여성들이 프로그래밍에 흥미를 느낄 수 있도록 다양한 행사를 진행합니다.
             </li>
           </Ul>
